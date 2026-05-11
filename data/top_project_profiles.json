@@ -1,0 +1,743 @@
+{
+  "metadata": {
+    "title": "Top 11 proyectos insignia · perfiles aumentados",
+    "version": "0.2.2",
+    "sourceFile": "lote_a_expandido_proyectos_agroecologia_pr.md",
+    "sourceScope": "Lote A+ con 11 perfiles expandidos, incluyendo Plenitud PR por solicitud explícita.",
+    "ethicalNote": "Perfiles preliminares. Deben validarse con personas cuidadoras de cada proyecto antes de publicación formal.",
+    "optionalMediaFields": {
+      "imageUrl": "URL opcional de imagen autorizada.",
+      "imageAlt": "Texto alternativo para la imagen opcional.",
+      "sourceUrl": "URL opcional de fuente pública o documentación verificada.",
+      "sourceLabel": "Etiqueta breve para el enlace de fuente."
+    }
+  },
+  "topProjectIds": [
+    "organizacion-boricua-de-agricultura-ecologica-de-puerto-rico",
+    "proyecto-agroecologico-el-josco-bravo-toa-alta",
+    "escuela-de-agroecologia-del-josco-bravo-toa-alta-y-secciones-regionales",
+    "fideicomiso-para-la-agroecologia-archipielago-de-puerto-rico",
+    "instituto-para-la-investigacion-y-accion-en-agroecologia-iala-pr-cayey-puerto-ri",
+    "la-colmena-cimarrona-vieques",
+    "la-semillera-vieques",
+    "proyecto-siembra-culebra",
+    "siembra-tres-vidas-aibonito",
+    "huerto-semilla-upr-rio-piedras",
+    "plenitud-pr-las-marias"
+  ],
+  "profiles": [
+    {
+      "rank": 1,
+      "projectId": "organizacion-boricua-de-agricultura-ecologica-de-puerto-rico",
+      "code": "PR-AGRO-001",
+      "name": "Organización Boricuá de Agricultura Ecológica de Puerto Rico",
+      "profileTitle": "Organización Boricuá de Agricultura Ecológica de Puerto Rico",
+      "region": "Archipiélago de Puerto Rico",
+      "biome": "Raíces y Semillas",
+      "type": "Red campesina y movimiento agroecológico",
+      "status": "Activo; requiere actualización por regiones",
+      "summary": "La Organización Boricuá es uno de los tejidos históricos más influyentes de la agroecología puertorriqueña. Agrupa personas de todo el archipiélago comprometidas con practicar agricultura en armonía con el ambiente. Su misión articula soberanía alimentaria, conservación ambiental, educación, capacitación, agricultura ecológica y familiar, alianzas locales e internacionales, rescate de prácticas tradicionales y perpetuación de saberes ancestrales.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "sourceUrl": "",
+      "sourceLabel": "",
+      "sourceNote": "Perfil preliminar expandido del Lote A+. Requiere verificación comunitaria antes de publicación formal.",
+      "sections": [
+        {
+          "heading": "1.0 Identificación",
+          "body": "**Código:** PR-AGRO-001  \n**Nombre del proyecto:** Organización Boricuá de Agricultura Ecológica de Puerto Rico  \n**Tipo principal:** Organización sin fines de lucro, red campesina, movimiento agroecológico  \n**Estatus:** Activo; requiere actualización de nodos, fincas miembros y campañas vigentes  \n**Región:** Archipiélago de Puerto Rico  \n**Escala de impacto:** Nacional, caribeña e internacional por alianzas y formación política"
+        },
+        {
+          "heading": "1.1 Síntesis sistémica",
+          "body": "La Organización Boricuá es uno de los tejidos históricos más influyentes de la agroecología puertorriqueña. Agrupa personas de todo el archipiélago comprometidas con practicar agricultura en armonía con el ambiente. Su misión articula soberanía alimentaria, conservación ambiental, educación, capacitación, agricultura ecológica y familiar, alianzas locales e internacionales, rescate de prácticas tradicionales y perpetuación de saberes ancestrales.\n\nSu aporte principal no se limita a producción agrícola directa. Boricuá ha funcionado como red de acompañamiento, escuela política, espacio de intercambio campesino, plataforma de brigadas solidarias, nodo de mercados ecológicos y defensora de una visión amplia de agricultura ecológica como base de salud, cultura, justicia y autonomía."
+        },
+        {
+          "heading": "1.2 Territorio y región biocultural",
+          "body": "**Municipio / sede:** Red nacional; no depende de una finca única.  \n**Territorio:** Integra fincas, huertos, mercados, comunidades rurales, urbanas y costeras.  \n**Microclimas representados:** Costa húmeda, costa seca, montaña cafetalera, carso, valles, zonas urbanas, islas municipio y parcelas familiares.  \n**Valor territorial:** Su importancia radica en conectar microclimas, saberes y productores dispersos en una red común."
+        },
+        {
+          "heading": "1.3 Misión, visión y teoría de cambio",
+          "body": "**Misión resumida:** Promover la soberanía alimentaria, conservar el ambiente y facilitar educación/capacitación en agricultura ecológica y familiar.  \n**Visión resumida:** Ser un ente primordial y canalizador de la agricultura ecológica en Puerto Rico.  \n**Teoría de cambio:** Si las fincas, consumidores, educadores, estudiantes, científicos, artistas y comunidades se organizan horizontalmente alrededor de la agricultura ecológica, entonces se pueden aumentar fincas sostenibles, fortalecer distribución local, rescatar semillas, cambiar prácticas agrícolas y transformar la relación del país con la comida."
+        },
+        {
+          "heading": "1.4 Prácticas agroecológicas y organizativas",
+          "body": "- Brigadas solidarias de apoyo a agricultores.  \n- Educación campesino a campesino, descrita por la propia organización como puentes horizontales “de jíbaro a jíbaro”.  \n- Promoción de fincas sostenibles e integrales.  \n- Apoyo a producción y distribución de productos ecológicos.  \n- Desarrollo de banco de semillas para preservar conocimiento agrícola tradicional y ancestral.  \n- Participación en debates de política pública agrícola.  \n- Crítica a cultivos transgénicos y a modelos dependientes de insumos externos.  \n- Impulso a mercados ecológicos y redes de consumidores."
+        },
+        {
+          "heading": "1.5 Certificación, confianza y economía solidaria",
+          "body": "Boricuá desarrolló la propuesta de **Certificación Ecológica Boricuá**, una certificación participativa puertorriqueña dirigida al pequeño agricultor que vende directamente a nivel local. Sus principios incluyen participación, transparencia, confianza, soberanía alimentaria, diálogo de saberes y avance continuo.\n\nEste componente es clave porque ofrece una alternativa local de confianza ecológica, más cercana a productores pequeños que modelos de certificación costosos o externos. También articula consumidores, procesadores y productores en un sistema participativo de garantía."
+        },
+        {
+          "heading": "1.6 Biodiversidad, semillas y memoria agrícola",
+          "body": "**Biodiversidad documentada por red:** Varía por finca. Incluye hortalizas, farináceos, frutales, café, plantas medicinales, semillas criollas, sistemas agroforestales y huertos familiares.  \n**Saberes presentes:** Conuco, semillas, jíbaro resignificado, prácticas tradicionales, agricultura familiar, intercambio horizontal, memoria campesina.  \n**Dimensión cultural:** Boricuá trabaja activamente la resignificación positiva de la palabra jíbaro como identidad de orgullo, trabajo, conocimiento y arraigo territorial."
+        },
+        {
+          "heading": "1.7 Alimentación, salud y soberanía",
+          "body": "Boricuá conecta la alimentación con salud pública, ambiente, justicia y cultura. Su aporte a la soberanía alimentaria es estructural: aumenta conciencia social, facilita el acceso a productos ecológicos, promueve mercados, acompaña fincas y defiende semillas."
+        },
+        {
+          "heading": "1.8 Educación e investigación popular",
+          "body": "**Modalidades:** Talleres, brigadas, intercambios, asesoría, capacitación, mercados, campañas, encuentros y documentación comunitaria.  \n**Públicos:** Agricultores, familias, estudiantes, educadores, consumidores, artistas, científicos y comunidades."
+        },
+        {
+          "heading": "1.9 Redes e influencia",
+          "body": "**Proyectos relacionados históricamente:** Cooperativa Orgánica Madre Tierra, Mercado Natural del Viejo San Juan, Mercado de Rincón, redes de huertos y movimientos contra transgénicos.  \n**Influencia:** Muy alta. Es una raíz organizativa del movimiento agroecológico moderno en Puerto Rico."
+        },
+        {
+          "heading": "1.10 Fortalezas, retos y oportunidades",
+          "body": "**Fortalezas:** Trayectoria, legitimidad, red nacional, visión política, interdisciplinariedad y capacidad de formación.  \n**Retos:** Actualizar documentación pública, sostener relevo generacional, mantener financiamiento, ampliar banco de semillas, fortalecer mecanismos de certificación participativa.  \n**Oportunidades:** Crear archivo vivo de brigadas, mapa de fincas miembros, repositorio de semillas, escuela digital y memoria audiovisual."
+        },
+        {
+          "heading": "1.11 Preguntas de verificación",
+          "body": "1. ¿Cuáles son las fincas y nodos activos en 2026?  \n2. ¿Cuál es el estado actual de la Certificación Ecológica Boricuá?  \n3. ¿Qué campañas o brigadas están activas?  \n4. ¿Qué personas o comités autorizan información para el inventario?  \n5. ¿Qué datos no deben publicarse por seguridad de fincas o semillas?\n\n**Nivel de certeza:** Alto para misión, visión e importancia histórica; medio para estructura operativa actual.\n\n---"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "projectId": "proyecto-agroecologico-el-josco-bravo-toa-alta",
+      "code": "PR-AGRO-002",
+      "name": "Proyecto Agroecológico El Josco Bravo — Toa Alta",
+      "profileTitle": "Proyecto Agroecológico El Josco Bravo — Toa Alta",
+      "region": "Norte montañoso / Toa Alta",
+      "biome": "Economía Solidaria y Mercados",
+      "type": "Finca familiar agroecológica y espacio educativo",
+      "status": "Activo; verificar programación actual",
+      "summary": "El Josco Bravo es un proyecto agroecológico con más de dos décadas de trayectoria que combina producción de hortalizas, educación agroecológica, soberanía alimentaria, venta directa, canastas, mercados, venta a cocinas y experiencias agroturísticas. La finca se ubica en las colinas de Toa Alta y se presenta como un proyecto comprometido con la soberanía alimentaria.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "sourceUrl": "",
+      "sourceLabel": "",
+      "sourceNote": "Perfil preliminar expandido del Lote A+. Requiere verificación comunitaria antes de publicación formal.",
+      "sections": [
+        {
+          "heading": "2.0 Identificación",
+          "body": "**Código:** PR-AGRO-002  \n**Nombre del proyecto:** Proyecto Agroecológico El Josco Bravo  \n**Municipio:** Toa Alta  \n**Región:** Norte interior / colinas de Toa Alta / área alta del Farallón  \n**Tipo:** Finca agroecológica, finca familiar, escuela, canastas, mercado, venta a cocinas, agroturismo educativo  \n**Estatus:** Activo"
+        },
+        {
+          "heading": "2.1 Síntesis sistémica",
+          "body": "El Josco Bravo es un proyecto agroecológico con más de dos décadas de trayectoria que combina producción de hortalizas, educación agroecológica, soberanía alimentaria, venta directa, canastas, mercados, venta a cocinas y experiencias agroturísticas. La finca se ubica en las colinas de Toa Alta y se presenta como un proyecto comprometido con la soberanía alimentaria.\n\nSu impacto es doble: produce alimentos frescos y produce conocimiento. Su Escuela de Agroecología ha formado generaciones de productores y promotores agroecológicos, multiplicando el alcance del proyecto mucho más allá de la finca."
+        },
+        {
+          "heading": "2.2 Territorio y microclima",
+          "body": "**Paisaje:** Colinas del norte interior.  \n**Condiciones probables:** Laderas tropicales húmedas, suelos con riesgo de erosión, necesidad de manejo de escorrentías, humedad alta y presión de desarrollo urbano/periurbano.  \n**Valor territorial:** Representa la agroecología de ladera en el norte, con cercanía al área metropolitana y capacidad de conectar finca-cocina-consumidor."
+        },
+        {
+          "heading": "2.3 Misión, visión y teoría de cambio",
+          "body": "**Misión inferida:** Construir soberanía alimentaria mediante producción agroecológica, educación y organización comunitaria.  \n**Teoría de cambio:** La agroecología es una herramienta de transformación social; al producir alimentos frescos y formar nuevas generaciones de agricultores, se fortalece el derecho a la alimentación, la autonomía territorial y la justicia económica para quienes trabajan la tierra."
+        },
+        {
+          "heading": "2.4 Sistema productivo",
+          "body": "**Producción principal:** Hortalizas y frutos frescos cosechados a mano.  \n**Canasta Básica:** Suscripción semanal con variedad de hasta 12 productos, adaptados a temporadas y condiciones climáticas.  \n**Mercados:** Presencia dos veces al mes en la Placita Roosevelt en San Juan.  \n**Venta a cocinas:** Servicio de venta y entrega de hortalizas a cocinas comerciales en San Juan.  \n**Agroturismo:** Festín en la Tala, cena servida cerca de donde se produce la comida, orientada a justicia económica para trabajadores de la finca."
+        },
+        {
+          "heading": "2.5 Prácticas agroecológicas principales",
+          "body": "- Producción diversificada de hortalizas.  \n- Manejo de finca orientado a cosecha fresca semanal.  \n- Trabajo educativo de campo.  \n- Manejo de temporadas y variabilidad climática.  \n- Planificación agroecológica.  \n- Posible manejo de compostas, rotación, bancos de cultivo, control ecológico de plagas y conservación de suelos; confirmar detalles en entrevista."
+        },
+        {
+          "heading": "2.6 Dimensión económica y distribución",
+          "body": "El Josco Bravo combina varios canales: canastas, mercados, ventas a cocinas, tienda, donaciones y eventos. Este modelo diversificado reduce dependencia de un solo canal y permite conectar productores con hogares, restaurantes, consumidores conscientes y estudiantes."
+        },
+        {
+          "heading": "2.7 Cultura, literatura y memoria",
+          "body": "El nombre del proyecto dialoga con **El Josco** de Abelardo Díaz Alfaro, figura literaria asociada a orgullo, resistencia, ruralidad y dignidad campesina. Este vínculo simbólico fortalece la dimensión cultural del proyecto: no se trata solo de cultivar, sino de narrar otra relación entre país, tierra, comida y dignidad."
+        },
+        {
+          "heading": "2.8 Educación e influencia",
+          "body": "El Josco Bravo es inseparable de su Escuela de Agroecología. Su finca funciona como centro demostrativo, espacio de práctica y plataforma para crear nuevos agricultores ecológicos."
+        },
+        {
+          "heading": "2.9 Aportes",
+          "body": "**Seguridad alimentaria:** Producción regular de alimentos frescos.  \n**Soberanía alimentaria:** Formación, discurso político, venta directa y reducción de dependencia de intermediarios.  \n**Resiliencia climática:** Diversificación, manejo de temporadas, aprendizaje práctico, redes de egresados y mecanismos de apoyo como BAM.  \n**Justicia económica:** Canastas, mercados, venta a cocinas y eventos que buscan valorar el trabajo agrícola."
+        },
+        {
+          "heading": "2.10 Fortalezas, retos y oportunidades",
+          "body": "**Fortalezas:** Trayectoria, finca activa, modelo educativo, canales de venta, reconocimiento público, capacidad formativa.  \n**Retos:** Cambio climático, costos de producción, mano de obra, acceso a agua, presión territorial, sostener calidad de formación y ventas justas.  \n**Oportunidades:** Documentar su modelo económico, crear ficha de cultivos por temporada, mapear egresados, desarrollar manual pedagógico de finca-escuela."
+        },
+        {
+          "heading": "2.11 Preguntas de verificación",
+          "body": "1. ¿Qué cultivos componen la canasta en cada temporada?  \n2. ¿Cuál es el área bajo manejo productivo?  \n3. ¿Qué prácticas específicas de suelo, plagas y agua están en uso?  \n4. ¿Cuántas familias reciben canastas actualmente?  \n5. ¿Cómo se distribuye el trabajo entre finca, escuela, mercados y cocina?\n\n**Nivel de certeza:** Alto.\n\n---"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "projectId": "escuela-de-agroecologia-del-josco-bravo-toa-alta-y-secciones-regionales",
+      "code": "PR-AGRO-003",
+      "name": "Escuela de Agroecología del Josco Bravo — Toa Alta y secciones regionales",
+      "profileTitle": "Escuela de Agroecología del Josco Bravo — multisede",
+      "region": "Red multisede en Puerto Rico",
+      "biome": "Huertos, Escuelas y Universidad",
+      "type": "Programa de formación agroecológica",
+      "status": "Activo o por cohortes; verificar calendario vigente",
+      "summary": "La Escuela de Agroecología del Josco Bravo es uno de los programas de formación agroecológica más influyentes del país. En 2026 conmemora su decimotercera cepa y regresa con nueve secciones regionales. El curso medular se extiende por 20 semanas, de enero a junio, y en 2026 cuenta con más de 300 estudiantes.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "sourceUrl": "",
+      "sourceLabel": "",
+      "sourceNote": "Perfil preliminar expandido del Lote A+. Requiere verificación comunitaria antes de publicación formal.",
+      "sections": [
+        {
+          "heading": "3.0 Identificación",
+          "body": "**Código:** PR-AGRO-003  \n**Nombre del proyecto:** Escuela de Agroecología del Josco Bravo  \n**Tipo:** Escuela de campo, programa formativo, red de productores y promotores agroecológicos  \n**Sede base:** El Josco Bravo / Toa Alta  \n**Secciones 2026 documentadas:** Gurabo, Manatí/Ciales, Mayagüez, Orocovis, San Juan, Toa Alta, Toa Baja, Loíza y San Lorenzo  \n**Estatus:** Activo por cohortes"
+        },
+        {
+          "heading": "3.1 Síntesis sistémica",
+          "body": "La Escuela de Agroecología del Josco Bravo es uno de los programas de formación agroecológica más influyentes del país. En 2026 conmemora su decimotercera cepa y regresa con nueve secciones regionales. El curso medular se extiende por 20 semanas, de enero a junio, y en 2026 cuenta con más de 300 estudiantes.\n\nEl curso está diseñado para desarrollar destrezas y conocimientos de agricultura ecológica con enfoques tanto comerciales como de autosustento familiar o comunitario. La Escuela funciona como incubadora de fincas, huertos, promotores, educadores, redes y proyectos comunitarios."
+        },
+        {
+          "heading": "3.2 Escala territorial",
+          "body": "**Escala:** Multisede, con alcance nacional.  \n**Regiones representadas:** Norte, oeste, sureste, área metro, montaña central, este interior, costa norte y comunidades afrodescendientes como Loíza.  \n**Importancia territorial:** La metodología se adapta a microclimas regionales y permite aprender desde el terreno."
+        },
+        {
+          "heading": "3.3 Contenido formativo",
+          "body": "Temas documentados:\n\n- Situación agroalimentaria global.  \n- Ciencias de suelos.  \n- Preparación y conservación de terrenos.  \n- Producción de semillas.  \n- Planificación agroecológica.  \n- Manejo de plagas y enfermedades.  \n- Mantenimiento de cultivos.  \n- Mercadeo.  \n- Trabajo colectivo desde siembra hasta cosecha.  \n- Distribución equitativa de vegetales cosechados entre estudiantes."
+        },
+        {
+          "heading": "3.4 Cursos especializados",
+          "body": "### Curso Técnico de Arado con Bueyes\n\nForma timoneros desde una perspectiva agroecológica para manejar yuntas de bueyes como herramienta para agricultores pequeños y medianos. Se presenta como un “minitractor multifuncional” que brinda autonomía, especialmente en montañas.\n\n### Curso Avanzado de Agroecología\n\nProfundiza en temas y técnicas específicas, con intención de integrar y visibilizar trabajos y elementos locales poco accesibles al público general.\n\n### Formación de Formadores\n\nBusca capacitar profesorado de nuevas sedes y fomentar el surgimiento de miles de nuevos agricultores, asegurando desarrollo de futuras generaciones."
+        },
+        {
+          "heading": "3.5 Bujías Agroecológicas Mutualistas — BAM",
+          "body": "Las BAM son un programa reciente de la Escuela. Consisten en tres núcleos regionales de uso colectivo de equipos y herramientas agrícolas para egresados de la Escuela de Agroecología.\n\n**Núcleos documentados:** Norte / Toa Alta; oeste / Mayagüez; sureste / San Lorenzo.  \n**Equipos documentados:** Motocultores, taladoras para motocultor, tiller, arados rotativos, trinches, hoop benders para construcción de umbráculos y equipos de poda.  \n**Importancia:** Las BAM atienden una barrera estructural de agricultores pequeños: acceso a herramientas e infraestructura sin tener que comprarlas individualmente."
+        },
+        {
+          "heading": "3.6 Dimensión social y pedagógica",
+          "body": "La Escuela valida el aprendizaje mediante trabajo colectivo. La cosecha producida durante el curso se distribuye equitativamente entre estudiantes, vinculando aprendizaje, trabajo, justicia y alimentación."
+        },
+        {
+          "heading": "3.7 Aportes",
+          "body": "**Seguridad alimentaria:** Forma personas capaces de producir para hogares, comunidades y mercados.  \n**Soberanía alimentaria:** Genera relevo agrícola, promotores y redes de apoyo.  \n**Resiliencia climática:** Enseña conservación de suelo, planificación y adaptación regional.  \n**Economía solidaria:** Las BAM crean infraestructura mutualista de equipos."
+        },
+        {
+          "heading": "3.8 Fortalezas, retos y oportunidades",
+          "body": "**Fortalezas:** Escala nacional, currículo robusto, formadores numerosos, práctica directa, red de egresados, BAM.  \n**Retos:** Seguimiento a egresados, documentación de impacto, financiamiento, acceso a fincas de práctica, mantener calidad pedagógica con crecimiento.  \n**Oportunidades:** Crear base de datos de egresados, mapa de proyectos nacidos de la escuela, manual de módulos y evaluación longitudinal."
+        },
+        {
+          "heading": "3.9 Preguntas de verificación",
+          "body": "1. ¿Cuántas personas han egresado desde la primera cepa?  \n2. ¿Cuántos proyectos activos fueron fundados por egresados?  \n3. ¿Cómo se seleccionan sedes y formadores?  \n4. ¿Cómo se administran las BAM y su mantenimiento?  \n5. ¿Qué indicadores usa la Escuela para evaluar aprendizaje e impacto?\n\n**Nivel de certeza:** Alto.\n\n---"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "projectId": "fideicomiso-para-la-agroecologia-archipielago-de-puerto-rico",
+      "code": "PR-AGRO-006",
+      "name": "Fideicomiso para la Agroecología — archipiélago de Puerto Rico",
+      "profileTitle": "Fideicomiso para la Agroecología — Puerto Rico",
+      "region": "Archipiélago de Puerto Rico",
+      "biome": "Tierra, Gobernanza y Futuro",
+      "type": "Fideicomiso y plataforma de acceso a tierras",
+      "status": "Activo; verificar predios y programas actuales",
+      "summary": "El Fideicomiso para la Agroecología es una herramienta estructural para proteger tierras agrícolas, cuidar a las personas que las cultivan y fortalecer comunidades alrededor de esas tierras. Su misión es viabilizar zonas o cuencas agroecológicas resilientes en todo Puerto Rico, donde también se eduque e investigue sobre agroecología.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "sourceUrl": "",
+      "sourceLabel": "",
+      "sourceNote": "Perfil preliminar expandido del Lote A+. Requiere verificación comunitaria antes de publicación formal.",
+      "sections": [
+        {
+          "heading": "4.0 Identificación",
+          "body": "**Código:** PR-AGRO-006  \n**Nombre del proyecto:** Fideicomiso para la Agroecología  \n**Tipo:** Fideicomiso, acceso colectivo a tierras, gobernanza comunitaria  \n**Región:** Archipiélago de Puerto Rico  \n**Estatus:** Activo  \n**Entidad relacionada:** IALA-PR"
+        },
+        {
+          "heading": "4.1 Síntesis sistémica",
+          "body": "El Fideicomiso para la Agroecología es una herramienta estructural para proteger tierras agrícolas, cuidar a las personas que las cultivan y fortalecer comunidades alrededor de esas tierras. Su misión es viabilizar zonas o cuencas agroecológicas resilientes en todo Puerto Rico, donde también se eduque e investigue sobre agroecología.\n\nSu importancia es estratégica: muchas fincas agroecológicas enfrentan inseguridad de tenencia, especulación, falta de acceso a tierra, presión inmobiliaria y vulnerabilidad económica. El Fideicomiso propone una solución de largo plazo mediante custodia, administración y gobernanza colectiva."
+        },
+        {
+          "heading": "4.2 Territorio y visión de cuencas",
+          "body": "**Escala:** Multirregional.  \n**Unidad territorial:** Zonas o cuencas agroecológicas resilientes.  \n**Enfoque:** No solo adquirir tierras, sino construir paisajes vivos donde suelo, agua, vivienda, energía, comunidad y producción se integren."
+        },
+        {
+          "heading": "4.3 Misión, visión y objetivos",
+          "body": "**Misión:** Custodiar terrenos transferidos o adquiridos para fortalecer la seguridad y soberanía alimentaria mediante agroecología, beneficiando a personas que habitan y laboran en terrenos del fideicomiso, comunidades vecinas y sociedad puertorriqueña.  \n**Visión:** Garantizar y conservar tierras para fines comunes, democráticos y sostenibles, con prácticas agroecológicas, transferencia de conocimientos y gobernanza democrática.  \n**Objetivos clave:** Tenencia colectiva, democracia participativa, manejo adaptativo, protección de fincas y ecosistemas, acceso a tierra y vivienda, salud de suelo, agua, biodiversidad y proyectos agrarios interconectados."
+        },
+        {
+          "heading": "4.4 Gobernanza",
+          "body": "La gobernanza documentada incluye una Junta de Fiduciarios con al menos un representante por iniciativa en terreno custodio y expertos temáticos invitados por la comunidad."
+        },
+        {
+          "heading": "4.5 Dimensión agroecológica",
+          "body": "Aunque el Fideicomiso no es una finca única, sus criterios promueven:\n\n- Salud del suelo.  \n- Conservación de agua.  \n- Ecosistemas biodiversos.  \n- Proyectos agrarios interconectados con comunidades regionales.  \n- Educación e investigación agroecológica.  \n- Sostenibilidad alimentaria, energética, hídrica y democrática."
+        },
+        {
+          "heading": "4.6 Resiliencia climática",
+          "body": "El Fideicomiso plantea explícitamente enfrentar huracanes, terremotos y sequías prolongadas desde solidaridad y apoyo mutuo. Su enfoque de cuencas permite planificar agua, suelos, vivienda, energía e infraestructura comunitaria de forma integrada."
+        },
+        {
+          "heading": "4.7 Aportes",
+          "body": "**Seguridad alimentaria:** Protege la base material de la producción: tierra fértil y acceso a ella.  \n**Soberanía alimentaria:** Desmercantiliza parcialmente la tierra y la coloca bajo fines comunitarios.  \n**Justicia agraria:** Atiende la exclusión de agricultores sin tierra o con tenencia precaria.  \n**Resiliencia:** Integra gobernanza, ecosistemas, vivienda y producción."
+        },
+        {
+          "heading": "4.8 Fortalezas, retos y oportunidades",
+          "body": "**Fortalezas:** Modelo estructural, visión de cuencas, gobernanza comunitaria, articulación con IALA-PR.  \n**Retos:** Financiamiento, adquisición de tierras, gobernanza compleja, mantenimiento, conflictos de uso, transparencia y escalabilidad.  \n**Oportunidades:** Crear protocolos replicables, mapas de cuencas, acuerdos de custodia, fondo de tierras y escuela de gobernanza agroecológica."
+        },
+        {
+          "heading": "4.9 Preguntas de verificación",
+          "body": "1. ¿Cuántas cuerdas están bajo custodia actualmente?  \n2. ¿Cuántas familias agricultoras participan?  \n3. ¿Qué cuencas están priorizadas?  \n4. ¿Qué criterios se usan para aceptar tierras?  \n5. ¿Cómo se protegen datos sensibles de fincas y hogares?\n\n**Nivel de certeza:** Alto para misión, objetivos y estructura; medio para métricas actualizadas.\n\n---"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "projectId": "instituto-para-la-investigacion-y-accion-en-agroecologia-iala-pr-cayey-puerto-ri",
+      "code": "PR-AGRO-009",
+      "name": "Instituto para la Investigación y Acción en Agroecología (IALA-PR) — Cayey / Puerto Rico",
+      "profileTitle": "Instituto para la Investigación y Acción en Agroecología, IALA-PR",
+      "region": "Cayey y Puerto Rico",
+      "biome": "Tierra, Gobernanza y Futuro",
+      "type": "Instituto de investigación, acción y formación agroecológica",
+      "status": "Activo; verificar programas vigentes",
+      "summary": "IALA-PR es una organización nacida de necesidades y aspiraciones de personas que trabajan la tierra y personas acompañantes. Se incorporó en 2018 tras más de una década de conceptualización colectiva. Apoya y promueve iniciativas agroecológicas en Puerto Rico mediante acceso a recursos administrativos, económicos y físicos —incluyendo tierras y laboratorios— y capacitación para alcanzar el Buen Vivir.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "sourceUrl": "",
+      "sourceLabel": "",
+      "sourceNote": "Perfil preliminar expandido del Lote A+. Requiere verificación comunitaria antes de publicación formal.",
+      "sections": [
+        {
+          "heading": "5.0 Identificación",
+          "body": "**Código:** PR-AGRO-009  \n**Nombre del proyecto:** Instituto para la Investigación y Acción en Agroecología de Puerto Rico, IALA-PR  \n**Municipio / sede:** Cayey, con trabajo nacional  \n**Tipo:** Organización sin fines de lucro, investigación-acción, acompañamiento, acceso a recursos  \n**Estatus:** Activo"
+        },
+        {
+          "heading": "5.1 Síntesis sistémica",
+          "body": "IALA-PR es una organización nacida de necesidades y aspiraciones de personas que trabajan la tierra y personas acompañantes. Se incorporó en 2018 tras más de una década de conceptualización colectiva. Apoya y promueve iniciativas agroecológicas en Puerto Rico mediante acceso a recursos administrativos, económicos y físicos —incluyendo tierras y laboratorios— y capacitación para alcanzar el Buen Vivir.\n\nSu trabajo articula agroecología, investigación acción participativa, acompañamiento, paisaje multifuncional y Buen Vivir."
+        },
+        {
+          "heading": "5.2 Misión y visión",
+          "body": "**Misión:** Conocer y acompañar iniciativas agroecológicas en Puerto Rico mediante investigación acción participativa, facilitando acceso a saberes y recursos administrativos, económicos, programáticos y físicos para fortalecer destrezas hacia el Buen Vivir.  \n**Visión:** Un paisaje multifuncional gestado por comunidades agroecológicas creando su Buen Vivir."
+        },
+        {
+          "heading": "5.3 Programas y funciones sistémicas",
+          "body": "- Investigación.  \n- Acción.  \n- Campañas.  \n- Mapa de mercados agrícolas y plazas del mercado.  \n- Campaña de acceso a tierras.  \n- Fideicomiso para la Agroecología.  \n- Acompañamiento a proyectos agroecológicos.  \n- Apoyo administrativo, económico, físico y formativo."
+        },
+        {
+          "heading": "5.4 Territorio y paisaje multifuncional",
+          "body": "IALA-PR no debe leerse como una finca, sino como infraestructura organizativa y epistemológica. Su unidad de trabajo es el paisaje multifuncional: fincas, comunidades, mercados, cuencas, laboratorios, escuelas, campañas y redes."
+        },
+        {
+          "heading": "5.5 Investigación acción participativa",
+          "body": "La investigación acción participativa permite que las preguntas de investigación surjan de la práctica y necesidad comunitaria. Esto diferencia a IALA-PR de modelos académicos extractivos: busca conocer acompañando y acompañar produciendo conocimiento útil."
+        },
+        {
+          "heading": "5.6 Justicia, inclusión y política anti-discrimen",
+          "body": "IALA-PR reconoce dimensiones sistémicas de opresión —capitalismo, patriarcado, racismo, clasismo, imperialismo, heteronormatividad y otras estructuras— y promueve espacios libres de discriminación. Esta política fortalece el enfoque transdisciplinario porque entiende la agroecología como práctica ecológica, social, política y cultural."
+        },
+        {
+          "heading": "5.7 Aportes",
+          "body": "**Seguridad alimentaria:** Fortalece proyectos que producen, distribuyen y educan.  \n**Soberanía alimentaria:** Apoya acceso a tierra, gobernanza y Buen Vivir.  \n**Educación:** Capacitación, mapas, investigaciones y acompañamiento.  \n**Economía:** Apoyo administrativo y económico a iniciativas agroecológicas.  \n**Resiliencia:** Vincula redes, tierras, investigación, infraestructura y acción."
+        },
+        {
+          "heading": "5.8 Fortalezas, retos y oportunidades",
+          "body": "**Fortalezas:** Visión sistémica, investigación participativa, apoyo a tierras, conexión con Fideicomiso, enfoque de equidad.  \n**Retos:** Escalabilidad, financiamiento, mantener acompañamiento profundo, documentar impactos sin sobrecargar proyectos.  \n**Oportunidades:** Crear observatorio agroecológico, repositorio de investigaciones comunitarias, mapa vivo de mercados/fincas y protocolos éticos de documentación."
+        },
+        {
+          "heading": "5.9 Preguntas de verificación",
+          "body": "1. ¿Qué proyectos acompaña actualmente?  \n2. ¿Qué investigaciones están activas?  \n3. ¿Cómo se definen prioridades con la Junta Asesora?  \n4. ¿Qué datos del mapa pueden integrarse al inventario?  \n5. ¿Cómo se mide el impacto del acompañamiento?\n\n**Nivel de certeza:** Alto.\n\n---"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "projectId": "la-colmena-cimarrona-vieques",
+      "code": "PR-AGRO-014",
+      "name": "La Colmena Cimarrona — Vieques",
+      "profileTitle": "La Colmena Cimarrona — Vieques",
+      "region": "Vieques y Caribe insular",
+      "biome": "Islas Resilientes",
+      "type": "Organización comunitaria, agroecológica, feminista y de economía solidaria",
+      "status": "Activo",
+      "summary": "La Colmena Cimarrona practica economía solidaria, apicultura y agricultura cimarrona con la intención de florecer soberanía alimentaria desde Vieques y en hermandad con el Caribe. Su trabajo germina una finca y espacios comunitarios para practicar libertad, defensa del territorio, descolonización del paladar y de los cuerpos.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "sourceUrl": "",
+      "sourceLabel": "",
+      "sourceNote": "Perfil preliminar expandido del Lote A+. Requiere verificación comunitaria antes de publicación formal.",
+      "sections": [
+        {
+          "heading": "6.0 Identificación",
+          "body": "**Código:** PR-AGRO-014  \n**Nombre del proyecto:** La Colmena Cimarrona  \n**Municipio:** Vieques  \n**Tipo:** Organización comunitaria, economía solidaria, agroecología, apicultura, agricultura cimarrona  \n**Estatus:** Activo  \n**Sede pública documentada:** La Semillera, carretera 997, Km. 4.6, Luján, Vieques"
+        },
+        {
+          "heading": "6.1 Síntesis sistémica",
+          "body": "La Colmena Cimarrona practica economía solidaria, apicultura y agricultura cimarrona con la intención de florecer soberanía alimentaria desde Vieques y en hermandad con el Caribe. Su trabajo germina una finca y espacios comunitarios para practicar libertad, defensa del territorio, descolonización del paladar y de los cuerpos.\n\nAdemás, cultiva una red de apoyo entre agricultores históricamente vulnerabilizados para impulsar producción económica y culturalmente viable en Vieques. Entre colmenas, poliniza desde la educación popular futuros basados en justicia social y Buen Vivir."
+        },
+        {
+          "heading": "6.2 Territorio insular",
+          "body": "**Isla:** Vieques  \n**Microclima:** Ambiente insular costero, calor, sequía estacional, salinidad, exposición a huracanes y dependencia logística del transporte marítimo.  \n**Condición histórica:** Vieques enfrenta vulnerabilidades alimentarias, ambientales y de salud asociadas a colonialismo, militarización, transporte, turismo, contaminación y dependencia de alimentos importados."
+        },
+        {
+          "heading": "6.3 Misión y teoría de cambio",
+          "body": "**Teoría de cambio:** La soberanía alimentaria viequense requiere tierra, apicultura, finca escuela, economía solidaria, educación popular, apoyo a agricultores vulnerabilizados y descolonización cultural de la alimentación.  \n**Eje político-cultural:** Cimarronaje como práctica de libertad, defensa del territorio y creación de comunidad."
+        },
+        {
+          "heading": "6.4 Proyectos relacionados",
+          "body": "- **La Semillera:** Finca agroecológica y escuela.  \n- **Colectiva Agrícola Viequense:** Requiere ampliación específica.  \n- **La Sambumbia:** Mercado agrícola local o espacio de intercambio; requiere ficha propia en fase posterior.  \n- **El Panal:** Requiere documentación específica.  \n- **Vivero / compras de vivero:** Documentado en horario público de visitas."
+        },
+        {
+          "heading": "6.5 Prácticas agroecológicas principales",
+          "body": "- Agroecología en contexto insular.  \n- Apicultura y cuidado de polinizadores.  \n- Agricultura cimarrona.  \n- Finca escuela.  \n- Vivero y posiblemente propagación de plantas.  \n- Voluntariado semanal.  \n- Visitas escolares.  \n- Red de apoyo a agricultores históricamente vulnerabilizados."
+        },
+        {
+          "heading": "6.6 Educación y comunidad",
+          "body": "**Modalidades documentadas:** Educación popular, visitas escolares, voluntariado, recorridos, vivero y capacitación.  \n**Horario público documentado:** Miércoles de voluntariado 3:00–7:00 p.m.; jueves visitas escolares en la mañana y visitas/compras del vivero temprano en la tarde; otros días dedicados a trabajo agrícola o cierre."
+        },
+        {
+          "heading": "6.7 Alimentación, salud y cultura",
+          "body": "La Colmena conecta alimentación con salud comunitaria, soberanía, cuerpo, territorio y paladar. Su lenguaje de descolonización del paladar sugiere una crítica directa a la dependencia de alimentos importados y a la pérdida de prácticas alimentarias locales."
+        },
+        {
+          "heading": "6.8 Aportes",
+          "body": "**Seguridad alimentaria:** Muy alto en Vieques, donde producir localmente tiene impacto estratégico.  \n**Soberanía alimentaria:** Muy alto por enfoque territorial, educativo y económico.  \n**Resiliencia climática:** Alto por apicultura, redes, vivero, formación y comunidad.  \n**Justicia de género y racial:** Alto potencial; requiere documentar protagonismo de mujeres y comunidades vulnerabilizadas en entrevista."
+        },
+        {
+          "heading": "6.9 Fortalezas, retos y oportunidades",
+          "body": "**Fortalezas:** Claridad política, enfoque cimarrón, liderazgo comunitario, apicultura, finca escuela, educación popular.  \n**Retos:** Agua, calor, huracanes, logística marítima, presión turística, financiamiento y carga emocional del trabajo comunitario.  \n**Oportunidades:** Ficha especial de apicultura viequense, banco de plantas melíferas, currículo de agricultura cimarrona, archivo oral de soberanía alimentaria en Vieques."
+        },
+        {
+          "heading": "6.10 Preguntas de verificación",
+          "body": "1. ¿Qué especies se cultivan actualmente?  \n2. ¿Cuántas colmenas o apiarios maneja el proyecto?  \n3. ¿Cómo funciona La Sambumbia y la Colectiva Agrícola Viequense?  \n4. ¿Qué programas educativos están activos en 2026?  \n5. ¿Qué información de ubicación o producción debe mantenerse sensible?\n\n**Nivel de certeza:** Alto.\n\n---"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "projectId": "la-semillera-vieques",
+      "code": "PR-AGRO-015",
+      "name": "La Semillera — Vieques",
+      "profileTitle": "La Semillera — Vieques",
+      "region": "Vieques / Luján",
+      "biome": "Islas Resilientes",
+      "type": "Finca escuela agroecológica",
+      "status": "Activo; asociado a La Colmena Cimarrona",
+      "summary": "La Semillera es una finca agroecológica guiada por principios de equidad y justicia. Desarrolla programas educativos y de capacitación en agroecología para promover producción agrícola económica y culturalmente viable en Vieques. Su propio nombre sugiere un espacio de germinación: de semillas, personas, saberes, redes y futuro.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "sourceUrl": "",
+      "sourceLabel": "",
+      "sourceNote": "Perfil preliminar expandido del Lote A+. Requiere verificación comunitaria antes de publicación formal.",
+      "sections": [
+        {
+          "heading": "7.0 Identificación",
+          "body": "**Código:** PR-AGRO-015  \n**Nombre del proyecto:** La Semillera  \n**Organización matriz:** La Colmena Cimarrona  \n**Municipio:** Vieques  \n**Sector documentado:** Luján, carretera 997, Km. 4.6  \n**Tipo:** Finca agroecológica, finca escuela, capacitación, apicultura  \n**Estatus:** Activo"
+        },
+        {
+          "heading": "7.1 Síntesis sistémica",
+          "body": "La Semillera es una finca agroecológica guiada por principios de equidad y justicia. Desarrolla programas educativos y de capacitación en agroecología para promover producción agrícola económica y culturalmente viable en Vieques. Su propio nombre sugiere un espacio de germinación: de semillas, personas, saberes, redes y futuro."
+        },
+        {
+          "heading": "7.2 Territorio y microclima",
+          "body": "**Isla:** Vieques  \n**Paisaje:** Finca insular en Luján.  \n**Retos microclimáticos:** Sequía estacional, calor, salinidad, vientos, huracanes, limitaciones de agua, suelos posiblemente degradados o compactados, logística marítima."
+        },
+        {
+          "heading": "7.3 Rol dentro de La Colmena Cimarrona",
+          "body": "La Semillera es la base agrícola y pedagógica donde se concreta la visión de La Colmena. Mientras La Colmena articula economía solidaria, agricultura cimarrona y red comunitaria, La Semillera materializa la finca escuela, formación agroecológica, vivero y apicultura."
+        },
+        {
+          "heading": "7.4 Prácticas agroecológicas principales",
+          "body": "- Formación práctica en agroecología.  \n- Capacitación en apicultura.  \n- Producción agrícola culturalmente viable.  \n- Vivero y propagación de plantas; requiere inventario.  \n- Voluntariado y visitas educativas.  \n- Manejo adaptado al ambiente insular."
+        },
+        {
+          "heading": "7.5 Biodiversidad y cultivos clave",
+          "body": "**Documentado públicamente:** Apicultura, finca escuela, vivero.  \n**Pendiente de inventario:** Cultivos alimentarios, plantas melíferas, árboles frutales, aromáticas, medicinales, especies nativas o adaptadas, prácticas de conservación de agua."
+        },
+        {
+          "heading": "7.6 Educación",
+          "body": "**Públicos posibles:** Agricultores nuevos, juventud, escuelas, voluntariado, comunidad viequense y visitantes.  \n**Temas:** Agroecología, apicultura, producción insular, justicia alimentaria, cuidado de polinizadores, soberanía alimentaria."
+        },
+        {
+          "heading": "7.7 Alimentación y cultura",
+          "body": "La Semillera busca que la producción sea no solo económica, sino culturalmente viable. Esto implica sembrar alimentos y prácticas que tengan sentido para Vieques: su clima, su historia, sus cocinas, sus necesidades, sus tiempos comunitarios y su identidad territorial."
+        },
+        {
+          "heading": "7.8 Aportes",
+          "body": "**Seguridad alimentaria:** Alto por formación productiva en isla vulnerable.  \n**Soberanía alimentaria:** Alto por producción y capacitación local.  \n**Resiliencia climática:** Alto si integra agua, diversidad, polinizadores y comunidad.  \n**Educación:** Muy alto como finca escuela."
+        },
+        {
+          "heading": "7.9 Fortalezas, retos y oportunidades",
+          "body": "**Fortalezas:** Base física clara, enfoque educativo, apicultura, vínculo con organización comunitaria fuerte.  \n**Retos:** Agua, infraestructura, calor, financiamiento, transporte y continuidad de programas.  \n**Oportunidades:** Crear currículo de finca escuela insular, vivero de plantas melíferas, banco de semillas de Vieques, manual de apicultura tropical comunitaria."
+        },
+        {
+          "heading": "7.10 Preguntas de verificación",
+          "body": "1. ¿Qué módulos educativos se ofrecen actualmente?  \n2. ¿Qué cultivos y plantas del vivero están disponibles?  \n3. ¿Cómo se integra la apicultura al diseño de finca?  \n4. ¿Qué alianzas escolares existen?  \n5. ¿Qué necesidades de infraestructura son prioritarias?\n\n**Nivel de certeza:** Alto.\n\n---"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "projectId": "proyecto-siembra-culebra",
+      "code": "PR-AGRO-017",
+      "name": "Proyecto Siembra — Culebra",
+      "profileTitle": "Proyecto Siembra — Culebra",
+      "region": "Culebra",
+      "biome": "Islas Resilientes",
+      "type": "Huertos comunitarios, educación y seguridad alimentaria insular",
+      "status": "Activo; verificar programas actuales",
+      "summary": "Proyecto Siembra es una iniciativa comunitaria de Mujeres de Islas que enseña a sembrar y cosechar de manera sostenible, promoviendo seguridad alimentaria y conexión con la tierra en Culebra. Sus integrantes trabajan en cultivo y mantenimiento de huertos comunitarios en SEVA —Sede de Experiencias Vivas de Aprendizaje— mientras desarrollan destrezas en siembra, nutrición, cocina saludable, arte, liderazgo, bienestar emocional y autoestima.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "sourceUrl": "",
+      "sourceLabel": "",
+      "sourceNote": "Perfil preliminar expandido del Lote A+. Requiere verificación comunitaria antes de publicación formal.",
+      "sections": [
+        {
+          "heading": "8.0 Identificación",
+          "body": "**Código:** PR-AGRO-017  \n**Nombre del proyecto:** Proyecto Siembra  \n**Organización:** Mujeres de Islas, Inc.  \n**Municipio:** Culebra  \n**Tipo:** Huertos comunitarios, educación, juventud, seguridad alimentaria, mercado agrícola y artesanal  \n**Estatus:** Activo"
+        },
+        {
+          "heading": "8.1 Síntesis sistémica",
+          "body": "Proyecto Siembra es una iniciativa comunitaria de Mujeres de Islas que enseña a sembrar y cosechar de manera sostenible, promoviendo seguridad alimentaria y conexión con la tierra en Culebra. Sus integrantes trabajan en cultivo y mantenimiento de huertos comunitarios en SEVA —Sede de Experiencias Vivas de Aprendizaje— mientras desarrollan destrezas en siembra, nutrición, cocina saludable, arte, liderazgo, bienestar emocional y autoestima."
+        },
+        {
+          "heading": "8.2 Territorio insular",
+          "body": "**Isla:** Culebra  \n**Microclima:** Isla municipio con ambiente costero seco, suelos limitados, salinidad, dependencia marítima, sequías y alta vulnerabilidad ante interrupciones de transporte.  \n**Valor territorial:** En Culebra, un huerto comunitario es infraestructura crítica de resiliencia, educación y soberanía."
+        },
+        {
+          "heading": "8.3 Programas documentados",
+          "body": "- Visitas semanales a centros de cuido preescolar con actividades educativas sobre siembra, alimentación saludable y arte.  \n- Club Siembra para jóvenes de 7 a 17 años, con agricultura, madera, cocina, costura y fotografía.  \n- Cine Siembra como espacio mensual de convivencia y reflexión comunitaria sobre agricultura orgánica y gastronomía local.  \n- Mercado Agrícola y Artesanal donde productores y artesanos locales presentan y venden productos cultivados, elaborados o confeccionados en Culebra.  \n- Respuesta comunitaria en emergencias, incluyendo distribución semanal de alimentos a más de 550 hogares durante la pandemia de COVID-19."
+        },
+        {
+          "heading": "8.4 Misión y teoría de cambio",
+          "body": "**Teoría de cambio:** Si la niñez, juventud, familias y productores de Culebra desarrollan destrezas de siembra, alimentación, arte, liderazgo y comunidad, la isla puede fortalecer autosuficiencia, resiliencia emocional y seguridad alimentaria desde adentro."
+        },
+        {
+          "heading": "8.5 Prácticas agroecológicas principales",
+          "body": "- Huertos comunitarios.  \n- Educación en siembra.  \n- Nutrición y cocina saludable.  \n- Composta y agricultura orgánica; confirmar sistemas actuales.  \n- Mercado local.  \n- Arte, liderazgo y bienestar como parte del ecosistema agroecológico."
+        },
+        {
+          "heading": "8.6 Dimensión educativa y psicosocial",
+          "body": "Proyecto Siembra es transdisciplinario porque no separa agricultura de salud emocional, autoestima, cultura, arte y liderazgo. Su trabajo con preescolares y jóvenes de 7 a 17 años lo convierte en semillero de relevo comunitario."
+        },
+        {
+          "heading": "8.7 Alimentación y distribución",
+          "body": "**Canales:** Huertos, Mercado Agrícola y Artesanal, distribución de alimentos en emergencias, educación alimentaria.  \n**Seguridad alimentaria:** Muy alta relevancia por contexto insular y por la experiencia de distribución a hogares durante crisis."
+        },
+        {
+          "heading": "8.8 Aportes",
+          "body": "**Soberanía alimentaria:** Alto; fomenta cultura de siembra local.  \n**Seguridad alimentaria:** Muy alto en emergencias.  \n**Juventud:** Muy alto; club, cuidos, talleres y liderazgo.  \n**Economía local:** Mercado agrícola y artesanal.  \n**Resiliencia:** Alto; combina alimentos, comunidad, arte y bienestar emocional."
+        },
+        {
+          "heading": "8.9 Fortalezas, retos y oportunidades",
+          "body": "**Fortalezas:** Trabajo con niñez, juventud y comunidad; mercado local; historial de respuesta a crisis.  \n**Retos:** Agua, calor, suelos, continuidad de voluntariado, transporte, financiamiento, retención de jóvenes.  \n**Oportunidades:** Crear módulo escolar de agricultura isleña, banco de composta, red de patios comestibles, mapa de productores culebrenses."
+        },
+        {
+          "heading": "8.10 Preguntas de verificación",
+          "body": "1. ¿Cuántos huertos comunitarios están activos?  \n2. ¿Qué cultivos se producen actualmente?  \n3. ¿Cuál es la frecuencia del Mercado Agrícola y Artesanal?  \n4. ¿Qué alianzas existen con escuela, municipio y productores?  \n5. ¿Qué sistemas de agua o composta están funcionando?\n\n**Nivel de certeza:** Alto para programas documentados; medio para producción actual.\n\n---"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "projectId": "siembra-tres-vidas-aibonito",
+      "code": "PR-AGRO-033",
+      "name": "Siembra Tres Vidas — Aibonito",
+      "profileTitle": "Siembra Tres Vidas — Aibonito",
+      "region": "Montaña central / Aibonito",
+      "biome": "Bosque, Carso y Biodiversidad",
+      "type": "Finca agroecológica de hortalizas, flores comestibles y hierbas",
+      "status": "Activo",
+      "summary": "Siembra Tres Vidas es una pequeña empresa y ecosistema de fincas agroecológicas en las montañas de Aibonito. Fue fundada por Silka Besosa y Edwin Rosario; actualmente se documenta liderazgo generacional de Daniella Rodríguez. En versiones más recientes aparece como un ecosistema de fincas agroecológicas comprometido con aumentar la accesibilidad de productos ecológicos a comunidades históricamente marginadas.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "sourceUrl": "",
+      "sourceLabel": "",
+      "sourceNote": "Perfil preliminar expandido del Lote A+. Requiere verificación comunitaria antes de publicación formal.",
+      "sections": [
+        {
+          "heading": "9.0 Identificación",
+          "body": "**Código:** PR-AGRO-033  \n**Nombre del proyecto:** Siembra Tres Vidas / Tres Vidas  \n**Municipio:** Aibonito  \n**Barrio documentado:** Llanos  \n**Tipo:** Finca agroecológica, finca educativa, hortalizas, flores comestibles, hierbas, programa de acceso alimentario  \n**Estatus:** Activo"
+        },
+        {
+          "heading": "9.1 Síntesis sistémica",
+          "body": "Siembra Tres Vidas es una pequeña empresa y ecosistema de fincas agroecológicas en las montañas de Aibonito. Fue fundada por Silka Besosa y Edwin Rosario; actualmente se documenta liderazgo generacional de Daniella Rodríguez. En versiones más recientes aparece como un ecosistema de fincas agroecológicas comprometido con aumentar la accesibilidad de productos ecológicos a comunidades históricamente marginadas."
+        },
+        {
+          "heading": "9.2 Territorio y microclima",
+          "body": "**Región:** Montaña central, lado sur de la Cordillera Central.  \n**Altitud documentada por estudio climático:** Aproximadamente 2,000 pies sobre el nivel del mar.  \n**Microclima:** Sombra orográfica o rain shadow; relativamente seco para zona montañosa.  \n**Implicación agroecológica:** Requiere manejo cuidadoso de agua, cobertura de suelo, planificación de riego, manejo de escorrentías y adaptación al calor/sequía de altura."
+        },
+        {
+          "heading": "9.3 Producción y biodiversidad",
+          "body": "**Cultivos documentados:** Vegetales, lechugas, flores comestibles y hierbas aromáticas.  \n**Cultivos observados en archivo agroecológico:** Estragón, cebollines y variedad de hojas.  \n**Elementos de sistema:** Camas o bancos de cultivo, manejo de escorrentías, división del trabajo, posible integración de caballo en ciclo de fertilidad."
+        },
+        {
+          "heading": "9.4 Misión y teoría de cambio",
+          "body": "**Misión inferida:** Producir alimentos ecológicos y accesibles, conectar comunidad con tierra y alimentos, reducir inseguridad alimentaria rural y fortalecer cultura agroecológica.  \n**Teoría de cambio:** Una finca educativa y productiva puede servir como centro de alimentos, donación, aprendizaje y articulación cultural si combina producción ecológica, alianzas comunitarias y distribución solidaria."
+        },
+        {
+          "heading": "9.5 Dimensión educativa y comunitaria",
+          "body": "Tres Vidas se describe como finca educativa con meta de empoderar a la comunidad para conectarse con sus alimentos y la tierra que los produce. Lo producido se conecta en red para lograr donaciones de cosechas a poblaciones envejecientes de la ruralía, reduciendo inseguridad alimentaria de poblaciones vulnerables."
+        },
+        {
+          "heading": "9.6 Dimensión cultural y alianzas",
+          "body": "En alianza con Trama, el proyecto amplía la agroecología hacia producción textil sostenible, tintes y fibras naturales. Esto convierte a Tres Vidas en un ecosistema “agrocultural”: alimento, fibras, arte, agricultura, comunidad y territorio."
+        },
+        {
+          "heading": "9.7 Distribución y economía",
+          "body": "**Canales documentados:** Mercado de Cooperativa Orgánica Madre Tierra, red de donaciones, alianzas comunitarias, posiblemente canastas o ventas directas.  \n**Valor económico:** Combina venta de productos ecológicos con programas solidarios y apoyo fiscal/organizacional."
+        },
+        {
+          "heading": "9.8 Aportes",
+          "body": "**Seguridad alimentaria:** Alto por producción y donaciones a poblaciones envejecientes.  \n**Soberanía alimentaria:** Alto por producción local, educación y acceso.  \n**Resiliencia climática:** Alto por adaptación a clima seco de montaña.  \n**Cultura:** Muy alto por alianza con Trama y prácticas agroculturales."
+        },
+        {
+          "heading": "9.9 Fortalezas, retos y oportunidades",
+          "body": "**Fortalezas:** Producción especializada, finca educativa, enfoque de acceso, alianza con Trama, adaptación climática.  \n**Retos:** Agua, calor, costos, logística de donaciones, continuidad generacional, documentación botánica.  \n**Oportunidades:** Inventario de cultivos por temporada, currículo de finca educativa, estudio de riego/captación de agua, ficha conjunta Tres Vidas-Trama-Armonía en la Montaña."
+        },
+        {
+          "heading": "9.10 Preguntas de verificación",
+          "body": "1. ¿Qué personas integran el equipo actual?  \n2. ¿Qué cultivos están activos por temporada?  \n3. ¿Cómo se organiza el programa de donaciones?  \n4. ¿Qué prácticas de manejo de agua usan?  \n5. ¿Cómo se articulan Tres Vidas, Trama y Armonía en la Montaña?\n\n**Nivel de certeza:** Alto para descripción general y microclima; medio para estructura operativa actual.\n\n---"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "projectId": "huerto-semilla-upr-rio-piedras",
+      "code": "PR-AGRO-046",
+      "name": "Huerto Semilla — UPR Río Piedras",
+      "profileTitle": "Huerto Semilla — UPR Río Piedras",
+      "region": "Metro / Río Piedras",
+      "biome": "Huertos, Escuelas y Universidad",
+      "type": "Huerto urbano universitario, comunitario y agroecológico",
+      "status": "Activo por ciclos estudiantiles; verificar estatus del semestre actual",
+      "summary": "Huerto Semilla es un proyecto comunitario en la UPR Río Piedras dedicado al cultivo y educación agroecológica, con apuesta explícita por la soberanía alimentaria. Es un semillero urbano donde estudiantes, egresados, empleados no docentes, profesores y residentes de Río Piedras participan en brigadas, cultivo, composta, cosecha y conversaciones políticas/agroecológicas.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "sourceUrl": "",
+      "sourceLabel": "",
+      "sourceNote": "Perfil preliminar expandido del Lote A+. Requiere verificación comunitaria antes de publicación formal.",
+      "sections": [
+        {
+          "heading": "10.0 Identificación",
+          "body": "**Código:** PR-AGRO-046  \n**Nombre del proyecto:** Huerto Semilla  \n**Municipio:** San Juan  \n**Ubicación:** Universidad de Puerto Rico, Recinto de Río Piedras; área entre Escuela de Arquitectura y Departamento de Bellas Artes, según reportaje  \n**Tipo:** Huerto urbano, comunitario, universitario y agroecológico  \n**Estatus:** Activo por ciclos comunitarios/estudiantiles; verificar coordinación actual"
+        },
+        {
+          "heading": "10.1 Síntesis sistémica",
+          "body": "Huerto Semilla es un proyecto comunitario en la UPR Río Piedras dedicado al cultivo y educación agroecológica, con apuesta explícita por la soberanía alimentaria. Es un semillero urbano donde estudiantes, egresados, empleados no docentes, profesores y residentes de Río Piedras participan en brigadas, cultivo, composta, cosecha y conversaciones políticas/agroecológicas."
+        },
+        {
+          "heading": "10.2 Historia y contexto",
+          "body": "El proyecto se vincula a procesos universitarios posteriores a la huelga de 2010, cuando agricultores llevaron a manifestantes el problema de la vulnerabilidad alimentaria. De ese contexto surgió un espacio inicial llamado Huerto Resi que evolucionó hacia Huerto Semilla."
+        },
+        {
+          "heading": "10.3 Territorio y microclima",
+          "body": "**Ambiente:** Urbano tropical, alta temperatura, suelos intervenidos, presión de infraestructura, posible escasez de espacio, vulnerabilidad institucional.  \n**Valor ecológico:** Reverdecimiento urbano, manejo de residuos orgánicos, biodiversidad educativa y producción accesible en campus."
+        },
+        {
+          "heading": "10.4 Prácticas agroecológicas principales",
+          "body": "- Brigadas comunitarias.  \n- Desyerbo, poda, riego, cosecha.  \n- Trabajo de composta con materiales recibidos de IUPI COOP y Cocina Rebelde.  \n- Producción ecológica y accesible.  \n- Distribución de cosecha entre participantes como intercambio justo por el trabajo.  \n- Diálogo político, social y agroecológico."
+        },
+        {
+          "heading": "10.5 Biodiversidad documentada",
+          "body": "Cultivos documentados en reportaje: yuca, batata, gandules, guineos, papayas, frijoles, flor de Jamaica, orégano, quimbombó, pacholí, citronela, acerola, recao, guanábana, mangó, limón y malagueta.\n\nEsta diversidad combina alimentos, aromáticas, medicinales, frutales, farináceos, leguminosas y plantas culturales."
+        },
+        {
+          "heading": "10.6 Dimensión social y educativa",
+          "body": "**Públicos:** Estudiantes, egresados, empleados no docentes, profesores y residentes de Río Piedras.  \n**Educación:** Aprendizaje práctico, Escuelita Semillera, brigadas, diálogo político y formación de nuevos agroecólogos urbanos.  \n**Relaciones comunitarias:** Intercambios con colectivas como Comedor Social; conexión con IUPI COOP y Cocina Rebelde."
+        },
+        {
+          "heading": "10.7 Alimentación y distribución",
+          "body": "La cosecha se distribuye entre participantes de brigadas como intercambio justo. El huerto también ha realizado intercambios con proyectos de distribución solidaria de alimentos."
+        },
+        {
+          "heading": "10.8 Aportes",
+          "body": "**Seguridad alimentaria:** Medio-alto en escala urbana educativa.  \n**Soberanía alimentaria:** Alto por formación política, producción ecológica y autogestión.  \n**Resiliencia urbana:** Alto por composta, cultivo, redes estudiantiles y reverdecimiento.  \n**Cultura:** Alto por diálogo entre universidad, comunidad, alimentación y justicia social."
+        },
+        {
+          "heading": "10.9 Fortalezas, retos y oportunidades",
+          "body": "**Fortalezas:** Ubicación universitaria, diversidad de cultivos, autogestión, educación, memoria de lucha estudiantil.  \n**Retos:** Rotación estudiantil, mantenimiento en recesos, apoyo institucional, acceso a agua, continuidad de coordinación.  \n**Oportunidades:** Archivo del huerto, mapa de cultivos, manual de huerto universitario, módulos de composta urbana, investigación participativa con facultades."
+        },
+        {
+          "heading": "10.10 Preguntas de verificación",
+          "body": "1. ¿Quién coordina actualmente el huerto?  \n2. ¿Cuáles brigadas están activas y con qué horario?  \n3. ¿Qué cultivos están vivos en 2026?  \n4. ¿Cómo se maneja la composta hoy?  \n5. ¿Qué permisos o apoyos institucionales existen?\n\n**Nivel de certeza:** Medio-alto.\n\n---"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "projectId": "plenitud-pr-las-marias",
+      "code": "PR-AGRO-011",
+      "name": "Plenitud PR — Las Marías",
+      "profileTitle": "Plenitud PR — Las Marías",
+      "region": "Oeste montañoso / Las Marías",
+      "biome": "Bosque, Carso y Biodiversidad",
+      "type": "Finca educativa, permacultura y sostenibilidad comunitaria",
+      "status": "Activo; verificar programas actuales",
+      "summary": "Plenitud PR es una finca educativa y centro de enseñanza sin fines de lucro 501(c)(3) dedicada al servicio, la sostenibilidad y la comunidad. Su trabajo integra agricultura, permacultura, agroecología, agua segura, bioconstrucción, apoyo a personas mayores, niñez y juventud, experiencias educativas, cocina comunitaria y resiliencia.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "sourceUrl": "",
+      "sourceLabel": "",
+      "sourceNote": "Perfil preliminar expandido del Lote A+. Requiere verificación comunitaria antes de publicación formal.",
+      "sections": [
+        {
+          "heading": "11.0 Identificación",
+          "body": "**Código:** PR-AGRO-011  \n**Nombre del proyecto:** Plenitud PR / Plenitud Iniciativas Eco-Educativas, Inc.  \n**Municipio:** Las Marías  \n**Región:** Oeste montañoso  \n**Tipo:** Finca educativa, centro de enseñanza, permacultura, agroecología, agua segura, bioconstrucción, salud comunitaria, niñez y juventud, resiliencia comunitaria  \n**Estatus:** Activo  \n**Nota:** Incluido en este Lote A+ por solicitud explícita, aunque previamente estaba en Lote B."
+        },
+        {
+          "heading": "11.1 Síntesis sistémica",
+          "body": "Plenitud PR es una finca educativa y centro de enseñanza sin fines de lucro 501(c)(3) dedicada al servicio, la sostenibilidad y la comunidad. Su trabajo integra agricultura, permacultura, agroecología, agua segura, bioconstrucción, apoyo a personas mayores, niñez y juventud, experiencias educativas, cocina comunitaria y resiliencia.\n\nEl proyecto se presenta como un modelo local con aspiración global: responder a cambio climático, desigualdad social, inseguridad alimentaria, agua insegura y salud comunitaria desde prácticas concretas de finca, comunidad y educación vivencial."
+        },
+        {
+          "heading": "11.2 Territorio y microclima",
+          "body": "**Municipio:** Las Marías  \n**Región:** Oeste montañoso, clima tropical húmedo, laderas, alta lluvia relativa, suelos erosionables, caminos vulnerables y exposición a huracanes.  \n**Contexto local documentado:** Plenitud destaca vulnerabilidad climática de Puerto Rico, alta incidencia de diabetes en Las Marías y desempleo como retos del territorio."
+        },
+        {
+          "heading": "11.3 Misión y valores",
+          "body": "**Misión resumida:** Demostrar amor a través del servicio, sostenibilidad y comunidad.  \n**Valores centrales:** Servicio, sostenibilidad, comunidad, resiliencia, armonía con uno mismo, con los demás y con el mundo natural.  \n**Teoría de cambio:** El aprendizaje práctico y el servicio comunitario pueden crear habilidades, inspiración y redes para vivir de forma más sostenible, resiliente y solidaria."
+        },
+        {
+          "heading": "11.4 Equipo y gobernanza",
+          "body": "Plenitud documenta un equipo amplio con codirección ejecutiva, dirección asociada, programa de agricultura, niñez y juventud, experiencias, cocina comunitaria, bioconstrucción, finanzas, AmeriCorps y junta directiva. Esta estructura le da capacidad de sostener programas múltiples y alianzas comunitarias."
+        },
+        {
+          "heading": "11.5 Agricultura",
+          "body": "Plenitud utiliza principios de permacultura y agroecología para que sus técnicas agrícolas sean sostenibles y progresivas, contribuyendo a sistemas alimentarios socialmente responsables y equitativos en Puerto Rico. Su trabajo agrícola se implementa mediante producción en finca, capacitación agrícola y extensión educativa.\n\n**Ejes agrícolas:**  \n- Permacultura.  \n- Agroecología.  \n- Bosques de alimentos.  \n- Capacitación agrícola.  \n- Producción de finca.  \n- Extensión educativa.  \n- Talleres de agroforestería.  \n- Siembra regenerativa y sistemas de agua."
+        },
+        {
+          "heading": "11.6 Agua Segura",
+          "body": "Plenitud aborda el agua limpia como derecho humano fundamental. Su programa Agua Segura responde a inseguridad hídrica en Puerto Rico, especialmente tras desastres naturales como huracanes y terremotos. En su marco, la fragilidad de la infraestructura hídrica afecta salud mental, cocina, higiene, lavado y saneamiento.\n\n**Dimensión agroecológica:** Agua segura no es un programa separado de agricultura; es base para cocinar, sembrar, resistir emergencias y sostener comunidad."
+        },
+        {
+          "heading": "11.7 Amo mis Abus",
+          "body": "Desde 2012, Plenitud desarrolla el programa Amo mis Abus para atender necesidades de personas mayores que viven en aislamiento. Cada semana cocina y entrega comidas vegetarianas, frescas y nutritivas a más de 60 personas de edad avanzada en Las Marías. El programa va más allá de entregar comida: crea vínculos, acompaña, conecta recursos comunitarios y recibe sabiduría de las personas mayores.\n\n**Valor sistémico:** Une agroecología, cocina, nutrición, cuidado, memoria, salud emocional y justicia intergeneracional."
+        },
+        {
+          "heading": "11.8 Bioconstrucción",
+          "body": "Plenitud define la bioconstrucción como técnicas alternativas que usan materiales locales y naturales para crear estructuras resilientes. Busca construir con creatividad, responsabilidad ambiental y capacidad de enfrentar retos del clima tropical, especialmente huracanes más frecuentes e intensos.\n\n**Relación con agroecología:** La finca no es solo cultivos; también es vivienda, refugio, infraestructura, materiales, energía, cocina y comunidad."
+        },
+        {
+          "heading": "11.9 Niñez y Juventud",
+          "body": "El programa de Niñez y Juventud se enfoca en desarrollo integral: intelectual, emocional, social y espiritual. Plenitud documenta que su niñez participante enfrenta pobreza, desempleo, falta de acceso a alimentos frescos y saludables, cierre de escuelas y efectos acumulados de huracanes, terremotos y pandemia.\n\n**Aporte agroecológico:** Forma líderes jóvenes con educación holística, naturaleza, alimentación, comunidad y resiliencia."
+        },
+        {
+          "heading": "11.10 La Cancha Sana",
+          "body": "En colaboración con el Municipio de Las Marías, Plenitud opera La Cancha Sana, un centro comunitario cerca de la finca. El espacio sirve como centro de resiliencia en emergencias, ofreciendo agua de lluvia potable, alimentos frescos y electricidad solar. También incluye una cocina educativa para preparar comidas del programa Amo mis Abus y otros eventos comunitarios.\n\n**Importancia:** Es infraestructura comunitaria crítica: agua, comida, energía, cocina, encuentro, talleres y emergencia."
+        },
+        {
+          "heading": "11.11 Experiencias y aprendizaje vivencial",
+          "body": "Plenitud ofrece experiencias en su finca educativa para aprender destrezas, conectar con la tierra y participar en respuestas reales a retos ambientales y sociales. Sus experiencias incluyen sembrar, cosechar, construir con materiales naturales, cocinar con intención y vivir en comunidad.\n\n**Modelo pedagógico:** Aprendizaje vivencial, servicio, sostenibilidad, bienestar individual y colectivo."
+        },
+        {
+          "heading": "11.12 Alianzas comunitarias",
+          "body": "Plenitud enfatiza que nació de relaciones y crece mediante alianzas colaborativas. Documenta alianzas con organizaciones ambientales, alimentación basada en plantas, AmeriCorps, Banco de Alimentos de Puerto Rico y otras entidades. Estas alianzas sostienen programas de niñez, salud, bienestar, apoyo a mayores, capacitación y servicio."
+        },
+        {
+          "heading": "11.13 Alimentación, salud y soberanía",
+          "body": "Plenitud conecta alimentación con salud comunitaria, crisis climática, educación y justicia. Su programa agrícola produce alimentos y capacidades; Amo mis Abus convierte alimentos en cuidado; La Cancha Sana convierte alimentos en resiliencia; las experiencias convierten alimentos en aprendizaje."
+        },
+        {
+          "heading": "11.14 Aportes",
+          "body": "**Seguridad alimentaria:** Alto por producción, cocina, comidas a mayores, educación y resiliencia.  \n**Soberanía alimentaria:** Medio-alto; forma capacidades, produce localmente y enseña permacultura/agroecología.  \n**Resiliencia climática:** Muy alto por agua segura, bioconstrucción, energía solar, Cancha Sana y educación.  \n**Salud comunitaria:** Muy alto por mayores, niñez, alimentación fresca y apoyo emocional.  \n**Educación:** Muy alto por finca educativa, talleres, experiencias e inmersión."
+        },
+        {
+          "heading": "11.15 Fortalezas, retos y oportunidades",
+          "body": "**Fortalezas:** Estructura organizativa sólida, equipo amplio, programas integrados, alianzas, finca educativa, infraestructura comunitaria.  \n**Retos:** Mantener financiamiento, sostener programas múltiples, medir impacto, retener personal, manejar infraestructura en montaña, balancear servicio comunitario con experiencias de visitantes.  \n**Oportunidades:** Crear modelo replicable de centro de resiliencia agroecológica, currículo de agua-segura-agricultura, manual de cocina comunitaria para mayores, inventario agroforestal de finca."
+        },
+        {
+          "heading": "11.16 Preguntas de verificación",
+          "body": "1. ¿Qué cultivos produce la finca actualmente y en qué volumen?  \n2. ¿Cuántas familias o personas reciben alimentos directamente por programa?  \n3. ¿Qué sistemas de captación y tratamiento de agua están activos?  \n4. ¿Qué tecnologías solares usa La Cancha Sana?  \n5. ¿Cómo se evalúa el impacto en niñez, juventud y personas mayores?\n\n**Nivel de certeza:** Alto.\n\n---"
+        }
+      ]
+    }
+  ]
+}

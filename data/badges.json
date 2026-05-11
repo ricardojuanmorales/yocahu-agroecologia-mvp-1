@@ -1,0 +1,93 @@
+[
+  {
+    "id": "semilla-despierta",
+    "name": "Semilla Despierta",
+    "description": "Completaste la entrada al Archipiélago Vivo.",
+    "icon": "🌱",
+    "levelId": 0
+  },
+  {
+    "id": "mirada-sistemica",
+    "name": "Mirada Sistémica",
+    "description": "Construiste conexiones entre elementos de un agroecosistema.",
+    "icon": "🕸️",
+    "levelId": 1
+  },
+  {
+    "id": "guardiana-del-suelo",
+    "name": "Guardiana del Suelo",
+    "description": "Exploraste suelo vivo, composta, cobertura y erosión.",
+    "icon": "🪱",
+    "levelId": 2
+  },
+  {
+    "id": "custodia-de-semillas",
+    "name": "Custodia de Semillas",
+    "description": "Conectaste semillas, biodiversidad y memoria campesina.",
+    "icon": "🌾",
+    "levelId": 3
+  },
+  {
+    "id": "explorador-de-microclimas",
+    "name": "Explorador de Microclimas",
+    "description": "Analizaste agua, sombra, lluvia, calor y resiliencia.",
+    "icon": "💧",
+    "levelId": 4
+  },
+  {
+    "id": "cartografo-agroecologico",
+    "name": "Cartógrafo Agroecológico",
+    "description": "Diseñaste un mapa inicial de finca o huerto.",
+    "icon": "🗺️",
+    "levelId": 5
+  },
+  {
+    "id": "observadora-del-equilibrio",
+    "name": "Observadora del Equilibrio",
+    "description": "Practiceste observación ecológica para plagas y enfermedades.",
+    "icon": "🐞",
+    "levelId": 6
+  },
+  {
+    "id": "arquitecta-del-bosque",
+    "name": "Arquitecta del Bosque",
+    "description": "Diseñaste con árboles, estratos y sombra.",
+    "icon": "🌳",
+    "levelId": 7
+  },
+  {
+    "id": "cuidador-de-polinizadores",
+    "name": "Cuidador de Polinizadores",
+    "description": "Completaste un reto sobre animales, abejas o ciclos.",
+    "icon": "🐝",
+    "levelId": 8
+  },
+  {
+    "id": "alquimista-de-cosechas",
+    "name": "Alquimista de Cosechas",
+    "description": "Transformaste una cosecha en idea de valor añadido.",
+    "icon": "🍯",
+    "levelId": 9
+  },
+  {
+    "id": "mercadera-solidaria",
+    "name": "Mercadera Solidaria",
+    "description": "Diseñaste una estrategia de mercado, canasta o intercambio.",
+    "icon": "🧺",
+    "levelId": 10
+  },
+  {
+    "id": "custodia-de-tierra",
+    "name": "Custodia de Tierra",
+    "description": "Analizaste acceso a tierra, gobernanza y justicia alimentaria.",
+    "icon": "🤲",
+    "levelId": 11
+  },
+  {
+    "id": "maestria-yocahu",
+    "name": "Maestría Yocahú",
+    "description": "Completaste el viaje y el proyecto Mi Agroecosistema Boricua.",
+    "icon": "🌿",
+    "levelId": 12
+  }
+]

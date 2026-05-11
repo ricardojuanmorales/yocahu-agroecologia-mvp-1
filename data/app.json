@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "projectName": "Yocahú Agroecología PR",
+    "subtitle": "Viaje por el Archipiélago Vivo",
+    "version": "0.2.2",
+    "created": "2026-05-11",
+    "context": "Puerto Rico, Vieques y Culebra",
+    "format": "Base JSON para MVP web móvil monolítico HTML/CSS/JS",
+    "sourceNote": "Datos base del MVP, fichas compactas y perfiles aumentados Top 11 derivados de archivos provistos por el usuario."
+  },
+  "pedagogicalPrinciples": [
+    "Aprender haciendo",
+    "Puerto Rico como laboratorio vivo",
+    "Proyectos insignia como corazón narrativo",
+    "Complejidad gradual",
+    "Yocahú como mentor mediante prompts copiables en MVP",
+    "Diseño accesible",
+    "Datos portables mediante exportación e importación JSON"
+  ],
+  "technicalArchitecture": {
+    "approach": "Monolito HTML/CSS/JS con datos separados en JSON",
+    "storage": "LocalStorage para progreso MVP",
+    "exportImport": "Archivo JSON portable",
+    "future": [
+      "PWA",
+      "modo offline",
+      "integración GPT API",
+      "panel docente",
+      "base de datos remota opcional"
+    ],
+    "suggestedFiles": [
+      "index.html",
+      "assets/styles.css",
+      "assets/app.js",
+      "data/levels.json",
+      "data/projects.json",
+      "data/badges.json",
+      "data/prompts.json",
+      "data/activities.json",
+      "data/resources.json"
+    ]
+  },
+  "theme": {
+    "name": "Selva salvaje accesible",
+    "colors": {
+      "canopy": "#123524",
+      "forest": "#1B5E3A",
+      "leaf": "#4C9A2A",
+      "moss": "#8FAF3C",
+      "earth": "#5A3A1E",
+      "clay": "#B66A3C",
+      "river": "#2B7A78",
+      "sun": "#F2C14E",
+      "flower": "#D95D39",
+      "background": "#F6F1E7",
+      "card": "#FFFDF6",
+      "text": "#17231C",
+      "muted": "#4C5A51"
+    },
+    "typography": {
+      "body": [
+        "Atkinson Hyperlegible",
+        "Inter",
+        "Source Sans 3",
+        "system-ui",
+        "sans-serif"
+      ],
+      "headings": [
+        "Montserrat",
+        "Nunito Sans",
+        "Source Sans 3",
+        "system-ui",
+        "sans-serif"
+      ],
+      "baseFontSize": "18px",
+      "lineHeight": 1.6
+    },
+    "accessibility": [
+      "Contraste alto",
+      "Botones de al menos 44px de alto",
+      "Texto alternativo en imágenes",
+      "No depender solo del color para mostrar progreso",
+      "Navegación móvil y teclado",
+      "Opción de reducir animaciones",
+      "Contenido dividido en tarjetas cortas"
+    ]
+  },
+  "biomes": [
+    {
+      "id": "raices-y-semillas",
+      "name": "Raíces y Semillas",
+      "description": "Semillas, memoria campesina, cultura alimentaria, educación popular y soberanía alimentaria."
+    },
+    {
+      "id": "montana-viva",
+      "name": "Montaña Viva",
+      "description": "Suelos, laderas, café bajo sombra, agua, agroforestería y resiliencia rural."
+    },
+    {
+      "id": "islas-resilientes",
+      "name": "Islas Resilientes",
+      "description": "Vieques, Culebra, soberanía alimentaria insular, apicultura y respuesta comunitaria."
+    },
+    {
+      "id": "bosque-carso-y-biodiversidad",
+      "name": "Bosque, Carso y Biodiversidad",
+      "description": "Agroforestería, conservación, bosque comestible, carso y biodiversidad cultivada."
+    },
+    {
+      "id": "huertos-escuelas-y-universidad",
+      "name": "Huertos, Escuelas y Universidad",
+      "description": "Huertos escolares, universidad, juventud, educación pública y aprendizaje práctico."
+    },
+    {
+      "id": "economia-solidaria-y-mercados",
+      "name": "Economía Solidaria y Mercados",
+      "description": "Mercados, cooperativas, canastas, valor añadido y circuitos cortos."
+    },
+    {
+      "id": "tierra-gobernanza-y-futuro",
+      "name": "Tierra, Gobernanza y Futuro",
+      "description": "Acceso a tierra, fideicomisos, justicia agraria, política pública y gobernanza comunitaria."
+    },
+    {
+      "id": "archipielago-vivo",
+      "name": "Archipiélago Vivo",
+      "description": "Proyectos transversales o multirregionales que conectan varios temas del sistema agroecológico."
+    }
+  ],
+  "progressSchema": {
+    "appVersion": "0.1.0",
+    "userProfile": {
+      "displayName": "Estudiante",
+      "regionInterest": "Puerto Rico",
+      "learningGoal": "Aprender agroecología desde cero"
+    },
+    "progress": {
+      "currentLevel": 0,
+      "points": 0,
+      "completedLevels": [],
+      "completedActivities": [],
+      "visitedProjects": [],
+      "badges": [],
+      "savedPrompts": [],
+      "reflections": []
+    }
+  }
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "criterion": "Pensamiento sistémico",
+    "levels": [
+      "Lista elementos",
+      "Conecta algunos elementos",
+      "Explica interacciones",
+      "Analiza ciclos, tensiones y retroalimentaciones"
+    ]
+  },
+  {
+    "criterion": "Contexto de Puerto Rico",
+    "levels": [
+      "Mención general",
+      "Usa ejemplos locales",
+      "Integra región y cultura",
+      "Propone solución territorial realista"
+    ]
+  },
+  {
+    "criterion": "Diseño agroecológico",
+    "levels": [
+      "Ideas sueltas",
+      "Prácticas básicas",
+      "Diseño coherente",
+      "Diseño regenerativo y justificable"
+    ]
+  },
+  {
+    "criterion": "Justicia y comunidad",
+    "levels": [
+      "Poco presente",
+      "Mención básica",
+      "Integra actores",
+      "Propone gobernanza participativa"
+    ]
+  },
+  {
+    "criterion": "Uso de proyectos insignia",
+    "levels": [
+      "Nombra proyectos",
+      "Describe proyectos",
+      "Los compara",
+      "Aprende de ellos para diseñar solución propia"
+    ]
+  }
+]

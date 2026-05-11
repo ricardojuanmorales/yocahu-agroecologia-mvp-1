@@ -1,0 +1,797 @@
+[
+  {
+    "id": "quiz-intro-agroecologia",
+    "levelId": 0,
+    "type": "quiz",
+    "title": "Quiz relámpago: ¿Qué es agroecología?",
+    "instructions": "Contesta preguntas básicas con retroalimentación inmediata.",
+    "points": 15,
+    "estimatedMinutes": 8,
+    "interactive": {
+      "mode": "quiz",
+      "instructions": "Selecciona una respuesta por pregunta. El sistema ofrece retroalimentación inmediata y guarda tu resultado.",
+      "questions": [
+        {
+          "question": "¿Cuál frase describe mejor la agroecología?",
+          "options": [
+            "Una lista fija de recetas agrícolas para aumentar producción.",
+            "Un enfoque que estudia y diseña agroecosistemas integrando ecología, cultura, economía y comunidad.",
+            "Una tecnología que reemplaza el trabajo comunitario por sensores.",
+            "Una forma de cultivar sin observar el territorio."
+          ],
+          "answerIndex": 1,
+          "feedback": "La agroecología une ciencia, práctica, cultura y organización social para leer y transformar sistemas alimentarios."
+        },
+        {
+          "question": "¿Por qué Puerto Rico funciona como laboratorio vivo para estudiar agroecología?",
+          "options": [
+            "Porque no tiene diversidad de regiones agrícolas.",
+            "Porque el archipiélago combina montañas, costas, islas municipio, huracanes, mercados, saberes campesinos y retos de soberanía alimentaria.",
+            "Porque todos los suelos y comunidades son iguales.",
+            "Porque la agroecología no depende del contexto."
+          ],
+          "answerIndex": 1,
+          "feedback": "La clave está en mirar el territorio completo: clima, historia, cultura alimentaria, economía y biodiversidad."
+        },
+        {
+          "question": "¿Qué práctica se alinea mejor con aprender agroecología desde cero?",
+          "options": [
+            "Observar un lugar, hacer preguntas, mapear relaciones y probar mejoras pequeñas.",
+            "Copiar un diseño sin adaptar al suelo ni al agua local.",
+            "Ignorar a quienes cultivan y viven el territorio.",
+            "Evaluar solo la producción final y no los procesos."
+          ],
+          "answerIndex": 0,
+          "feedback": "Aprender haciendo convierte cada patio, finca, escuela o comunidad en aula viva."
+        }
+      ]
+    }
+  },
+  {
+    "id": "mapa-mi-comida",
+    "levelId": 0,
+    "type": "reflection-map",
+    "title": "Mapa de mi comida",
+    "instructions": "Escoge un alimento que comiste hoy y rastrea origen, actores, transporte y alternativas locales.",
+    "points": 30,
+    "estimatedMinutes": 15,
+    "interactive": {
+      "mode": "map",
+      "starterNodes": [
+        "agroecología",
+        "sistema agroalimentario",
+        "Puerto Rico",
+        "soberanía alimentaria",
+        "aprendizaje lúdico",
+        "suelo",
+        "agua",
+        "plantas",
+        "personas",
+        "economía",
+        "cultura",
+        "biodiversidad"
+      ],
+      "relationPrompts": [
+        "¿Qué elemento alimenta o sostiene a otro?",
+        "¿Dónde hay riesgo, pérdida o tensión?",
+        "¿Qué relación crea resiliencia?",
+        "¿Qué saber comunitario ayuda a interpretar el mapa?"
+      ],
+      "reflectionPrompt": "Resume el patrón más importante de tu mapa sistémico."
+    }
+  },
+  {
+    "id": "mapa-relaciones-agroecosistema",
+    "levelId": 1,
+    "type": "concept-map",
+    "title": "Mapa de relaciones del agroecosistema",
+    "instructions": "Conecta suelo, agua, plantas, animales, trabajo, cultura, mercado y política.",
+    "points": 40,
+    "estimatedMinutes": 20,
+    "interactive": {
+      "mode": "map",
+      "starterNodes": [
+        "sistemas",
+        "interdependencia",
+        "retroalimentación",
+        "territorio",
+        "ciclos",
+        "suelo",
+        "agua",
+        "plantas",
+        "personas",
+        "economía",
+        "cultura",
+        "biodiversidad"
+      ],
+      "relationPrompts": [
+        "¿Qué elemento alimenta o sostiene a otro?",
+        "¿Dónde hay riesgo, pérdida o tensión?",
+        "¿Qué relación crea resiliencia?",
+        "¿Qué saber comunitario ayuda a interpretar el mapa?"
+      ],
+      "reflectionPrompt": "Resume el patrón más importante de tu mapa sistémico."
+    }
+  },
+  {
+    "id": "reto-sistema-alimentario-pr",
+    "levelId": 1,
+    "type": "scenario",
+    "title": "Sistema alimentario de Puerto Rico",
+    "instructions": "Identifica tres dependencias y tres posibilidades agroecológicas del sistema alimentario local.",
+    "points": 35,
+    "estimatedMinutes": 20,
+    "interactive": {
+      "mode": "scenario",
+      "context": "Reto situado: Identifica tres dependencias y tres posibilidades agroecológicas del sistema alimentario local.",
+      "choices": [
+        {
+          "label": "Observar relaciones, consultar saberes locales y diseñar una prueba pequeña",
+          "score": 3,
+          "feedback": "Ruta agroecológica sólida: situada, humilde y verificable."
+        },
+        {
+          "label": "Aplicar una solución genérica sin adaptar al territorio",
+          "score": 1,
+          "feedback": "Podría funcionar parcialmente, pero pierde contexto."
+        },
+        {
+          "label": "Actuar sin registrar evidencia",
+          "score": 0,
+          "feedback": "Sin registro no hay aprendizaje acumulativo."
+        }
+      ],
+      "reflectionPrompt": "Explica por qué escogiste esa ruta y qué observarías durante una semana."
+    }
+  },
+  {
+    "id": "diagnostico-suelo-casero",
+    "levelId": 2,
+    "type": "field-observation",
+    "title": "Diagnóstico de suelo cercano",
+    "instructions": "Observa color, olor, textura, cobertura, humedad y evidencia de vida del suelo.",
+    "points": 40,
+    "estimatedMinutes": 25,
+    "interactive": {
+      "mode": "workbook",
+      "fields": [
+        {
+          "id": "lugar-observado",
+          "label": "Lugar observado"
+        },
+        {
+          "id": "evidencia-visual-o-sensorial",
+          "label": "Evidencia visual o sensorial"
+        },
+        {
+          "id": "hip-tesis-ecol-gica",
+          "label": "Hipótesis ecológica"
+        },
+        {
+          "id": "pr-ctica-de-mejora",
+          "label": "Práctica de mejora"
+        }
+      ],
+      "reflectionPrompt": "Cierra con una frase: ¿qué cambió en tu forma de mirar este agroecosistema?"
+    }
+  },
+  {
+    "id": "reto-composta-territorial",
+    "levelId": 2,
+    "type": "design",
+    "title": "Diseña una composta contextual",
+    "instructions": "Diseña un sistema de composta para casa, escuela, finca o comunidad.",
+    "points": 45,
+    "estimatedMinutes": 30,
+    "interactive": {
+      "mode": "workbook",
+      "fields": [
+        {
+          "id": "contexto-territorial",
+          "label": "Contexto territorial"
+        },
+        {
+          "id": "objetivo-del-dise-o",
+          "label": "Objetivo del diseño"
+        },
+        {
+          "id": "elementos-del-sistema",
+          "label": "Elementos del sistema"
+        },
+        {
+          "id": "pr-cticas-propuestas",
+          "label": "Prácticas propuestas"
+        },
+        {
+          "id": "c-mo-evaluar-as-el-resultado",
+          "label": "Cómo evaluarías el resultado"
+        }
+      ],
+      "reflectionPrompt": "Cierra con una frase: ¿qué cambió en tu forma de mirar este agroecosistema?"
+    }
+  },
+  {
+    "id": "inventario-semillas-culturales",
+    "levelId": 3,
+    "type": "reflection",
+    "title": "Inventario de semillas y alimentos con memoria",
+    "instructions": "Identifica cultivos o alimentos importantes en tu familia, comunidad o región.",
+    "points": 35,
+    "estimatedMinutes": 20,
+    "interactive": {
+      "mode": "workbook",
+      "fields": [
+        {
+          "id": "observaci-n-o-experiencia",
+          "label": "Observación o experiencia"
+        },
+        {
+          "id": "relaci-n-con-cultura-o-comunidad",
+          "label": "Relación con cultura o comunidad"
+        },
+        {
+          "id": "pregunta-cr-tica",
+          "label": "Pregunta crítica"
+        },
+        {
+          "id": "aprendizaje-principal",
+          "label": "Aprendizaje principal"
+        }
+      ],
+      "reflectionPrompt": "Cierra con una frase: ¿qué cambió en tu forma de mirar este agroecosistema?"
+    }
+  },
+  {
+    "id": "reto-biblioteca-semillas",
+    "levelId": 3,
+    "type": "design",
+    "title": "Mini biblioteca de semillas",
+    "instructions": "Propón normas, cuidados y actividades educativas para una biblioteca de semillas local.",
+    "points": 45,
+    "estimatedMinutes": 35,
+    "interactive": {
+      "mode": "workbook",
+      "fields": [
+        {
+          "id": "contexto-territorial",
+          "label": "Contexto territorial"
+        },
+        {
+          "id": "objetivo-del-dise-o",
+          "label": "Objetivo del diseño"
+        },
+        {
+          "id": "elementos-del-sistema",
+          "label": "Elementos del sistema"
+        },
+        {
+          "id": "pr-cticas-propuestas",
+          "label": "Prácticas propuestas"
+        },
+        {
+          "id": "c-mo-evaluar-as-el-resultado",
+          "label": "Cómo evaluarías el resultado"
+        }
+      ],
+      "reflectionPrompt": "Cierra con una frase: ¿qué cambió en tu forma de mirar este agroecosistema?"
+    }
+  },
+  {
+    "id": "mapa-flujos-agua",
+    "levelId": 4,
+    "type": "map",
+    "title": "Mapa de agua y sombra",
+    "instructions": "Dibuja o describe cómo entra, se mueve, se pierde y se conserva el agua en un espacio.",
+    "points": 45,
+    "estimatedMinutes": 25,
+    "interactive": {
+      "mode": "map",
+      "starterNodes": [
+        "agua",
+        "clima tropical",
+        "huracanes",
+        "sequía",
+        "resiliencia",
+        "suelo",
+        "plantas",
+        "personas",
+        "economía",
+        "cultura",
+        "biodiversidad",
+        "clima"
+      ],
+      "relationPrompts": [
+        "¿Qué elemento alimenta o sostiene a otro?",
+        "¿Dónde hay riesgo, pérdida o tensión?",
+        "¿Qué relación crea resiliencia?",
+        "¿Qué saber comunitario ayuda a interpretar el mapa?"
+      ],
+      "reflectionPrompt": "Resume el patrón más importante de tu mapa sistémico."
+    }
+  },
+  {
+    "id": "escenario-huracan-huerto",
+    "levelId": 4,
+    "type": "branching-scenario",
+    "title": "Escenario: huerto después de huracán",
+    "instructions": "Toma decisiones para recuperar suelo, agua, cultivos y comunidad tras lluvias intensas.",
+    "points": 50,
+    "estimatedMinutes": 25,
+    "interactive": {
+      "mode": "scenario",
+      "context": "Tras lluvias intensas, el huerto tiene charcos, hojas rotas y suelo desnudo. Decide una primera acción de recuperación.",
+      "choices": [
+        {
+          "label": "Cubrir suelo, observar drenajes y priorizar seguridad antes de resembrar",
+          "score": 3,
+          "feedback": "Excelente. Protege suelo, reduce erosión y evita decisiones apresuradas."
+        },
+        {
+          "label": "Replantar todo el mismo día para recuperar producción rápido",
+          "score": 1,
+          "feedback": "Puede perderse esfuerzo si no se entiende agua, suelo y daños primero."
+        },
+        {
+          "label": "Aplicar insumos sin diagnóstico",
+          "score": 0,
+          "feedback": "La agroecología empieza por observar causas y relaciones, no por recetas automáticas."
+        }
+      ],
+      "reflectionPrompt": "Explica por qué escogiste esa ruta y qué observarías durante una semana."
+    }
+  },
+  {
+    "id": "disena-tu-huerto",
+    "levelId": 5,
+    "type": "design",
+    "title": "Diseña tu huerto base",
+    "instructions": "Elige ubicación, cultivos, agua, sombra, composta, caminos y propósito comunitario.",
+    "points": 60,
+    "estimatedMinutes": 40,
+    "interactive": {
+      "mode": "workbook",
+      "fields": [
+        {
+          "id": "contexto-territorial",
+          "label": "Contexto territorial"
+        },
+        {
+          "id": "objetivo-del-dise-o",
+          "label": "Objetivo del diseño"
+        },
+        {
+          "id": "elementos-del-sistema",
+          "label": "Elementos del sistema"
+        },
+        {
+          "id": "pr-cticas-propuestas",
+          "label": "Prácticas propuestas"
+        },
+        {
+          "id": "c-mo-evaluar-as-el-resultado",
+          "label": "Cómo evaluarías el resultado"
+        }
+      ],
+      "reflectionPrompt": "Cierra con una frase: ¿qué cambió en tu forma de mirar este agroecosistema?"
+    }
+  },
+  {
+    "id": "reto-finca-region-pr",
+    "levelId": 5,
+    "type": "design",
+    "title": "Finca por región",
+    "instructions": "Diseña prácticas apropiadas para montaña, costa, zona urbana o isla municipio.",
+    "points": 60,
+    "estimatedMinutes": 40,
+    "interactive": {
+      "mode": "workbook",
+      "fields": [
+        {
+          "id": "contexto-territorial",
+          "label": "Contexto territorial"
+        },
+        {
+          "id": "objetivo-del-dise-o",
+          "label": "Objetivo del diseño"
+        },
+        {
+          "id": "elementos-del-sistema",
+          "label": "Elementos del sistema"
+        },
+        {
+          "id": "pr-cticas-propuestas",
+          "label": "Prácticas propuestas"
+        },
+        {
+          "id": "c-mo-evaluar-as-el-resultado",
+          "label": "Cómo evaluarías el resultado"
+        }
+      ],
+      "reflectionPrompt": "Cierra con una frase: ¿qué cambió en tu forma de mirar este agroecosistema?"
+    }
+  },
+  {
+    "id": "diario-observacion-plagas",
+    "levelId": 6,
+    "type": "field-journal",
+    "title": "Diario de observación ecológica",
+    "instructions": "Observa una planta y registra señales, insectos, daños, beneficios y posibles causas.",
+    "points": 40,
+    "estimatedMinutes": 25,
+    "interactive": {
+      "mode": "workbook",
+      "fields": [
+        {
+          "id": "fecha-lugar",
+          "label": "Fecha/lugar"
+        },
+        {
+          "id": "se-ales-observadas",
+          "label": "Señales observadas"
+        },
+        {
+          "id": "organismos-presentes",
+          "label": "Organismos presentes"
+        },
+        {
+          "id": "posibles-causas",
+          "label": "Posibles causas"
+        },
+        {
+          "id": "pr-xima-observaci-n",
+          "label": "Próxima observación"
+        }
+      ],
+      "reflectionPrompt": "Cierra con una frase: ¿qué cambió en tu forma de mirar este agroecosistema?"
+    }
+  },
+  {
+    "id": "reto-equilibrio-ecologico",
+    "levelId": 6,
+    "type": "scenario",
+    "title": "Restaurar equilibrio",
+    "instructions": "Elige prácticas preventivas ante un desequilibrio sin comenzar por eliminar organismos.",
+    "points": 50,
+    "estimatedMinutes": 25,
+    "interactive": {
+      "mode": "scenario",
+      "context": "Notas daños en hojas. También ves flores, hormigas, mariquitas y suelo seco. ¿Qué haces primero?",
+      "choices": [
+        {
+          "label": "Registrar patrones, revisar riego/sombra y buscar enemigos naturales antes de intervenir",
+          "score": 3,
+          "feedback": "Muy bien. Observación + prevención + biodiversidad funcional."
+        },
+        {
+          "label": "Eliminar todos los insectos visibles",
+          "score": 0,
+          "feedback": "Algunos insectos son aliados. El manejo ecológico distingue funciones."
+        },
+        {
+          "label": "Cambiar todas las plantas de lugar sin diagnóstico",
+          "score": 1,
+          "feedback": "Puede ayudar, pero falta entender causa, ciclo y contexto."
+        }
+      ],
+      "reflectionPrompt": "Explica por qué escogiste esa ruta y qué observarías durante una semana."
+    }
+  },
+  {
+    "id": "diseno-estratos-agroforestales",
+    "levelId": 7,
+    "type": "design",
+    "title": "Diseño por estratos",
+    "instructions": "Combina árboles, arbustos, herbáceas, raíces, cobertura y trepadoras en un diseño tropical.",
+    "points": 60,
+    "estimatedMinutes": 40,
+    "interactive": {
+      "mode": "workbook",
+      "fields": [
+        {
+          "id": "contexto-territorial",
+          "label": "Contexto territorial"
+        },
+        {
+          "id": "objetivo-del-dise-o",
+          "label": "Objetivo del diseño"
+        },
+        {
+          "id": "elementos-del-sistema",
+          "label": "Elementos del sistema"
+        },
+        {
+          "id": "pr-cticas-propuestas",
+          "label": "Prácticas propuestas"
+        },
+        {
+          "id": "c-mo-evaluar-as-el-resultado",
+          "label": "Cómo evaluarías el resultado"
+        }
+      ],
+      "reflectionPrompt": "Cierra con una frase: ¿qué cambió en tu forma de mirar este agroecosistema?"
+    }
+  },
+  {
+    "id": "reto-bosque-comestible",
+    "levelId": 7,
+    "type": "project-card",
+    "title": "Bosque comestible inspirado en proyectos reales",
+    "instructions": "Explora proyectos agroforestales y diseña una versión educativa pequeña.",
+    "points": 60,
+    "estimatedMinutes": 40,
+    "interactive": {
+      "mode": "projectStudy",
+      "fields": [
+        {
+          "id": "proyecto",
+          "label": "Proyecto que te inspira"
+        },
+        {
+          "id": "practica",
+          "label": "Práctica agroecológica observada"
+        },
+        {
+          "id": "adaptacion",
+          "label": "Cómo la adaptarías a una escala educativa pequeña"
+        }
+      ]
+    }
+  },
+  {
+    "id": "mapa-polinizadores",
+    "levelId": 8,
+    "type": "observation",
+    "title": "Mapa de polinizadores",
+    "instructions": "Identifica flores, refugios, riesgos y prácticas para apoyar polinizadores.",
+    "points": 45,
+    "estimatedMinutes": 25,
+    "interactive": {
+      "mode": "workbook",
+      "fields": [
+        {
+          "id": "lugar-observado",
+          "label": "Lugar observado"
+        },
+        {
+          "id": "flores-refugios",
+          "label": "Flores/refugios"
+        },
+        {
+          "id": "riesgos",
+          "label": "Riesgos"
+        },
+        {
+          "id": "pr-cticas-de-apoyo",
+          "label": "Prácticas de apoyo"
+        }
+      ],
+      "reflectionPrompt": "Cierra con una frase: ¿qué cambió en tu forma de mirar este agroecosistema?"
+    }
+  },
+  {
+    "id": "reto-ciclo-animal-suelo",
+    "levelId": 8,
+    "type": "systems-map",
+    "title": "Ciclo animal-suelo-planta",
+    "instructions": "Explica cómo un animal o polinizador contribuye a ciclos agroecológicos.",
+    "points": 45,
+    "estimatedMinutes": 25,
+    "interactive": {
+      "mode": "map",
+      "starterNodes": [
+        "polinizadores",
+        "apicultura",
+        "animales",
+        "nutrientes",
+        "ética del manejo",
+        "suelo",
+        "agua",
+        "plantas",
+        "personas",
+        "economía",
+        "cultura",
+        "biodiversidad"
+      ],
+      "relationPrompts": [
+        "¿Qué elemento alimenta o sostiene a otro?",
+        "¿Dónde hay riesgo, pérdida o tensión?",
+        "¿Qué relación crea resiliencia?",
+        "¿Qué saber comunitario ayuda a interpretar el mapa?"
+      ],
+      "reflectionPrompt": "Resume el patrón más importante de tu mapa sistémico."
+    }
+  },
+  {
+    "id": "producto-valor-anadido",
+    "levelId": 9,
+    "type": "design",
+    "title": "Producto de valor añadido",
+    "instructions": "Diseña un producto local considerando cosecha, procesamiento, empaque, historia y mercado.",
+    "points": 55,
+    "estimatedMinutes": 35,
+    "interactive": {
+      "mode": "workbook",
+      "fields": [
+        {
+          "id": "contexto-territorial",
+          "label": "Contexto territorial"
+        },
+        {
+          "id": "objetivo-del-dise-o",
+          "label": "Objetivo del diseño"
+        },
+        {
+          "id": "elementos-del-sistema",
+          "label": "Elementos del sistema"
+        },
+        {
+          "id": "pr-cticas-propuestas",
+          "label": "Prácticas propuestas"
+        },
+        {
+          "id": "c-mo-evaluar-as-el-resultado",
+          "label": "Cómo evaluarías el resultado"
+        }
+      ],
+      "reflectionPrompt": "Cierra con una frase: ¿qué cambió en tu forma de mirar este agroecosistema?"
+    }
+  },
+  {
+    "id": "reto-etiqueta-alimento-local",
+    "levelId": 9,
+    "type": "creative",
+    "title": "Etiqueta con historia",
+    "instructions": "Crea una etiqueta educativa que cuente origen, práctica agroecológica y cultura alimentaria.",
+    "points": 45,
+    "estimatedMinutes": 30,
+    "interactive": {
+      "mode": "workbook",
+      "fields": [
+        {
+          "id": "historia-del-alimento",
+          "label": "Historia del alimento"
+        },
+        {
+          "id": "mensaje-educativo",
+          "label": "Mensaje educativo"
+        },
+        {
+          "id": "materiales-o-empaque",
+          "label": "Materiales o empaque"
+        },
+        {
+          "id": "criterios-de-sostenibilidad",
+          "label": "Criterios de sostenibilidad"
+        }
+      ],
+      "reflectionPrompt": "Cierra con una frase: ¿qué cambió en tu forma de mirar este agroecosistema?"
+    }
+  },
+  {
+    "id": "disena-canasta-solidaria",
+    "levelId": 10,
+    "type": "design",
+    "title": "Canasta solidaria",
+    "instructions": "Diseña una canasta o circuito corto con criterios de justicia, precio, logística y confianza.",
+    "points": 60,
+    "estimatedMinutes": 40,
+    "interactive": {
+      "mode": "workbook",
+      "fields": [
+        {
+          "id": "contexto-territorial",
+          "label": "Contexto territorial"
+        },
+        {
+          "id": "objetivo-del-dise-o",
+          "label": "Objetivo del diseño"
+        },
+        {
+          "id": "elementos-del-sistema",
+          "label": "Elementos del sistema"
+        },
+        {
+          "id": "pr-cticas-propuestas",
+          "label": "Prácticas propuestas"
+        },
+        {
+          "id": "c-mo-evaluar-as-el-resultado",
+          "label": "Cómo evaluarías el resultado"
+        }
+      ],
+      "reflectionPrompt": "Cierra con una frase: ¿qué cambió en tu forma de mirar este agroecosistema?"
+    }
+  },
+  {
+    "id": "comparar-mercados-pr",
+    "levelId": 10,
+    "type": "comparison",
+    "title": "Comparar mercados agroecológicos",
+    "instructions": "Compara dos mercados o canales de venta por actores, beneficios, límites y aprendizajes.",
+    "points": 45,
+    "estimatedMinutes": 30,
+    "interactive": {
+      "mode": "comparison",
+      "items": [
+        "Canal A",
+        "Canal B"
+      ],
+      "criteria": [
+        "Actores",
+        "Beneficios",
+        "Límites",
+        "Justicia/precio",
+        "Aprendizaje para Puerto Rico"
+      ]
+    }
+  },
+  {
+    "id": "simulacion-asamblea-tierra",
+    "levelId": 11,
+    "type": "roleplay-simulation",
+    "title": "Asamblea por la tierra",
+    "instructions": "Simula actores y argumentos para decidir el uso de un terreno agrícola comunitario.",
+    "points": 65,
+    "estimatedMinutes": 45,
+    "interactive": {
+      "mode": "scenario",
+      "context": "Una comunidad decide el uso de un terreno agrícola. Hay estudiantes, agricultoras, municipio, vecinas y una organización de acceso a tierra.",
+      "choices": [
+        {
+          "label": "Crear acuerdos de uso, responsabilidades, calendario y mecanismo de revisión comunitaria",
+          "score": 3,
+          "feedback": "Fuerte gobernanza: distribuye poder, tareas y cuidado de la tierra."
+        },
+        {
+          "label": "Dejar que una sola persona decida por rapidez",
+          "score": 1,
+          "feedback": "Puede ser ágil, pero reduce participación y transparencia."
+        },
+        {
+          "label": "Comenzar sin acuerdos ni roles definidos",
+          "score": 0,
+          "feedback": "Sin acuerdos, los conflictos germinan antes que las semillas."
+        }
+      ],
+      "reflectionPrompt": "Explica por qué escogiste esa ruta y qué observarías durante una semana."
+    }
+  },
+  {
+    "id": "reto-matriz-gobernanza",
+    "levelId": 11,
+    "type": "matrix",
+    "title": "Matriz de gobernanza",
+    "instructions": "Clasifica decisiones, actores, derechos, responsabilidades y mecanismos de cuidado.",
+    "points": 55,
+    "estimatedMinutes": 40,
+    "interactive": {
+      "mode": "matrix",
+      "rows": [
+        "Uso del terreno",
+        "Agua y suelo",
+        "Trabajo comunitario",
+        "Mercado/intercambio",
+        "Resolución de conflictos"
+      ],
+      "columns": [
+        "Decisión",
+        "Actores",
+        "Derechos",
+        "Responsabilidades"
+      ]
+    }
+  },
+  {
+    "id": "capstone-mi-agroecosistema-boricua",
+    "levelId": 12,
+    "type": "capstone",
+    "title": "Mi Agroecosistema Boricua",
+    "instructions": "Integra diagnóstico, mapa, diseño, manejo, economía, comunidad, resiliencia y proyectos inspiración.",
+    "points": 500,
+    "estimatedMinutes": 180,
+    "interactive": {
+      "mode": "capstone",
+      "message": "Trabaja esta actividad desde la sección Capstone para integrar todo el viaje."
+    }
+  }
+]

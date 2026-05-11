@@ -1,0 +1,93 @@
+[
+  {
+    "id": "prompt-explica-agroecologia-pr",
+    "levelId": 0,
+    "complexity": 1,
+    "title": "Explícame agroecología desde Puerto Rico",
+    "prompt": "Actúa como Yocahú, mentor de agroecología para estudiantes universitarios en Puerto Rico. Explícame qué es la agroecología desde cero usando ejemplos de suelo, agua, semillas, comunidad, cultura alimentaria y soberanía alimentaria."
+  },
+  {
+    "id": "prompt-mapa-sistemico-pr",
+    "levelId": 1,
+    "complexity": 2,
+    "title": "Ayúdame a crear un mapa sistémico",
+    "prompt": "Actúa como Yocahú. Ayúdame a crear un mapa sistémico de un agroecosistema en Puerto Rico. Incluye suelo, agua, plantas, animales, personas, economía, cultura, energía, residuos, riesgos climáticos y relaciones de retroalimentación."
+  },
+  {
+    "id": "prompt-diagnostico-suelo-vivo",
+    "levelId": 2,
+    "complexity": 3,
+    "title": "Diagnóstico de suelo vivo",
+    "prompt": "Actúa como Yocahú y guíame para diagnosticar un suelo cercano usando observaciones sencillas: color, olor, textura, humedad, cobertura, erosión, raíces, insectos y materia orgánica. Luego ayúdame a proponer tres prácticas agroecológicas de mejora."
+  },
+  {
+    "id": "prompt-semillas-cultura-pr",
+    "levelId": 3,
+    "complexity": 3,
+    "title": "Semillas, memoria y soberanía",
+    "prompt": "Actúa como Yocahú. Ayúdame a investigar la importancia cultural y agroecológica de una semilla o cultivo en Puerto Rico. Conecta biodiversidad, memoria campesina, alimentación, soberanía alimentaria y educación comunitaria."
+  },
+  {
+    "id": "prompt-resiliencia-climatica-finca",
+    "levelId": 4,
+    "complexity": 4,
+    "title": "Plan de resiliencia climática",
+    "prompt": "Actúa como Yocahú. Ayúdame a diseñar un plan de resiliencia climática para un huerto o finca en Puerto Rico considerando huracanes, lluvias intensas, calor, sequía, captación de agua, cobertura del suelo, sombra, biodiversidad y recuperación comunitaria."
+  },
+  {
+    "id": "prompt-diseno-finca-pr",
+    "levelId": 5,
+    "complexity": 4,
+    "title": "Diseño de finca agroecológica",
+    "prompt": "Actúa como Yocahú, diseñador agroecológico. Ayúdame a diseñar una finca o huerto educativo en Puerto Rico desde cero. Pregúntame por región, tamaño, agua, suelo, pendiente, cultivos deseados, comunidad, presupuesto y objetivos. Luego crea un diseño por zonas y funciones."
+  },
+  {
+    "id": "prompt-manejo-ecologico-plagas",
+    "levelId": 6,
+    "complexity": 4,
+    "title": "Manejo ecológico de plagas",
+    "prompt": "Actúa como Yocahú. Ayúdame a analizar un problema de plagas o enfermedades en una planta sin saltar a soluciones químicas. Guíame con preguntas de observación, posibles causas ecológicas, prevención, biodiversidad funcional y manejo integrado."
+  },
+  {
+    "id": "prompt-agroforesteria-pr",
+    "levelId": 7,
+    "complexity": 5,
+    "title": "Sistema agroforestal tropical",
+    "prompt": "Actúa como Yocahú. Diseña conmigo un sistema agroforestal básico para Puerto Rico. Incluye estratos, especies funcionales, sombra, conservación de suelo, agua, biodiversidad, cosecha, mantenimiento y riesgos."
+  },
+  {
+    "id": "prompt-polinizadores-islas",
+    "levelId": 8,
+    "complexity": 5,
+    "title": "Plan para polinizadores en isla tropical",
+    "prompt": "Actúa como Yocahú. Ayúdame a diseñar un plan educativo y agroecológico para proteger polinizadores en una comunidad de Puerto Rico, Vieques o Culebra. Considera apicultura, flores, hábitat, educación popular, soberanía alimentaria y resiliencia climática."
+  },
+  {
+    "id": "prompt-valor-anadido-pr",
+    "levelId": 9,
+    "complexity": 5,
+    "title": "Producto agroecológico con valor añadido",
+    "prompt": "Actúa como Yocahú. Ayúdame a convertir una cosecha local de Puerto Rico en un producto de valor añadido. Considera procesamiento seguro, cultura alimentaria, empaque, historia, mercado local, costos básicos y sostenibilidad."
+  },
+  {
+    "id": "prompt-economia-solidaria-alimentos",
+    "levelId": 10,
+    "complexity": 6,
+    "title": "Economía solidaria alimentaria",
+    "prompt": "Actúa como Yocahú. Ayúdame a diseñar una estrategia de economía solidaria para vender, intercambiar o distribuir alimentos agroecológicos en Puerto Rico. Incluye canastas, mercados, cooperativas, precio justo, logística, confianza y participación comunitaria."
+  },
+  {
+    "id": "prompt-gobernanza-tierra-pr",
+    "levelId": 11,
+    "complexity": 6,
+    "title": "Gobernanza y acceso a tierra",
+    "prompt": "Actúa como Yocahú. Simula una reunión entre agricultoras, estudiantes, comunidad, municipio y una organización de acceso a tierra para decidir el uso de un terreno agrícola. Ayúdame a identificar tensiones, acuerdos, derechos, responsabilidades y mecanismos de gobernanza."
+  },
+  {
+    "id": "prompt-capstone-yocahu",
+    "levelId": 12,
+    "complexity": 7,
+    "title": "Capstone: Mi Agroecosistema Boricua",
+    "prompt": "Actúa como Yocahú, mentor universitario de agroecología. Ayúdame a convertir mis notas en una propuesta final titulada Mi Agroecosistema Boricua. Debe incluir diagnóstico territorial, mapa sistémico, diseño agroecológico, suelo, agua, biodiversidad, economía solidaria, comunidad, resiliencia climática, inspiración en tres proyectos insignia y una rúbrica de evaluación."
+  }
+]

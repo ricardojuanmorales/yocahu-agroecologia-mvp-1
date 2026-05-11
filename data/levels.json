@@ -1,0 +1,338 @@
+[
+  {
+    "id": 0,
+    "title": "Entrada al Archipiélago Vivo",
+    "question": "¿Qué es agroecología y por qué importa en Puerto Rico?",
+    "summary": "Introducción a la agroecología como enfoque sistémico, holístico, territorial y transdisciplinario.",
+    "concepts": [
+      "agroecología",
+      "sistema agroalimentario",
+      "Puerto Rico",
+      "soberanía alimentaria",
+      "aprendizaje lúdico"
+    ],
+    "activityIds": [
+      "quiz-intro-agroecologia",
+      "mapa-mi-comida"
+    ],
+    "promptIds": [
+      "prompt-explica-agroecologia-pr"
+    ],
+    "badgeId": "semilla-despierta",
+    "pointsToComplete": 100,
+    "unlockRule": {
+      "type": "always"
+    }
+  },
+  {
+    "id": 1,
+    "title": "Pensamiento Sistémico",
+    "question": "¿Cómo se conectan suelo, agua, plantas, cultura, economía y comunidad?",
+    "summary": "Lectura del agroecosistema como red de relaciones, ciclos, flujos y retroalimentaciones.",
+    "concepts": [
+      "sistemas",
+      "interdependencia",
+      "retroalimentación",
+      "territorio",
+      "ciclos"
+    ],
+    "activityIds": [
+      "mapa-relaciones-agroecosistema",
+      "reto-sistema-alimentario-pr"
+    ],
+    "promptIds": [
+      "prompt-mapa-sistemico-pr"
+    ],
+    "badgeId": "mirada-sistemica",
+    "pointsToComplete": 120,
+    "unlockRule": {
+      "type": "completeLevel",
+      "levelId": 0
+    }
+  },
+  {
+    "id": 2,
+    "title": "Suelo Vivo",
+    "question": "¿Qué hace que un suelo sea fértil, resiliente y saludable?",
+    "summary": "Materia orgánica, estructura, erosión, composta, cobertura y microbiología básica.",
+    "concepts": [
+      "suelo",
+      "materia orgánica",
+      "erosión",
+      "composta",
+      "cobertura viva"
+    ],
+    "activityIds": [
+      "diagnostico-suelo-casero",
+      "reto-composta-territorial"
+    ],
+    "promptIds": [
+      "prompt-diagnostico-suelo-vivo"
+    ],
+    "badgeId": "guardiana-del-suelo",
+    "pointsToComplete": 140,
+    "unlockRule": {
+      "type": "completeLevel",
+      "levelId": 1
+    }
+  },
+  {
+    "id": 3,
+    "title": "Semillas, Biodiversidad y Cultura",
+    "question": "¿Qué se conserva cuando se conserva una semilla?",
+    "summary": "Relación entre semillas, memoria campesina, biodiversidad cultivada y soberanía alimentaria.",
+    "concepts": [
+      "semillas",
+      "biodiversidad",
+      "memoria campesina",
+      "cultura alimentaria",
+      "soberanía alimentaria"
+    ],
+    "activityIds": [
+      "inventario-semillas-culturales",
+      "reto-biblioteca-semillas"
+    ],
+    "promptIds": [
+      "prompt-semillas-cultura-pr"
+    ],
+    "badgeId": "custodia-de-semillas",
+    "pointsToComplete": 140,
+    "unlockRule": {
+      "type": "completeLevel",
+      "levelId": 2
+    }
+  },
+  {
+    "id": 4,
+    "title": "Agua, Clima y Resiliencia",
+    "question": "¿Cómo se diseña para sequías, lluvias intensas, calor y huracanes?",
+    "summary": "Captación, infiltración, sombra, cobertura, microclimas y reducción de riesgo climático.",
+    "concepts": [
+      "agua",
+      "clima tropical",
+      "huracanes",
+      "sequía",
+      "resiliencia"
+    ],
+    "activityIds": [
+      "mapa-flujos-agua",
+      "escenario-huracan-huerto"
+    ],
+    "promptIds": [
+      "prompt-resiliencia-climatica-finca"
+    ],
+    "badgeId": "explorador-de-microclimas",
+    "pointsToComplete": 160,
+    "unlockRule": {
+      "type": "completeLevel",
+      "levelId": 3
+    }
+  },
+  {
+    "id": 5,
+    "title": "Diseño de Finca Agroecológica",
+    "question": "¿Cómo se diseña un agroecosistema desde cero?",
+    "summary": "Zonas, flujos, funciones, bordes, policultivos, caminos, agua, sombra y acceso comunitario.",
+    "concepts": [
+      "diseño agroecológico",
+      "zonas",
+      "funciones",
+      "policultivo",
+      "mapa de finca"
+    ],
+    "activityIds": [
+      "disena-tu-huerto",
+      "reto-finca-region-pr"
+    ],
+    "promptIds": [
+      "prompt-diseno-finca-pr"
+    ],
+    "badgeId": "cartografo-agroecologico",
+    "pointsToComplete": 180,
+    "unlockRule": {
+      "type": "completeLevel",
+      "levelId": 4
+    }
+  },
+  {
+    "id": 6,
+    "title": "Manejo Ecológico de Plagas y Enfermedades",
+    "question": "¿Cómo se previenen desequilibrios sin depender de recetas químicas?",
+    "summary": "Observación, biodiversidad funcional, enemigos naturales, prevención y manejo integrado.",
+    "concepts": [
+      "plagas",
+      "enfermedades",
+      "biodiversidad funcional",
+      "prevención",
+      "observación"
+    ],
+    "activityIds": [
+      "diario-observacion-plagas",
+      "reto-equilibrio-ecologico"
+    ],
+    "promptIds": [
+      "prompt-manejo-ecologico-plagas"
+    ],
+    "badgeId": "observadora-del-equilibrio",
+    "pointsToComplete": 160,
+    "unlockRule": {
+      "type": "completeLevel",
+      "levelId": 5
+    }
+  },
+  {
+    "id": 7,
+    "title": "Agroforestería y Bosques Comestibles",
+    "question": "¿Cómo se cultiva con árboles, sombra y estratos?",
+    "summary": "Diseño de sistemas agroforestales, café bajo sombra, frutales, bosque comestible y biodiversidad.",
+    "concepts": [
+      "agroforestería",
+      "bosque comestible",
+      "estratos",
+      "sombra",
+      "frutales"
+    ],
+    "activityIds": [
+      "diseno-estratos-agroforestales",
+      "reto-bosque-comestible"
+    ],
+    "promptIds": [
+      "prompt-agroforesteria-pr"
+    ],
+    "badgeId": "arquitecta-del-bosque",
+    "pointsToComplete": 180,
+    "unlockRule": {
+      "type": "completeLevel",
+      "levelId": 6
+    }
+  },
+  {
+    "id": 8,
+    "title": "Animales, Polinizadores y Ciclos",
+    "question": "¿Qué roles cumplen abejas, gallinas, ganado, lombrices y fauna local?",
+    "summary": "Ciclos de nutrientes, polinización, bienestar animal, apicultura, lombricomposta y ética del manejo.",
+    "concepts": [
+      "polinizadores",
+      "apicultura",
+      "animales",
+      "nutrientes",
+      "ética del manejo"
+    ],
+    "activityIds": [
+      "mapa-polinizadores",
+      "reto-ciclo-animal-suelo"
+    ],
+    "promptIds": [
+      "prompt-polinizadores-islas"
+    ],
+    "badgeId": "cuidador-de-polinizadores",
+    "pointsToComplete": 160,
+    "unlockRule": {
+      "type": "completeLevel",
+      "levelId": 7
+    }
+  },
+  {
+    "id": 9,
+    "title": "Cosecha, Procesamiento y Valor Añadido",
+    "question": "¿Cómo se transforma una cosecha en sustento económico y cultural?",
+    "summary": "Cosecha, poscosecha, fermentación, deshidratación, empaque, marca local y cultura alimentaria.",
+    "concepts": [
+      "cosecha",
+      "poscosecha",
+      "valor añadido",
+      "fermentación",
+      "procesamiento"
+    ],
+    "activityIds": [
+      "producto-valor-anadido",
+      "reto-etiqueta-alimento-local"
+    ],
+    "promptIds": [
+      "prompt-valor-anadido-pr"
+    ],
+    "badgeId": "alquimista-de-cosechas",
+    "pointsToComplete": 160,
+    "unlockRule": {
+      "type": "completeLevel",
+      "levelId": 8
+    }
+  },
+  {
+    "id": 10,
+    "title": "Mercados, Cooperación y Economía Solidaria",
+    "question": "¿Cómo circulan alimentos, dinero, confianza y poder?",
+    "summary": "CSA, mercados, cooperativas, canastas, venta directa, apoyo mutuo y circuitos cortos.",
+    "concepts": [
+      "mercados",
+      "cooperativismo",
+      "CSA",
+      "venta directa",
+      "economía solidaria"
+    ],
+    "activityIds": [
+      "disena-canasta-solidaria",
+      "comparar-mercados-pr"
+    ],
+    "promptIds": [
+      "prompt-economia-solidaria-alimentos"
+    ],
+    "badgeId": "mercadera-solidaria",
+    "pointsToComplete": 180,
+    "unlockRule": {
+      "type": "completeLevel",
+      "levelId": 9
+    }
+  },
+  {
+    "id": 11,
+    "title": "Tierra, Gobernanza y Justicia Alimentaria",
+    "question": "¿Quién decide sobre tierra, alimentos y futuro agrícola?",
+    "summary": "Acceso a tierra, fideicomisos, justicia agraria, gobernanza comunitaria y política pública.",
+    "concepts": [
+      "tierra",
+      "fideicomiso",
+      "gobernanza",
+      "justicia alimentaria",
+      "política pública"
+    ],
+    "activityIds": [
+      "simulacion-asamblea-tierra",
+      "reto-matriz-gobernanza"
+    ],
+    "promptIds": [
+      "prompt-gobernanza-tierra-pr"
+    ],
+    "badgeId": "custodia-de-tierra",
+    "pointsToComplete": 200,
+    "unlockRule": {
+      "type": "completeLevel",
+      "levelId": 10
+    }
+  },
+  {
+    "id": 12,
+    "title": "Proyecto Capstone: Mi Agroecosistema Boricua",
+    "question": "¿Cómo integro todo en una propuesta agroecológica realista?",
+    "summary": "Diseño final con diagnóstico territorial, mapa sistémico, plan de manejo, economía, comunidad y evaluación.",
+    "concepts": [
+      "propuesta",
+      "capstone",
+      "diseño",
+      "evaluación",
+      "territorio"
+    ],
+    "activityIds": [
+      "capstone-mi-agroecosistema-boricua"
+    ],
+    "promptIds": [
+      "prompt-capstone-yocahu"
+    ],
+    "badgeId": "maestria-yocahu",
+    "pointsToComplete": 500,
+    "unlockRule": {
+      "type": "completeLevel",
+      "levelId": 11
+    }
+  }
+]

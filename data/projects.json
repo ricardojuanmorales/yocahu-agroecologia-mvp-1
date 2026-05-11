@@ -1,0 +1,2099 @@
+[
+  {
+    "id": "organizacion-boricua-de-agricultura-ecologica-de-puerto-rico",
+    "sourceOrder": 1,
+    "name": "Organización Boricuá de Agricultura Ecológica de Puerto Rico",
+    "region": "Archipiélago de Puerto Rico",
+    "categories": [
+      "movimiento agroecológico",
+      "red campesina",
+      "brigadas",
+      "educación popular",
+      "soberanía alimentaria",
+      "semillas."
+    ],
+    "description": "Red histórica del movimiento agroecológico puertorriqueño, clave en brigadas, intercambios campesinos, defensa de semillas, educación popular y articulación de fincas familiares",
+    "biome": "Raíces y Semillas",
+    "avatar": {
+      "name": "Semillera de Memorias",
+      "role": "Custodia de semillas, cultura alimentaria y educación popular",
+      "icon": "seedling"
+    },
+    "levels": [
+      0,
+      1,
+      3,
+      11,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-organizacion-boricua-de-agricultura-ecologica-de-puerto-rico"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    },
+    "topRank": 1,
+    "hasExpandedProfile": true,
+    "imageUrl": "",
+    "sourceUrl": ""
+  },
+  {
+    "id": "proyecto-agroecologico-el-josco-bravo-toa-alta",
+    "sourceOrder": 2,
+    "name": "Proyecto Agroecológico El Josco Bravo — Toa Alta",
+    "region": "Norte montañoso / Toa Alta",
+    "categories": [
+      "finca familiar",
+      "producción agroecológica",
+      "educación",
+      "canastas/CSA",
+      "soberanía alimentaria",
+      "agroturismo educativo."
+    ],
+    "description": "Finca agroecológica de larga trayectoria que combina producción de hortalizas, canastas, venta directa, formación agrícola y activismo por la soberanía alimentaria",
+    "biome": "Economía Solidaria y Mercados",
+    "avatar": {
+      "name": "Tejedora de Intercambios",
+      "role": "Guía de mercados, valor añadido y cooperación",
+      "icon": "basket"
+    },
+    "levels": [
+      0,
+      1,
+      5,
+      10,
+      11,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-proyecto-agroecologico-el-josco-bravo-toa-alta"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    },
+    "topRank": 2,
+    "hasExpandedProfile": true,
+    "imageUrl": "",
+    "sourceUrl": ""
+  },
+  {
+    "id": "escuela-de-agroecologia-del-josco-bravo-toa-alta-y-secciones-regionales",
+    "sourceOrder": 3,
+    "name": "Escuela de Agroecología del Josco Bravo — Toa Alta y secciones regionales",
+    "region": "Red multisede en Puerto Rico",
+    "categories": [
+      "formación agroecológica",
+      "capacitación técnica",
+      "educación popular",
+      "nueva generación agrícola",
+      "producción comunitaria."
+    ],
+    "description": "Programa formativo que ha preparado a generaciones de productoras, promotores y familias en agricultura ecológica, suelos, semillas, planificación, plagas, cosecha y mercadeo",
+    "biome": "Huertos, Escuelas y Universidad",
+    "avatar": {
+      "name": "Maestra del Conuco Vivo",
+      "role": "Guía de aprendizaje práctico, huertos y educación pública",
+      "icon": "book-open"
+    },
+    "levels": [
+      0,
+      1,
+      5,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-escuela-de-agroecologia-del-josco-bravo-toa-alta-y-secciones-regionales"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    },
+    "topRank": 3,
+    "hasExpandedProfile": true,
+    "imageUrl": "",
+    "sourceUrl": ""
+  },
+  {
+    "id": "guakia-colectivo-agroecologico-finca-guakia-dorado-san-lorenzo",
+    "sourceOrder": 4,
+    "name": "Güakiá Colectivo Agroecológico / Finca Güakiá — Dorado / San Lorenzo",
+    "region": "Norte costero e interior este / Dorado–San Lorenzo",
+    "categories": [
+      "colectivo",
+      "mujeres en agroecología",
+      "agroforestería",
+      "educación",
+      "apoyo mutuo",
+      "justicia ambiental."
+    ],
+    "description": "Colectivo agroecológico con fuerte énfasis comunitario, feminista y de apoyo mutuo; trabaja producción diversa, educación, espacios comunitarios y resiliencia climática",
+    "biome": "Bosque, Carso y Biodiversidad",
+    "avatar": {
+      "name": "Arquitecta del Bosque Comestible",
+      "role": "Guía de agroforestería, biodiversidad y conservación",
+      "icon": "tree"
+    },
+    "levels": [
+      0,
+      1,
+      5,
+      7,
+      10,
+      11,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-guakia-colectivo-agroecologico-finca-guakia-dorado-san-lorenzo"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "finca-el-vapor-san-lorenzo",
+    "sourceOrder": 5,
+    "name": "Finca El Vapor — San Lorenzo",
+    "region": "Este interior / San Lorenzo",
+    "categories": [
+      "finca comunitaria",
+      "agroecología",
+      "apoyo mutuo",
+      "educación popular",
+      "producción de hortalizas."
+    ],
+    "description": "Proyecto agroecológico de San Lorenzo enfocado en producción ecológica, educación popular, trabajo colectivo y apoyo mutuo desde la tierra",
+    "biome": "Raíces y Semillas",
+    "avatar": {
+      "name": "Semillera de Memorias",
+      "role": "Custodia de semillas, cultura alimentaria y educación popular",
+      "icon": "seedling"
+    },
+    "levels": [
+      0,
+      1,
+      5,
+      10,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-finca-el-vapor-san-lorenzo"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "fideicomiso-para-la-agroecologia-archipielago-de-puerto-rico",
+    "sourceOrder": 6,
+    "name": "Fideicomiso para la Agroecología — archipiélago de Puerto Rico",
+    "region": "Archipiélago de Puerto Rico",
+    "categories": [
+      "acceso a tierras",
+      "fideicomiso",
+      "gobernanza comunitaria",
+      "conservación agrícola",
+      "soberanía alimentaria",
+      "resiliencia climática."
+    ],
+    "description": "Iniciativa de custodia y gobernanza comunitaria de tierras agrícolas para crear cuencas agroecológicas resilientes, proteger suelos y sostener comunidades agricultoras",
+    "biome": "Tierra, Gobernanza y Futuro",
+    "avatar": {
+      "name": "Custodia de Tierra Común",
+      "role": "Guía de acceso a tierra, justicia agraria y gobernanza",
+      "icon": "hands"
+    },
+    "levels": [
+      0,
+      1,
+      4,
+      11,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-fideicomiso-para-la-agroecologia-archipielago-de-puerto-rico"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    },
+    "topRank": 4,
+    "hasExpandedProfile": true,
+    "imageUrl": "",
+    "sourceUrl": ""
+  },
+  {
+    "id": "fiticas-fideicomiso-de-tierras-comunitarias-para-la-agricultura-sostenible-puert",
+    "sourceOrder": 7,
+    "name": "FiTiCAS: Fideicomiso de Tierras Comunitarias para la Agricultura Sostenible — Puerto Rico",
+    "region": "Puerto Rico",
+    "categories": [
+      "acceso a tierras",
+      "bienes comunes",
+      "agricultura sostenible",
+      "justicia agraria",
+      "seguridad alimentaria",
+      "tenencia colectiva."
+    ],
+    "description": "Fideicomiso agrícola comunitario orientado a asegurar acceso perpetuo a tierras cultivables para agricultores sin tierra o con inseguridad de tenencia",
+    "biome": "Tierra, Gobernanza y Futuro",
+    "avatar": {
+      "name": "Custodia de Tierra Común",
+      "role": "Guía de acceso a tierra, justicia agraria y gobernanza",
+      "icon": "hands"
+    },
+    "levels": [
+      0,
+      1,
+      4,
+      11,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-fiticas-fideicomiso-de-tierras-comunitarias-para-la-agricultura-sostenible-puert"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "la-cooperativa-de-acceso-a-tierras-la-c-a-t-puerto-rico",
+    "sourceOrder": 8,
+    "name": "La Cooperativa de Acceso a Tierras (La C.A.T.) — Puerto Rico",
+    "region": "Área metropolitana rural / Guaynabo y red nacional",
+    "categories": [
+      "cooperativismo",
+      "acceso a tierras",
+      "agroecología",
+      "economía solidaria",
+      "apoyo mutuo",
+      "comunidad rural."
+    ],
+    "description": "Cooperativa que recupera y organiza terrenos para proyectos agroecológicos, educativos y comunitarios bajo principios de justicia social, economía solidaria y soberanía alimentaria",
+    "biome": "Tierra, Gobernanza y Futuro",
+    "avatar": {
+      "name": "Custodia de Tierra Común",
+      "role": "Guía de acceso a tierra, justicia agraria y gobernanza",
+      "icon": "hands"
+    },
+    "levels": [
+      0,
+      1,
+      10,
+      11,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-la-cooperativa-de-acceso-a-tierras-la-c-a-t-puerto-rico"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "instituto-para-la-investigacion-y-accion-en-agroecologia-iala-pr-cayey-puerto-ri",
+    "sourceOrder": 9,
+    "name": "Instituto para la Investigación y Acción en Agroecología (IALA-PR) — Cayey / Puerto Rico",
+    "region": "Cayey y Puerto Rico",
+    "categories": [
+      "investigación",
+      "educación",
+      "política pública",
+      "acceso a tierras",
+      "agroecología crítica",
+      "acción comunitaria."
+    ],
+    "description": "Espacio de investigación, acción, educación y articulación política agroecológica que promueve acceso a tierra, formación, campañas y redes de conocimiento",
+    "biome": "Tierra, Gobernanza y Futuro",
+    "avatar": {
+      "name": "Custodia de Tierra Común",
+      "role": "Guía de acceso a tierra, justicia agraria y gobernanza",
+      "icon": "hands"
+    },
+    "levels": [
+      0,
+      1,
+      11,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-instituto-para-la-investigacion-y-accion-en-agroecologia-iala-pr-cayey-puerto-ri"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    },
+    "topRank": 5,
+    "hasExpandedProfile": true,
+    "imageUrl": "",
+    "sourceUrl": ""
+  },
+  {
+    "id": "el-departamento-de-la-comida-puerto-rico",
+    "sourceOrder": 10,
+    "name": "El Departamento de la Comida — Puerto Rico",
+    "region": "Área metro / Caguas–San Juan y red nacional",
+    "categories": [
+      "cocina agroecológica",
+      "soberanía alimentaria",
+      "semillas",
+      "distribución local",
+      "cultura alimentaria",
+      "apoyo a fincas."
+    ],
+    "description": "Proyecto pionero de soberanía alimentaria que conectó cocina, agricultura local, semillas, apoyo a agricultores y crítica a la dependencia alimentaria colonial",
+    "biome": "Raíces y Semillas",
+    "avatar": {
+      "name": "Semillera de Memorias",
+      "role": "Custodia de semillas, cultura alimentaria y educación popular",
+      "icon": "seedling"
+    },
+    "levels": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      10,
+      11,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-el-departamento-de-la-comida-puerto-rico"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "plenitud-pr-las-marias",
+    "sourceOrder": 11,
+    "name": "Plenitud PR — Las Marías",
+    "region": "Oeste montañoso / Las Marías",
+    "categories": [
+      "permacultura",
+      "finca educativa",
+      "bioconstrucción",
+      "agua",
+      "juventud",
+      "servicio comunitario",
+      "sostenibilidad."
+    ],
+    "description": "Finca educativa y organización comunitaria de sostenibilidad que integra permacultura, agroecología, bioconstrucción, seguridad de agua, educación y servicio comunitario",
+    "biome": "Bosque, Carso y Biodiversidad",
+    "avatar": {
+      "name": "Arquitecta del Bosque Comestible",
+      "role": "Guía de agroforestería, biodiversidad y conservación",
+      "icon": "tree"
+    },
+    "levels": [
+      0,
+      1,
+      4,
+      5,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-plenitud-pr-las-marias"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    },
+    "topRank": 11,
+    "hasExpandedProfile": true,
+    "imageUrl": "",
+    "sourceUrl": ""
+  },
+  {
+    "id": "para-la-naturaleza-programa-de-huertos-agroecologicos-puerto-rico-culebra",
+    "sourceOrder": 12,
+    "name": "Para la Naturaleza: Programa de Huertos Agroecológicos — Puerto Rico / Culebra",
+    "region": "Puerto Rico y Culebra",
+    "categories": [
+      "huertos comunitarios",
+      "conservación",
+      "educación ambiental",
+      "biodiversidad",
+      "agroecología urbana y comunitaria."
+    ],
+    "description": "Programa de acompañamiento a huertos comunitarios, siembra sostenible, conservación de biodiversidad, talleres y educación ambiental vinculada al sistema alimentario",
+    "biome": "Islas Resilientes",
+    "avatar": {
+      "name": "Navegante Cimarrona",
+      "role": "Guía de soberanía alimentaria insular, apicultura y comunidad",
+      "icon": "island"
+    },
+    "levels": [
+      0,
+      1,
+      5,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-para-la-naturaleza-programa-de-huertos-agroecologicos-puerto-rico-culebra"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "finca-conciencia-vieques",
+    "sourceOrder": 13,
+    "name": "Finca Conciencia — Vieques",
+    "region": "Vieques",
+    "categories": [
+      "agroecología",
+      "apicultura",
+      "educación comunitaria",
+      "soberanía alimentaria",
+      "finca insular",
+      "polinizadores."
+    ],
+    "description": "Proyecto viequense asociado a agroecología, apicultura, educación comunitaria y recuperación de prácticas alimentarias locales en un territorio insular vulnerable",
+    "biome": "Islas Resilientes",
+    "avatar": {
+      "name": "Navegante Cimarrona",
+      "role": "Guía de soberanía alimentaria insular, apicultura y comunidad",
+      "icon": "island"
+    },
+    "levels": [
+      0,
+      1,
+      4,
+      5,
+      8,
+      11,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-finca-conciencia-vieques"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "la-colmena-cimarrona-vieques",
+    "sourceOrder": 14,
+    "name": "La Colmena Cimarrona — Vieques",
+    "region": "Vieques y Caribe insular",
+    "categories": [
+      "mujeres",
+      "economía solidaria",
+      "apicultura",
+      "agricultura cimarrona",
+      "educación popular",
+      "soberanía alimentaria."
+    ],
+    "description": "Organización liderada por mujeres que practica economía solidaria, agroecología, apicultura y agricultura cimarrona para fortalecer la soberanía alimentaria en Vieques",
+    "biome": "Islas Resilientes",
+    "avatar": {
+      "name": "Navegante Cimarrona",
+      "role": "Guía de soberanía alimentaria insular, apicultura y comunidad",
+      "icon": "island"
+    },
+    "levels": [
+      0,
+      1,
+      4,
+      8,
+      10,
+      11,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-la-colmena-cimarrona-vieques"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    },
+    "topRank": 6,
+    "hasExpandedProfile": true,
+    "imageUrl": "",
+    "sourceUrl": ""
+  },
+  {
+    "id": "la-semillera-vieques",
+    "sourceOrder": 15,
+    "name": "La Semillera — Vieques",
+    "region": "Vieques / Luján",
+    "categories": [
+      "finca-escuela",
+      "educación",
+      "agroecología",
+      "apicultura",
+      "justicia alimentaria",
+      "capacitación comunitaria."
+    ],
+    "description": "Finca-escuela de La Colmena Cimarrona dedicada a formación agroecológica, apicultura, capacitación comunitaria y producción agrícola culturalmente viable",
+    "biome": "Islas Resilientes",
+    "avatar": {
+      "name": "Navegante Cimarrona",
+      "role": "Guía de soberanía alimentaria insular, apicultura y comunidad",
+      "icon": "island"
+    },
+    "levels": [
+      0,
+      1,
+      5,
+      8,
+      11,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-la-semillera-vieques"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    },
+    "topRank": 7,
+    "hasExpandedProfile": true,
+    "imageUrl": "",
+    "sourceUrl": ""
+  },
+  {
+    "id": "la-finca-de-hamberto-vieques",
+    "sourceOrder": 16,
+    "name": "La Finca de Hamberto — Vieques",
+    "region": "Vieques",
+    "categories": [
+      "finca familiar",
+      "agricultura tradicional",
+      "saberes locales",
+      "soberanía alimentaria",
+      "memoria campesina."
+    ],
+    "description": "Finca familiar viequense que representa la persistencia de saberes agrícolas locales, cultivos de subsistencia y transmisión práctica de conocimiento campesino",
+    "biome": "Islas Resilientes",
+    "avatar": {
+      "name": "Navegante Cimarrona",
+      "role": "Guía de soberanía alimentaria insular, apicultura y comunidad",
+      "icon": "island"
+    },
+    "levels": [
+      0,
+      1,
+      3,
+      5,
+      11,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-la-finca-de-hamberto-vieques"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "proyecto-siembra-culebra",
+    "sourceOrder": 17,
+    "name": "Proyecto Siembra — Culebra",
+    "region": "Culebra",
+    "categories": [
+      "huertos comunitarios",
+      "educación",
+      "juventud",
+      "mercado local",
+      "seguridad alimentaria",
+      "resiliencia insular."
+    ],
+    "description": "Iniciativa de Mujeres de Islas que promueve huertos comunitarios, educación en siembra, nutrición, mercados locales y respuesta comunitaria ante emergencias",
+    "biome": "Islas Resilientes",
+    "avatar": {
+      "name": "Navegante Cimarrona",
+      "role": "Guía de soberanía alimentaria insular, apicultura y comunidad",
+      "icon": "island"
+    },
+    "levels": [
+      0,
+      1,
+      4,
+      5,
+      10,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-proyecto-siembra-culebra"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    },
+    "topRank": 8,
+    "hasExpandedProfile": true,
+    "imageUrl": "",
+    "sourceUrl": ""
+  },
+  {
+    "id": "finca-gripinas-jayuya",
+    "sourceOrder": 18,
+    "name": "Finca Gripinas — Jayuya",
+    "region": "Cordillera Central / Jayuya",
+    "categories": [
+      "café bajo sombra",
+      "agroforestería",
+      "montaña",
+      "conservación de suelo",
+      "frutos menores",
+      "finca familiar."
+    ],
+    "description": "Finca de café ecológico en la montaña de Jayuya, con sombra, frutos menores, protección de suelo y manejo agroecológico en zona cafetalera",
+    "biome": "Bosque, Carso y Biodiversidad",
+    "avatar": {
+      "name": "Arquitecta del Bosque Comestible",
+      "role": "Guía de agroforestería, biodiversidad y conservación",
+      "icon": "tree"
+    },
+    "levels": [
+      0,
+      1,
+      2,
+      5,
+      7,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-finca-gripinas-jayuya"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "amasar-jayuya",
+    "sourceOrder": 19,
+    "name": "Amasar — Jayuya",
+    "region": "Cordillera Central / Jayuya",
+    "categories": [
+      "pana",
+      "agroindustria local",
+      "valor añadido",
+      "agroforestería",
+      "finca familiar",
+      "economía rural."
+    ],
+    "description": "Agroempresa y finca dedicada a la pana/panapén, con productos de valor añadido, agroforestería e innovación alimentaria desde la montaña",
+    "biome": "Economía Solidaria y Mercados",
+    "avatar": {
+      "name": "Tejedora de Intercambios",
+      "role": "Guía de mercados, valor añadido y cooperación",
+      "icon": "basket"
+    },
+    "levels": [
+      0,
+      1,
+      5,
+      7,
+      9,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-amasar-jayuya"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "finca-mi-casa-camuy",
+    "sourceOrder": 20,
+    "name": "Finca Mi Casa — Camuy",
+    "region": "Norte / Camuy",
+    "categories": [
+      "hortalizas",
+      "finca familiar",
+      "brigadas",
+      "producción local",
+      "educación práctica."
+    ],
+    "description": "Finca agroecológica de hortalizas reconocida en redes de voluntariado, brigadas y producción local para el norte-central",
+    "biome": "Archipiélago Vivo",
+    "avatar": {
+      "name": "Yocahú",
+      "role": "Mentor sistémico del archipiélago agroecológico",
+      "icon": "spiral"
+    },
+    "levels": [
+      0,
+      1,
+      5,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-finca-mi-casa-camuy"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "la-microfinca-camuy",
+    "sourceOrder": 21,
+    "name": "La Microfinca — Camuy",
+    "region": "Norte / Camuy–Hatillo–Arecibo",
+    "categories": [
+      "microfinca",
+      "hortalizas",
+      "microgerminados",
+      "canastas",
+      "agricultura intensiva ecológica",
+      "venta directa."
+    ],
+    "description": "Proyecto de producción intensiva de hortalizas y microgerminados, articulado a canastas y circuitos cortos de distribución regional",
+    "biome": "Economía Solidaria y Mercados",
+    "avatar": {
+      "name": "Tejedora de Intercambios",
+      "role": "Guía de mercados, valor añadido y cooperación",
+      "icon": "basket"
+    },
+    "levels": [
+      0,
+      1,
+      5,
+      10,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-la-microfinca-camuy"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "finca-el-paraiso-arecibo",
+    "sourceOrder": 22,
+    "name": "Finca El Paraíso — Arecibo",
+    "region": "Norte / Arecibo",
+    "categories": [
+      "finca familiar",
+      "agroecología",
+      "producción local",
+      "educación audiovisual",
+      "norte agrícola."
+    ],
+    "description": "Finca incluida en la memoria audiovisual del movimiento agroecológico puertorriqueño; representa la producción ecológica del norte y la diversidad de experiencias familiares",
+    "biome": "Archipiélago Vivo",
+    "avatar": {
+      "name": "Yocahú",
+      "role": "Mentor sistémico del archipiélago agroecológico",
+      "icon": "spiral"
+    },
+    "levels": [
+      0,
+      1,
+      5,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-finca-el-paraiso-arecibo"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "finca-artesanal-aguas-buenas",
+    "sourceOrder": 23,
+    "name": "Finca Artesanal — Aguas Buenas",
+    "region": "Centro-este / Aguas Buenas",
+    "categories": [
+      "finca familiar",
+      "agroarte",
+      "producción agrícola",
+      "cultura popular",
+      "emprendimiento local."
+    ],
+    "description": "Empresa familiar que une agricultura, arte y vínculo con la tierra, aportando a la diversidad de formas productivas en la zona central-este",
+    "biome": "Archipiélago Vivo",
+    "avatar": {
+      "name": "Yocahú",
+      "role": "Mentor sistémico del archipiélago agroecológico",
+      "icon": "spiral"
+    },
+    "levels": [
+      0,
+      1,
+      4,
+      5,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-finca-artesanal-aguas-buenas"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "finca-la-zafra-gurabo",
+    "sourceOrder": 24,
+    "name": "Finca La Zafra — Gurabo",
+    "region": "Este interior / Gurabo",
+    "categories": [
+      "finca familiar",
+      "agroturismo",
+      "producción agroecológica",
+      "educación al visitante",
+      "cultura agrícola."
+    ],
+    "description": "Finca familiar agroecológica y agroturística que ofrece recorridos, experiencias agrícolas y productos frescos desde el valle interior oriental",
+    "biome": "Economía Solidaria y Mercados",
+    "avatar": {
+      "name": "Tejedora de Intercambios",
+      "role": "Guía de mercados, valor añadido y cooperación",
+      "icon": "basket"
+    },
+    "levels": [
+      0,
+      1,
+      5,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-finca-la-zafra-gurabo"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "finca-nueva-creacion-humacao",
+    "sourceOrder": 25,
+    "name": "Finca Nueva Creación — Humacao",
+    "region": "Este / Humacao",
+    "categories": [
+      "agricultura regenerativa",
+      "finca biodiversa",
+      "agroecología",
+      "educación",
+      "restauración",
+      "mujeres/familia."
+    ],
+    "description": "Finca biodiversa y regenerativa trabajada en Humacao, con énfasis en agroecología, restauración ecológica y comunidad",
+    "biome": "Archipiélago Vivo",
+    "avatar": {
+      "name": "Yocahú",
+      "role": "Mentor sistémico del archipiélago agroecológico",
+      "icon": "spiral"
+    },
+    "levels": [
+      0,
+      1,
+      5,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-finca-nueva-creacion-humacao"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "finca-el-guajonal-yabucoa",
+    "sourceOrder": 26,
+    "name": "Finca El Guajonal — Yabucoa",
+    "region": "Sureste / Yabucoa",
+    "categories": [
+      "tubérculos tropicales",
+      "raíces y rizomas",
+      "conservación de suelo",
+      "finca familiar",
+      "seguridad alimentaria."
+    ],
+    "description": "Finca de montaña costera donde se cultivan tubérculos, jengibre, cúrcuma, frutas y vegetales, con barreras vivas y manejo de suelo",
+    "biome": "Bosque, Carso y Biodiversidad",
+    "avatar": {
+      "name": "Arquitecta del Bosque Comestible",
+      "role": "Guía de agroforestería, biodiversidad y conservación",
+      "icon": "tree"
+    },
+    "levels": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-finca-el-guajonal-yabucoa"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "finca-caribe-sureste-de-puerto-rico",
+    "sourceOrder": 27,
+    "name": "Finca Caribe — sureste de Puerto Rico",
+    "region": "Sureste / Yabucoa y región aledaña",
+    "categories": [
+      "producción ecológica",
+      "agroforestería",
+      "tienda de finca",
+      "educación",
+      "comunidad",
+      "sureste agrícola."
+    ],
+    "description": "Proyecto de producción ecológica del sureste que trabaja cosechas frescas, siembras agroforestales, educación y redes de economía agrícola local",
+    "biome": "Bosque, Carso y Biodiversidad",
+    "avatar": {
+      "name": "Arquitecta del Bosque Comestible",
+      "role": "Guía de agroforestería, biodiversidad y conservación",
+      "icon": "tree"
+    },
+    "levels": [
+      0,
+      1,
+      5,
+      7,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-finca-caribe-sureste-de-puerto-rico"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "finca-agroecologica-la-comarka-utuado",
+    "sourceOrder": 28,
+    "name": "Finca Agroecológica La Comarka — Utuado",
+    "region": "Cordillera Central / Utuado",
+    "categories": [
+      "finca de montaña",
+      "agroecología",
+      "canastas/CSA",
+      "valor añadido",
+      "venta directa",
+      "resiliencia rural."
+    ],
+    "description": "Finca agroecológica de montaña vinculada a producción local, valor añadido, canastas y circuitos de venta directa en el centro-oeste",
+    "biome": "Economía Solidaria y Mercados",
+    "avatar": {
+      "name": "Tejedora de Intercambios",
+      "role": "Guía de mercados, valor añadido y cooperación",
+      "icon": "basket"
+    },
+    "levels": [
+      0,
+      1,
+      4,
+      5,
+      9,
+      10,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-finca-agroecologica-la-comarka-utuado"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "finca-otoao-utuado",
+    "sourceOrder": 29,
+    "name": "Finca Otoao — Utuado",
+    "region": "Cordillera Central / Utuado",
+    "categories": [
+      "finca familiar",
+      "montaña",
+      "café/frutales",
+      "agroturismo",
+      "identidad taína-campesina",
+      "producción local."
+    ],
+    "description": "Finca ubicada en Utuado que representa el resurgir de proyectos familiares de montaña, café, frutales, turismo rural y conexión con paisaje campesino",
+    "biome": "Economía Solidaria y Mercados",
+    "avatar": {
+      "name": "Tejedora de Intercambios",
+      "role": "Guía de mercados, valor añadido y cooperación",
+      "icon": "basket"
+    },
+    "levels": [
+      0,
+      1,
+      5,
+      7,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-finca-otoao-utuado"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "bosque-jardin-pachamama-oeste-de-puerto-rico",
+    "sourceOrder": 30,
+    "name": "Bosque Jardín Pachamama — oeste de Puerto Rico",
+    "region": "Oeste / Mayagüez y zona montañosa occidental",
+    "categories": [
+      "bosque comestible",
+      "semillas",
+      "biodiversidad",
+      "frutales",
+      "agroforestería",
+      "educación."
+    ],
+    "description": "Proyecto agroecológico y bosque-jardín enfocado en frutales, tubérculos, café, cacao, plantas ornamentales, semillas vivas y biodiversidad cultivada",
+    "biome": "Bosque, Carso y Biodiversidad",
+    "avatar": {
+      "name": "Arquitecta del Bosque Comestible",
+      "role": "Guía de agroforestería, biodiversidad y conservación",
+      "icon": "tree"
+    },
+    "levels": [
+      0,
+      1,
+      3,
+      7,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-bosque-jardin-pachamama-oeste-de-puerto-rico"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "productos-montemar-aguadilla-cabo-rojo",
+    "sourceOrder": 31,
+    "name": "Productos Montemar — Aguadilla / Cabo Rojo",
+    "region": "Oeste / Aguadilla–Cabo Rojo",
+    "categories": [
+      "valor añadido",
+      "procesamiento",
+      "energía solar",
+      "agroecología",
+      "mercados",
+      "mujeres productoras."
+    ],
+    "description": "Proyecto de procesamiento y valor añadido que trabaja con cosechas locales, deshidratación solar, aguacate, productos artesanales y mercados agroecológicos",
+    "biome": "Economía Solidaria y Mercados",
+    "avatar": {
+      "name": "Tejedora de Intercambios",
+      "role": "Guía de mercados, valor añadido y cooperación",
+      "icon": "basket"
+    },
+    "levels": [
+      0,
+      1,
+      4,
+      9,
+      10,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-productos-montemar-aguadilla-cabo-rojo"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "la-botica-de-la-tierra-rio-piedras-cabo-rojo",
+    "sourceOrder": 32,
+    "name": "La Botica de la Tierra — Río Piedras / Cabo Rojo",
+    "region": "Metro y suroeste / Río Piedras–Cabo Rojo",
+    "categories": [
+      "finca-escuela",
+      "silvopastoreo",
+      "fermentación",
+      "animales",
+      "restauración ecológica",
+      "semillas",
+      "educación."
+    ],
+    "description": "Finca-escuela de resiliencia, restauración de terrenos intervenidos, crianza amorosa de animales, fermentación, procesamiento de cosechas y sistemas silvopastoriles",
+    "biome": "Huertos, Escuelas y Universidad",
+    "avatar": {
+      "name": "Maestra del Conuco Vivo",
+      "role": "Guía de aprendizaje práctico, huertos y educación pública",
+      "icon": "book-open"
+    },
+    "levels": [
+      0,
+      1,
+      3,
+      5,
+      7,
+      8,
+      9,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-la-botica-de-la-tierra-rio-piedras-cabo-rojo"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "siembra-tres-vidas-aibonito",
+    "sourceOrder": 33,
+    "name": "Siembra Tres Vidas — Aibonito",
+    "region": "Montaña central / Aibonito",
+    "categories": [
+      "hortalizas",
+      "flores comestibles",
+      "permacultura",
+      "educación",
+      "resiliencia climática",
+      "mujeres en agroecología."
+    ],
+    "description": "Finca agroecológica de hortalizas, plantas aromáticas y flores comestibles que integra resiliencia climática, educación y acceso a alimentos sanos",
+    "biome": "Bosque, Carso y Biodiversidad",
+    "avatar": {
+      "name": "Arquitecta del Bosque Comestible",
+      "role": "Guía de agroforestería, biodiversidad y conservación",
+      "icon": "tree"
+    },
+    "levels": [
+      0,
+      1,
+      4,
+      5,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-siembra-tres-vidas-aibonito"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    },
+    "topRank": 9,
+    "hasExpandedProfile": true,
+    "imageUrl": "",
+    "sourceUrl": ""
+  },
+  {
+    "id": "trama-aibonito",
+    "sourceOrder": 34,
+    "name": "Trama — Aibonito",
+    "region": "Montaña central / Aibonito",
+    "categories": [
+      "fibras naturales",
+      "tintes",
+      "agrocultura",
+      "artesanía",
+      "investigación",
+      "mujeres",
+      "agroecología textil."
+    ],
+    "description": "Colectivo enfocado en investigación, siembra y producción de fibras y tintes naturales, integrando agroecología con artesanía textil y cultura material puertorriqueña",
+    "biome": "Montaña Viva",
+    "avatar": {
+      "name": "Guardiana de Laderas",
+      "role": "Guía de suelos, agua, sombra y resiliencia de montaña",
+      "icon": "mountain"
+    },
+    "levels": [
+      0,
+      1,
+      9,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-trama-aibonito"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "armonia-en-la-montana-aibonito",
+    "sourceOrder": 35,
+    "name": "Armonía en la Montaña — Aibonito",
+    "region": "Montaña central / Aibonito–Barranquitas–Orocovis",
+    "categories": [
+      "alianza agroecológica",
+      "centro de acopio",
+      "CSA",
+      "energía solar",
+      "distribución solidaria",
+      "justicia alimentaria."
+    ],
+    "description": "Alianza entre Trama y Siembra Tres Vidas que articula fincas, centro de acopio, distribución solidaria, refrigeración solar y acceso comunitario a alimentos",
+    "biome": "Economía Solidaria y Mercados",
+    "avatar": {
+      "name": "Tejedora de Intercambios",
+      "role": "Guía de mercados, valor añadido y cooperación",
+      "icon": "basket"
+    },
+    "levels": [
+      0,
+      1,
+      10,
+      11,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-armonia-en-la-montana-aibonito"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "finca-pastoreo-dorado",
+    "sourceOrder": 36,
+    "name": "Finca Pastoreo — Dorado",
+    "region": "Norte / Dorado",
+    "categories": [
+      "animales pastoriles",
+      "huevos/carnes locales",
+      "agroturismo",
+      "educación",
+      "manejo regenerativo",
+      "producción diversificada."
+    ],
+    "description": "Finca agroecológica con crianza de animales pastoriles, productos de finca, experiencias educativas y énfasis en alimentación natural",
+    "biome": "Economía Solidaria y Mercados",
+    "avatar": {
+      "name": "Tejedora de Intercambios",
+      "role": "Guía de mercados, valor añadido y cooperación",
+      "icon": "basket"
+    },
+    "levels": [
+      0,
+      1,
+      5,
+      8,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-finca-pastoreo-dorado"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "finca-gaia-dorado",
+    "sourceOrder": 37,
+    "name": "Finca Gaia — Dorado",
+    "region": "Norte kárstico / Dorado",
+    "categories": [
+      "agroforestería",
+      "conservación",
+      "silvicultura",
+      "bosque del carso",
+      "educación ambiental",
+      "agroturismo."
+    ],
+    "description": "Finca y bosque natural del carso con agroforestería, conservación, silvicultura, árboles frutales, educación ecológica y recorridos de bienestar en bosque",
+    "biome": "Economía Solidaria y Mercados",
+    "avatar": {
+      "name": "Tejedora de Intercambios",
+      "role": "Guía de mercados, valor añadido y cooperación",
+      "icon": "basket"
+    },
+    "levels": [
+      0,
+      1,
+      5,
+      7,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-finca-gaia-dorado"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "finca-marisol-orocovis",
+    "sourceOrder": 38,
+    "name": "Finca Marisol — Orocovis",
+    "region": "Centro montañoso / Orocovis",
+    "categories": [
+      "finca familiar",
+      "montaña",
+      "agroecología",
+      "hortalizas",
+      "conocimiento campesino",
+      "producción local."
+    ],
+    "description": "Proyecto de finca familiar de montaña que representa la producción agroecológica en microclimas altos y húmedos de la Cordillera Central",
+    "biome": "Montaña Viva",
+    "avatar": {
+      "name": "Guardiana de Laderas",
+      "role": "Guía de suelos, agua, sombra y resiliencia de montaña",
+      "icon": "mountain"
+    },
+    "levels": [
+      0,
+      1,
+      5,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-finca-marisol-orocovis"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "escuela-agroecologica-botijas-1-orocovis",
+    "sourceOrder": 39,
+    "name": "Escuela Agroecológica Botijas 1 — Orocovis",
+    "region": "Centro montañoso / Orocovis",
+    "categories": [
+      "huerto escolar",
+      "educación pública",
+      "semillas",
+      "agroecología escolar",
+      "juventud",
+      "comunidad."
+    ],
+    "description": "Proyecto escolar agroecológico liderado desde la educación pública, con huerto, semillas, aprendizaje práctico y vínculo entre escuela, agricultura y comunidad",
+    "biome": "Huertos, Escuelas y Universidad",
+    "avatar": {
+      "name": "Maestra del Conuco Vivo",
+      "role": "Guía de aprendizaje práctico, huertos y educación pública",
+      "icon": "book-open"
+    },
+    "levels": [
+      0,
+      1,
+      3,
+      5,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-escuela-agroecologica-botijas-1-orocovis"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "finca-la-jungla-orocovis",
+    "sourceOrder": 40,
+    "name": "Finca La Jungla — Orocovis",
+    "region": "Centro montañoso / Orocovis",
+    "categories": [
+      "hortalizas",
+      "finca de montaña",
+      "educación práctica",
+      "voluntariado",
+      "producción agroecológica."
+    ],
+    "description": "Finca agroecológica de hortalizas en zona montañosa, reconocida en redes de formación y voluntariado agroecológico",
+    "biome": "Montaña Viva",
+    "avatar": {
+      "name": "Guardiana de Laderas",
+      "role": "Guía de suelos, agua, sombra y resiliencia de montaña",
+      "icon": "mountain"
+    },
+    "levels": [
+      0,
+      1,
+      5,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-finca-la-jungla-orocovis"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "finca-cinco-elementos-naranjito",
+    "sourceOrder": 41,
+    "name": "Finca Cinco Elementos — Naranjito",
+    "region": "Centro-norte / Naranjito",
+    "categories": [
+      "hortalizas",
+      "finca familiar",
+      "voluntariado",
+      "educación práctica",
+      "agroecología de montaña."
+    ],
+    "description": "Finca de hortalizas integrada a redes de voluntariado y formación, representativa de la agricultura ecológica en laderas húmedas del centro-norte",
+    "biome": "Montaña Viva",
+    "avatar": {
+      "name": "Guardiana de Laderas",
+      "role": "Guía de suelos, agua, sombra y resiliencia de montaña",
+      "icon": "mountain"
+    },
+    "levels": [
+      0,
+      1,
+      5,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-finca-cinco-elementos-naranjito"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "cooperativa-organica-madre-tierra-puerto-rico",
+    "sourceOrder": 42,
+    "name": "Cooperativa Orgánica Madre Tierra — Puerto Rico",
+    "region": "Área metro con alcance nacional / San Juan",
+    "categories": [
+      "cooperativa",
+      "mercado orgánico",
+      "agricultura ecológica",
+      "educación",
+      "consumo responsable",
+      "economía solidaria."
+    ],
+    "description": "Cooperativa mixta y mercado orgánico que reúne agricultores, elaboradores, consumidores y educadores en torno a productos locales, salud y cooperativismo",
+    "biome": "Economía Solidaria y Mercados",
+    "avatar": {
+      "name": "Tejedora de Intercambios",
+      "role": "Guía de mercados, valor añadido y cooperación",
+      "icon": "basket"
+    },
+    "levels": [
+      0,
+      1,
+      10,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-cooperativa-organica-madre-tierra-puerto-rico"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "mercado-agroecologico-de-rincon-rincon",
+    "sourceOrder": 43,
+    "name": "Mercado Agroecológico de Rincón — Rincón",
+    "region": "Oeste costero / Rincón",
+    "categories": [
+      "mercado agrícola",
+      "venta directa",
+      "economía local",
+      "agroecología",
+      "cultura comunitaria",
+      "oeste."
+    ],
+    "description": "Mercado regional que conecta productores agroecológicos, artesanos y consumidores, fortaleciendo circuitos cortos y cultura alimentaria local del oeste",
+    "biome": "Economía Solidaria y Mercados",
+    "avatar": {
+      "name": "Tejedora de Intercambios",
+      "role": "Guía de mercados, valor añadido y cooperación",
+      "icon": "basket"
+    },
+    "levels": [
+      0,
+      1,
+      10,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-mercado-agroecologico-de-rincon-rincon"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "mercado-natural-del-viejo-san-juan-san-juan",
+    "sourceOrder": 44,
+    "name": "Mercado Natural del Viejo San Juan — San Juan",
+    "region": "Metro / Viejo San Juan",
+    "categories": [
+      "mercado urbano",
+      "venta directa",
+      "productos locales",
+      "educación alimentaria",
+      "conexión campo-ciudad."
+    ],
+    "description": "Mercado urbano de productos agrícolas frescos y locales, importante para conectar la ciudad capital con agricultores de distintas regiones",
+    "biome": "Economía Solidaria y Mercados",
+    "avatar": {
+      "name": "Tejedora de Intercambios",
+      "role": "Guía de mercados, valor añadido y cooperación",
+      "icon": "basket"
+    },
+    "levels": [
+      0,
+      1,
+      9,
+      10,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-mercado-natural-del-viejo-san-juan-san-juan"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "mercado-agricola-de-aguadilla-aguadilla",
+    "sourceOrder": 45,
+    "name": "Mercado Agrícola de Aguadilla — Aguadilla",
+    "region": "Noroeste / Aguadilla",
+    "categories": [
+      "mercado agrícola",
+      "venta directa",
+      "noroeste",
+      "productos frescos",
+      "economía local",
+      "valor añadido."
+    ],
+    "description": "Mercado regional del noroeste que sirve como punto de venta para fincas y productos agroecológicos, incluyendo proyectos de valor añadido del oeste",
+    "biome": "Economía Solidaria y Mercados",
+    "avatar": {
+      "name": "Tejedora de Intercambios",
+      "role": "Guía de mercados, valor añadido y cooperación",
+      "icon": "basket"
+    },
+    "levels": [
+      0,
+      1,
+      4,
+      9,
+      10,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-mercado-agricola-de-aguadilla-aguadilla"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "huerto-semilla-upr-rio-piedras",
+    "sourceOrder": 46,
+    "name": "Huerto Semilla — UPR Río Piedras",
+    "region": "Metro / Río Piedras",
+    "categories": [
+      "huerto urbano",
+      "universidad",
+      "educación",
+      "soberanía alimentaria",
+      "justicia social",
+      "composta",
+      "brigadas."
+    ],
+    "description": "Huerto urbano, comunitario y agroecológico universitario que promueve soberanía alimentaria, brigadas, composta, educación y justicia social desde Río Piedras",
+    "biome": "Huertos, Escuelas y Universidad",
+    "avatar": {
+      "name": "Maestra del Conuco Vivo",
+      "role": "Guía de aprendizaje práctico, huertos y educación pública",
+      "icon": "book-open"
+    },
+    "levels": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      11,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-huerto-semilla-upr-rio-piedras"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    },
+    "topRank": 10,
+    "hasExpandedProfile": true,
+    "imageUrl": "",
+    "sourceUrl": ""
+  },
+  {
+    "id": "proyecto-agroecologico-urbano-intermedia-berwind-san-juan",
+    "sourceOrder": 47,
+    "name": "Proyecto Agroecológico Urbano Intermedia Berwind — San Juan",
+    "region": "Metro / San Juan",
+    "categories": [
+      "huerto escolar",
+      "agroecología urbana",
+      "educación pública",
+      "juventud",
+      "comunidad",
+      "seguridad alimentaria."
+    ],
+    "description": "Proyecto escolar urbano que inspira la agroecología desde la escuela pública, vinculando huerto, educación ambiental, soberanía alimentaria y comunidad",
+    "biome": "Huertos, Escuelas y Universidad",
+    "avatar": {
+      "name": "Maestra del Conuco Vivo",
+      "role": "Guía de aprendizaje práctico, huertos y educación pública",
+      "icon": "book-open"
+    },
+    "levels": [
+      0,
+      1,
+      4,
+      5,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-proyecto-agroecologico-urbano-intermedia-berwind-san-juan"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "conucos-red-de-huertos-escolares-de-puerto-rico-puerto-rico",
+    "sourceOrder": 48,
+    "name": "Conucos: red de huertos escolares de Puerto Rico — Puerto Rico",
+    "region": "Puerto Rico",
+    "categories": [
+      "red escolar",
+      "huertos",
+      "educación agroecológica",
+      "semillas",
+      "niñez y juventud",
+      "cultura alimentaria."
+    ],
+    "description": "Red de huertos escolares liderada por maestras, educadoras y universidad pública para sembrar agroecología, semillas, nutrición y cultura agrícola en escuelas",
+    "biome": "Huertos, Escuelas y Universidad",
+    "avatar": {
+      "name": "Maestra del Conuco Vivo",
+      "role": "Guía de aprendizaje práctico, huertos y educación pública",
+      "icon": "book-open"
+    },
+    "levels": [
+      0,
+      1,
+      3,
+      5,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-conucos-red-de-huertos-escolares-de-puerto-rico-puerto-rico"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "bachillerato-en-agricultura-sustentable-upr-utuado",
+    "sourceOrder": 49,
+    "name": "Bachillerato en Agricultura Sustentable — UPR Utuado",
+    "region": "Cordillera Central / Utuado y red universitaria",
+    "categories": [
+      "educación universitaria",
+      "agricultura sustentable",
+      "investigación",
+      "fincas familiares",
+      "resiliencia",
+      "formación técnica."
+    ],
+    "description": "Programa académico interdisciplinario que forma estudiantes en agricultura sustentable, resiliencia agroecológica y apoyo a fincas familiares",
+    "biome": "Huertos, Escuelas y Universidad",
+    "avatar": {
+      "name": "Maestra del Conuco Vivo",
+      "role": "Guía de aprendizaje práctico, huertos y educación pública",
+      "icon": "book-open"
+    },
+    "levels": [
+      0,
+      1,
+      4,
+      5,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-bachillerato-en-agricultura-sustentable-upr-utuado"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  },
+  {
+    "id": "visit-rico-puerto-rico",
+    "sourceOrder": 50,
+    "name": "Visit Rico — Puerto Rico",
+    "region": "Puerto Rico",
+    "categories": [
+      "agroturismo",
+      "apoyo a agricultores",
+      "educación",
+      "economía local",
+      "turismo sostenible",
+      "seguridad alimentaria."
+    ],
+    "description": "Organización sin fines de lucro de agroturismo y apoyo a agricultores que promueve experiencias educativas, acceso a productos locales y fortalecimiento de fincas",
+    "biome": "Economía Solidaria y Mercados",
+    "avatar": {
+      "name": "Tejedora de Intercambios",
+      "role": "Guía de mercados, valor añadido y cooperación",
+      "icon": "basket"
+    },
+    "levels": [
+      0,
+      1,
+      4,
+      12
+    ],
+    "featured": true,
+    "challengeIds": [
+      "reto-visit-rico-puerto-rico"
+    ],
+    "resources": [],
+    "futureFields": {
+      "website": "",
+      "mapUrl": "",
+      "image": "",
+      "interviewAudio": "",
+      "contact": "",
+      "verificationStatus": "pendiente"
+    }
+  }
+]

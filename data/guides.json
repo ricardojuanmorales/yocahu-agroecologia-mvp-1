@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "title": "Guías de usuario y documentación del MVP",
+    "version": "0.2.2"
+  },
+  "guides": [
+    {
+      "id": "user-guide",
+      "title": "Guía de usuario",
+      "summary": "Instrucciones breves para navegar, completar actividades, exportar/importar progreso y usar la PWA offline.",
+      "path": "docs/user-guide.md",
+      "content": "# Guía de usuario · Yocahú Agroecología PR\n\n## Cómo usar la aplicación\n\n1. Entra a **Inicio** para ver tu nivel actual, puntos y badges.\n2. Abre **Mapa** y comienza por el primer nivel disponible.\n3. Lee la pregunta guía, revisa conceptos y completa las actividades interactivas.\n4. Visita **Proyectos** para explorar los 50 proyectos insignia. Toca una tarjeta para abrir su ficha compacta. Las tarjetas marcadas con ⭐ tienen perfil aumentado en la sección **Top 11**.\n5. Usa **Yocahú Prompts** para copiar prompts recomendados y trabajarlos en una conversación aparte.\n6. En **Progreso**, exporta tu avance como JSON o importa un archivo válido.\n7. En **Capstone**, desarrolla “Mi Agroecosistema Boricua” y guarda tus notas localmente.\n\n## Guardado y privacidad\n\nEl progreso se guarda en el navegador con LocalStorage. No hay login, servidor ni base de datos remota. Si cambias de equipo o navegador, exporta tu avance JSON primero.\n\n## Uso offline\n\nPara instalar y usar offline, sirve la carpeta por `localhost` o HTTPS. Los navegadores no activan service workers desde `file://`.\n\n```bash\npython3 -m http.server 8000\n```\n\nLuego abre `http://localhost:8000`.\n\n## Consejos de estudio\n\nTrabaja poco a poco. Cada nivel funciona como una caminata corta por el archipiélago: observa, compara, diseña y reflexiona.\n"
+    },
+    {
+      "id": "app-readme",
+      "title": "README general del app",
+      "summary": "Arquitectura, archivos principales, mantenimiento y principios técnicos del MVP.",
+      "path": "docs/app-readme.md",
+      "content": "# README general · Yocahú Agroecología PR\n\n**Yocahú Agroecología PR: Viaje por el Archipiélago Vivo** es una PWA educativa móvil para estudiar agroecología universitaria desde Puerto Rico, Vieques y Culebra.\n\n## Arquitectura\n\n- `index.html`: aplicación principal HTML/CSS/JS vanilla.\n- `manifest.json`: metadatos de instalación PWA.\n- `sw.js`: service worker para modo offline.\n- `data/*.json`: contenido editable.\n- `docs/*.md`: guías y documentación.\n- `assets/icons/*`: íconos de la PWA.\n\n## Datos principales\n\n- `data/levels.json`\n- `data/activities.json`\n- `data/projects.json`\n- `data/project_fichas_compactas.json`\n- `data/prompts.json`\n- `data/badges.json`\n- `data/rubric.json`\n- `data/guides.json`\n\n## Principios del MVP\n\nNo requiere backend, login, base de datos remota ni API GPT. El progreso vive en LocalStorage y puede exportarse o importarse como JSON.\n\n## Mantenimiento\n\nPara editar contenido curricular, modifica los archivos JSON en `/data`. Para modificar experiencia visual o lógica, edita `index.html`. Si agregas archivos que deban funcionar offline, inclúyelos también en `sw.js`.\n\n\n## Datos nuevos v0.2.2\n\n- `data/project_fichas_compactas.json`: 50 fichas compactas con campos opcionales `imageUrl`, `imageAlt`, `sourceUrl` y `sourceLabel`.\n- `data/top_project_profiles.json`: perfiles aumentados Top 11, derivados del Lote A+.\n- Las tarjetas de proyectos con ⭐ abren perfil aumentado; las demás mantienen ficha compacta.\n"
+    }
+  ]
+}
