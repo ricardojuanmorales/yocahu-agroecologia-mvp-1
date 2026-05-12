@@ -1,4 +1,4 @@
-const CACHE_NAME = 'yocahu-agroecologia-pr-v0-2-6';
+const CACHE_NAME = 'yocahu-agroecologia-pr-v0-2-7';
 const STATIC_ASSETS = [
   './manifest.json',
   './data/app.json',
@@ -35,6 +35,10 @@ self.addEventListener('fetch', event => {
   if (request.method !== 'GET') return;
 
   const url = new URL(request.url);
+
+  // Ignorar URLs que el SW no puede cachear (extensiones, chrome-internal, etc.)
+  if (!url.protocol.startsWith('http')) return;
+
   const isNavigation = request.mode === 'navigate';
   const isHTML = url.pathname.endsWith('.html') || url.pathname.endsWith('/');
 
