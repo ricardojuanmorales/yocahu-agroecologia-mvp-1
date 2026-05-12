@@ -992,6 +992,7 @@
     function renderProgreso() {
       const s = progressSummary();
       const badges = state.progress.badges.map(badgeById).filter(Boolean);
+      const p = state.userProfile || {};
       app.innerHTML = `
         <div class="section-title"><h2>Progreso</h2><button class="secondary" onclick="App.go('inicio')">Inicio</button></div>
         <section class="grid four">
@@ -1000,10 +1001,32 @@
           ${statCard('Actividades', `${s.completedActivities}/${s.totalActivities}`, 'Completadas')}
           ${statCard('Proyectos', state.progress.visitedProjects.length, 'Visitados')}
         </section>
+        <section class="grid two" style="margin-top:1rem">
+          <article class="card">
+            <h3>Mi perfil</h3>
+            <div style="display:flex;flex-direction:column;gap:.75rem">
+              <div><label for="profileName" style="font-weight:700;font-size:.9rem">Nombre o alias</label>
+                <input id="profileName" type="text" style="display:block;width:100%;margin-top:.35rem;padding:.55rem .75rem;border:1px solid rgba(18,53,36,.2);border-radius:.6rem;font:inherit" value="${escapeHTML(p.displayName || '')}" placeholder="Tu nombre o alias"></div>
+              <div><label for="profileRegion" style="font-weight:700;font-size:.9rem">Región de interés</label>
+                <input id="profileRegion" type="text" style="display:block;width:100%;margin-top:.35rem;padding:.55rem .75rem;border:1px solid rgba(18,53,36,.2);border-radius:.6rem;font:inherit" value="${escapeHTML(p.regionInterest || '')}" placeholder="Ej. Vieques, Jayuya, San Juan"></div>
+              <div><label for="profileGoal" style="font-weight:700;font-size:.9rem">Objetivo de aprendizaje</label>
+                <input id="profileGoal" type="text" style="display:block;width:100%;margin-top:.35rem;padding:.55rem .75rem;border:1px solid rgba(18,53,36,.2);border-radius:.6rem;font:inherit" value="${escapeHTML(p.learningGoal || '')}" placeholder="¿Qué quieres aprender o lograr?"></div>
+            </div>
+            <div class="actions" style="margin-top:1rem"><button class="sun" onclick="App.saveUserProfile()">Guardar perfil</button></div>
+          </article>
+          <article class="card">
+            <h3>Exportar e importar logros</h3>
+            <p class="muted small">El archivo JSON incluye tu perfil, puntos, niveles, actividades, badges y notas del capstone. La importación valida el archivo antes de aplicarlo.</p>
+            <div class="actions" style="flex-direction:column;align-items:stretch;gap:.6rem">
+              <button onclick="App.exportProgress()">⬇ Exportar avance JSON</button>
+              <label class="button secondary" for="importFile" style="text-align:center;cursor:pointer">⬆ Importar avance JSON</label>
+              <input class="sr-only" id="importFile" type="file" accept="application/json,.json" onchange="App.importProgress(event)">
+              <button class="clay" onclick="App.resetProgress()">Reiniciar avance</button>
+            </div>
+          </article>
+        </section>
         <section class="card" style="margin-top:1rem">
-          <h3>Exportar, importar y guías</h3>
-          <p class="muted">La exportación incluye <code>appVersion</code>, <code>userProfile</code> y <code>progress</code>. La importación valida que exista <code>progress</code> y no ejecuta contenido del archivo.</p>
-          <div class="actions"><button onclick="App.exportProgress()">Exportar avance JSON</button><label class="button secondary" for="importFile">Importar avance JSON</label><input class="sr-only" id="importFile" type="file" accept="application/json,.json" onchange="App.importProgress(event)"><button class="clay" onclick="App.resetProgress()">Reiniciar avance</button></div>
+          <h3>Guías de uso</h3>
           <div id="guideHost">${renderGuidesPanel()}</div>
         </section>
         <section class="card" style="margin-top:1rem">
@@ -1015,6 +1038,18 @@
           <article class="card"><h3>Proyectos visitados</h3><ul>${state.progress.visitedProjects.map(id => `<li>${escapeHTML(projectById(id)?.name || id)}</li>`).join('') || '<li>Ninguno todavía.</li>'}</ul></article>
         </section>
       `;
+    }
+
+    function saveUserProfile() {
+      const name = $('#profileName')?.value?.trim();
+      const region = $('#profileRegion')?.value?.trim();
+      const goal = $('#profileGoal')?.value?.trim();
+      state.userProfile = state.userProfile || {};
+      if (name !== undefined) state.userProfile.displayName = name || state.userProfile.displayName;
+      if (region !== undefined) state.userProfile.regionInterest = region || state.userProfile.regionInterest;
+      if (goal !== undefined) state.userProfile.learningGoal = goal || state.userProfile.learningGoal;
+      saveState();
+      showToast('Perfil guardado.');
     }
 
     function renderCapstone() {
@@ -1380,7 +1415,8 @@
       saveCapstoneNow,
       exportProgress,
       importProgress,
-      resetProgress
+      resetProgress,
+      saveUserProfile
     };
 
     init().catch(error => {
