@@ -111,10 +111,66 @@ Definida en `data/rubric.json` para el Nivel 12.
 1. Separar `index.html` en módulos (HTML + CSS externo + JS externo)
 2. Añadir imágenes reales a fichas de proyectos
 3. Verificar y completar URLs y contactos de los 50 proyectos
-4. Publicar en GitHub Pages u hosting estático (Netlify, Vercel)
-5. Pruebas de usabilidad con estudiantes universitarios
-6. Panel docente básico
-7. Integración opcional GPT API para Yocahú interactivo
+4. Pruebas de usabilidad con estudiantes universitarios
+5. Panel docente básico
+6. Integración opcional GPT API para Yocahú interactivo
+
+---
+
+## 8. Agenda técnica futura — Autenticación y persistencia en la nube
+
+**Decisión registrada:** 2026-05-11
+
+Conectar la PWA a **Supabase + Google OAuth** para que los usuarios guarden sus avances en un perfil persistente vinculado a su cuenta Google.
+
+### Arquitectura propuesta (MVP v2)
+
+```
+[PWA en GitHub Pages]
+        ↓ Supabase JS SDK (cliente, sin backend propio)
+[Supabase]
+  ├── Auth     → Google OAuth 2.0
+  ├── Database → PostgreSQL: tabla progress, tabla profiles
+  └── Realtime → sync multi-dispositivo (fase posterior)
+```
+
+### Fases de implementación
+
+**Fase 1 — Auth (Supabase + Google OAuth)**
+- Añadir Supabase JS SDK al `index.html`
+- Botón "Entrar con Google" en sección Progreso
+- Al autenticarse: mostrar nombre, foto y email del usuario
+- Sin cambios en cómo se guarda el progreso aún
+
+**Fase 2 — Sincronización de progreso**
+- Al guardar avance: escribir a tabla `progress` en Supabase si hay sesión
+- Al cargar: leer de Supabase si hay sesión activa, si no usar LocalStorage
+- LocalStorage sigue funcionando como caché offline (sin cambios para usuarios no autenticados)
+
+**Fase 3 — Panel docente (aquí entra Render si se necesita)**
+- API REST en Render (Node.js o FastAPI) para lógica de grupo
+- El docente ve progreso agregado de estudiantes por curso
+- Render solo es necesario si se requiere lógica server-side que no pueda ir en el cliente
+
+### Compatibilidad con el stack actual
+
+| Aspecto | Estado |
+|---|---|
+| HTTPS requerido para OAuth | ✅ GitHub Pages sirve HTTPS |
+| LocalStorage como fallback offline | ✅ Se mantiene intacto |
+| Esquema de progreso (`progressSchema`) | ✅ Se mapea directamente a tabla PostgreSQL |
+| Sin backend propio en Fase 1 y 2 | ✅ Supabase SDK corre directo en el navegador |
+| Render | ⏳ Evaluar solo en Fase 3 (panel docente) |
+
+### Variables de entorno necesarias (Fase 1)
+
+```
+SUPABASE_URL=https://xxxx.supabase.co
+SUPABASE_ANON_KEY=eyJ...
+GOOGLE_CLIENT_ID=xxxx.apps.googleusercontent.com  ← configurar en Supabase Auth
+```
+
+> **Nota:** La `ANON_KEY` de Supabase es pública por diseño (se usa en el cliente). La seguridad se gestiona con Row Level Security (RLS) en Supabase: cada usuario solo puede leer y escribir su propio progreso.
 
 ---
 

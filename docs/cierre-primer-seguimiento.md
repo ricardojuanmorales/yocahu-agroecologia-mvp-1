@@ -80,12 +80,25 @@ Antes de iterar más en funcionalidad, probar con al menos 3–5 estudiantes uni
 
 ---
 
-### Paso 6 — Panel docente básico (siguiente versión)
+### Paso 6 — Supabase + Google OAuth (agenda futura confirmada)
+
+Conectar la PWA a Supabase para persistencia de progreso en la nube con autenticación Google. Ver detalles completos en `docs/cierre-compendio-estado.md` sección 8.
+
+Resumen de fases:
+- **Fase 1:** Supabase Auth + Google OAuth → login con cuenta Google
+- **Fase 2:** Sync de progreso LocalStorage → PostgreSQL (Supabase)
+- **Fase 3:** Panel docente con API en Render (solo si se necesita lógica server-side)
+
+No requiere cambiar el hosting (GitHub Pages se mantiene). El SDK de Supabase corre directo en el navegador. LocalStorage sigue funcionando como fallback offline.
+
+---
+
+### Paso 7 — Panel docente básico
 
 Un módulo simple que permita al docente:
-- Ver el progreso exportado de varios estudiantes
+- Ver el progreso de varios estudiantes (desde Supabase en Fase 3)
 - Visualizar badges obtenidos en grupo
-- Agregar notas o retroalimentación a un progreso JSON importado
+- Agregar notas o retroalimentación
 
 ---
 
