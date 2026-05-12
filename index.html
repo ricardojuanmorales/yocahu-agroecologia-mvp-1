@@ -224,7 +224,20 @@
     .markdownish ul { margin-top: .35rem; padding-left: 1.25rem; }
     .guide-tabs { display: flex; flex-wrap: wrap; gap: .45rem; margin-top: .9rem; }
     .guide-tabs button { min-height: 38px; padding: .45rem .7rem; font-size: .9rem; }
-    .guide-panel { margin-top: .75rem; max-height: 26rem; overflow: auto; background: #fff; border-radius: 1rem; border: 1px solid rgba(18,53,36,.12); padding: .85rem; }
+    .guide-panel { margin-top: .75rem; max-height: 56vh; overflow-y: auto; background: #fff; border-radius: 1rem; border: 1px solid rgba(18,53,36,.12); padding: 1rem 1.2rem; }
+    .guide-panel h1 { color: var(--color-canopy); font-size: clamp(1.1rem,3.5vw,1.35rem); margin-top: 1.4rem; border-bottom: 2px solid rgba(18,53,36,.1); padding-bottom: .3rem; }
+    .guide-panel h2 { color: var(--color-canopy); font-size: clamp(1rem,3vw,1.2rem); margin-top: 1.3rem; border-bottom: 1px solid rgba(18,53,36,.08); padding-bottom: .2rem; }
+    .guide-panel h3 { color: var(--color-forest); font-size: 1rem; margin-top: 1.1rem; }
+    .guide-panel h4 { color: var(--color-earth); font-size: .97rem; margin-top: .9rem; }
+    .guide-panel p { margin: .45rem 0; }
+    .guide-panel ul, .guide-panel ol { padding-left: 1.35rem; margin: .4rem 0; }
+    .guide-panel li { margin: .3rem 0; }
+    .guide-panel strong { color: var(--color-earth); font-weight: 800; }
+    .guide-panel em { color: var(--color-river); }
+    .guide-panel code { background: rgba(18,53,36,.09); border-radius: .3rem; padding: .1em .35em; font-size: .88em; font-family: monospace; }
+    .guide-panel pre { background: rgba(18,53,36,.06); border-radius: .6rem; padding: .8rem 1rem; overflow-x: auto; border: 1px solid rgba(18,53,36,.1); margin: .7rem 0; }
+    .guide-panel pre code { background: none; padding: 0; }
+    .guide-panel hr { border: none; border-top: 2px solid rgba(18,53,36,.1); margin: 1rem 0; }
     .answer-modal-panel {
       width: min(94vw, 920px); max-height: min(91vh, 1040px); overflow: hidden;
       background: var(--color-card); border-radius: 1.4rem; box-shadow: 0 28px 80px rgba(0,0,0,.38);
@@ -1314,7 +1327,7 @@
         <div class="guide-tabs" aria-label="Guías y documentación">
           ${guides.map(g => `<button type="button" class="${active?.id === g.id ? 'sun' : 'secondary'}" onclick="App.showGuide(${jsArg(g.id)})">${escapeHTML(g.title)}</button>`).join('')}
         </div>
-        <div id="guidePanel" class="guide-panel markdownish">${formatMarkdownish(active?.content || active?.summary || '')}</div>
+        <div id="guidePanel" class="guide-panel">${renderAnswerMarkdown(active?.content || active?.summary || '')}</div>
       `;
     }
 
