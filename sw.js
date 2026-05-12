@@ -1,4 +1,4 @@
-const CACHE_NAME = 'yocahu-agroecologia-pr-v0-2-7';
+const CACHE_NAME = 'yocahu-agroecologia-pr-v0-2-8';
 const STATIC_ASSETS = [
   './manifest.json',
   './data/app.json',
@@ -9,6 +9,7 @@ const STATIC_ASSETS = [
   './data/badges.json',
   './data/rubric.json',
   './data/guides.json',
+  './data/answers.json',
   './data/top_project_profiles.json',
   './data/project_fichas_compactas.json',
   './assets/icons/yocahu-icon.svg',
