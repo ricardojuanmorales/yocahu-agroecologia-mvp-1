@@ -1,4 +1,4 @@
-const CACHE_NAME = 'yocahu-agroecologia-pr-v0-2-5';
+const CACHE_NAME = 'yocahu-agroecologia-pr-v0-2-6';
 const STATIC_ASSETS = [
   './manifest.json',
   './data/app.json',

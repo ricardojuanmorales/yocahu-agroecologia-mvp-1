@@ -564,7 +564,7 @@
     }
 
     function updateNav() {
-      nav.innerHTML = navItems.map(([id, label]) => `<button type="button" class="${currentView === id ? 'active' : ''}" onclick="App.go(${jsArg(id)})">${escapeHTML(label)}</button>`).join('');
+      nav.innerHTML = navItems.map(([id, label]) => `<button type="button" data-view="${id}" class="${currentView === id ? 'active' : ''}">${escapeHTML(label)}</button>`).join('');
     }
 
     function progressSummary() {
@@ -601,7 +601,7 @@
           <div class="hero-actions">
             <button class="sun" onclick="App.go('niveles')">Comenzar viaje</button>
             <button class="secondary" onclick="App.go('nivel', ${Number(level.id)})">Continuar nivel ${Number(level.id)}</button>
-            <button class="ghost" onclick="App.go('capstone')">Abrir capstone</button>
+            <button class="ghost" onclick="App.install()">📲 Instalar app</button>
           </div>
         </section>
         <section class="grid four" style="margin-top:1rem">
@@ -614,17 +614,21 @@
           <div class="progress-label"><span>Progreso del viaje</span><span>${s.completedLevels}/${s.totalLevels} niveles</span></div>
           <div class="progress-bar" aria-label="Progreso del viaje"><span style="width:${pct(s.completedLevels, s.totalLevels)}%"></span></div>
         </div>
-        <section class="grid two" style="margin-top:1rem">
-          <article class="card">
-            <h2>Qué cambió en esta iteración</h2>
-            <div class="chips"><span class="chip">📲 PWA instalable</span><span class="chip">📡 Offline con service worker</span><span class="chip">🎮 Actividades interactivas</span><span class="chip">🗂️ Datos en /data</span><span class="chip">⭐ Top 11 aumentado</span></div>
-            <p class="muted">Para activar instalación y caché offline, abre la carpeta con un servidor local o publícala en HTTPS. Si abres el archivo directamente, funcionará con datos internos de respaldo, pero el service worker no puede registrarse por reglas del navegador.</p>
-          </article>
-          <article class="card">
-            <h2>Principios pedagógicos</h2>
-            <ul>${DATA.pedagogicalPrinciples.map(p => `<li>${escapeHTML(p)}</li>`).join('')}</ul>
-          </article>
-        </section>
+        <article class="card" style="margin-top:1rem; background: linear-gradient(135deg, var(--color-forest), var(--color-canopy)); color: white;">
+          <h2 style="color:white; margin-bottom:.5rem">🌱 Cultiva tu conocimiento, un día a la vez</h2>
+          <p style="color:rgba(255,255,255,.88)">Como toda siembra, el aprendizaje necesita constancia. Dedica 15 minutos hoy al archipiélago y verás cómo cada semilla se convierte en fruto.</p>
+          <div class="chips" style="margin:.75rem 0">
+            <span class="chip" style="background:rgba(255,255,255,.18);color:white;border-color:rgba(255,255,255,.3)">🗓️ 15 min al día</span>
+            <span class="chip" style="background:rgba(255,255,255,.18);color:white;border-color:rgba(255,255,255,.3)">🌀 Un nivel por semana</span>
+            <span class="chip" style="background:rgba(255,255,255,.18);color:white;border-color:rgba(255,255,255,.3)">🏝️ Tu propio ritmo</span>
+            <span class="chip" style="background:rgba(255,255,255,.18);color:white;border-color:rgba(255,255,255,.3)">🤲 Aprendizaje vivo</span>
+          </div>
+          <button class="sun" onclick="App.go('niveles')">Ir al Mapa →</button>
+        </article>
+        <article class="card" style="margin-top:1rem">
+          <h2>Principios del viaje</h2>
+          <div class="chips">${DATA.pedagogicalPrinciples.map(p => `<span class="chip">${escapeHTML(p)}</span>`).join('')}</div>
+        </article>
       `;
     }
 
@@ -1357,19 +1361,27 @@
       pill.style.background = online ? '#fff' : '#fff8d9';
     }
 
+    function install() {
+      if (deferredInstall) {
+        deferredInstall.prompt();
+        deferredInstall.userChoice.then(() => { deferredInstall = null; });
+      } else {
+        showToast('Para instalar: menú del navegador → "Instalar" o "Añadir a pantalla de inicio".');
+      }
+    }
+
     function registerPWA() {
       const installBtn = $('#installBtn');
+      installBtn.hidden = false;
       window.addEventListener('beforeinstallprompt', (event) => {
         event.preventDefault();
         deferredInstall = event;
-        installBtn.hidden = false;
       });
-      installBtn.addEventListener('click', async () => {
-        if (!deferredInstall) return;
-        deferredInstall.prompt();
-        await deferredInstall.userChoice;
+      installBtn.addEventListener('click', install);
+      window.addEventListener('appinstalled', () => {
         deferredInstall = null;
         installBtn.hidden = true;
+        showToast('¡App instalada! Ya puedes abrirla desde tu pantalla de inicio.');
       });
       if ('serviceWorker' in navigator && location.protocol !== 'file:') {
         navigator.serviceWorker.register('./sw.js').then(() => {
@@ -1386,6 +1398,10 @@
       window.addEventListener('offline', updateNetworkStatus);
       window.addEventListener('keydown', (event) => { if (event.key === 'Escape' && $('#projectModal') && !$('#projectModal').hidden) closeProjectModal(); });
       $('#projectModal')?.addEventListener('click', (event) => { if (event.target.id === 'projectModal') closeProjectModal(); });
+      nav.addEventListener('click', (e) => {
+        const btn = e.target.closest('[data-view]');
+        if (btn) setView(btn.dataset.view);
+      });
       registerPWA();
       render();
     }
@@ -1416,7 +1432,8 @@
       exportProgress,
       importProgress,
       resetProgress,
-      saveUserProfile
+      saveUserProfile,
+      install
     };
 
     init().catch(error => {
