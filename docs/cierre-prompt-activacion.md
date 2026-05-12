@@ -1,6 +1,6 @@
 # Prompt de Activación — Yocahú Agroecología PR
 ## Para usar al inicio de una nueva sesión de trabajo con IA
-**Versión:** 0.2.2 · **Fecha base:** 2026-05-11
+**Versión:** 0.2.3 · **Fecha base:** 2026-05-12
 
 ---
 
@@ -18,11 +18,12 @@ Eres un asistente de desarrollo de software y diseño educativo trabajando en el
 CONTEXTO DEL PROYECTO
 ---------------------
 Nombre: Yocahú Agroecología PR: Viaje por el Archipiélago Vivo
-Versión actual: 0.2.2
+Versión actual: 0.2.3
+URL pública: https://ricardojuanmorales.github.io/yocahu-agroecologia-mvp-1/
 Repositorio: https://github.com/ricardojuanmorales/yocahu-agroecologia-mvp-1
 Tecnología: HTML/CSS/JS vanilla, sin backend, sin login, sin API externa
-Almacenamiento: LocalStorage (exportable como JSON)
-Modo offline: Service worker (sw.js)
+Almacenamiento: LocalStorage (exportable como JSON); agenda futura: Supabase + Google OAuth
+Modo offline: Service worker network-first para HTML, cache-first para assets
 
 ESTRUCTURA DE ARCHIVOS
 ----------------------
@@ -68,15 +69,21 @@ PRINCIPIOS DE DISEÑO
 
 ESTADO ACTUAL Y PENDIENTES
 ---------------------------
-✅ App funcional y publicada en GitHub
+✅ App publicada en GitHub Pages (https://ricardojuanmorales.github.io/yocahu-agroecologia-mvp-1/)
 ✅ 13 niveles, 25 actividades, 50 proyectos, 13 badges, 13 prompts
-✅ Modo offline con service worker
+✅ Modo offline con service worker (network-first para HTML)
 ✅ Top 11 con perfiles aumentados
+✅ Perfil de usuario editable en sección Progreso
+✅ Exportar/importar progreso JSON en sección Progreso
+✅ Guías de uso en sección Progreso
+✅ Navegación con data-view + addEventListener (sin onclick inline)
+✅ Sección motivacional en Inicio; principios como chips
+✅ Botón "Instalar app" siempre visible con fallback toast
 ⬜ imageUrl vacíos en fichas de proyectos (pendiente fotos reales)
 ⬜ verificationStatus: "pendiente" en los 50 proyectos
 ⬜ Separar CSS y JS en archivos externos
-⬜ Publicar en GitHub Pages
-⬜ Pruebas con estudiantes
+⬜ Pruebas con estudiantes universitarios
+⬜ Supabase + Google OAuth (agenda futura — ver docs/cierre-compendio-estado.md sección 9)
 
 CÓMO TRABAJAR CONMIGO EN ESTE PROYECTO
 ---------------------------------------

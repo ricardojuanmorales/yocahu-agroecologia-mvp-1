@@ -1,15 +1,16 @@
 # Compendio de Estado de Situación
-## Yocahú Agroecología PR — MVP v0.2.2
-**Fecha de cierre de sesión:** 2026-05-11
+## Yocahú Agroecología PR — MVP v0.2.3
+**Fecha de cierre de sesión:** 2026-05-12
 
 ---
 
 ## 1. Identidad del proyecto
 
 **Nombre:** Yocahú Agroecología PR: Viaje por el Archipiélago Vivo
-**Versión actual:** 0.2.2
+**Versión actual:** 0.2.3
+**URL pública:** https://ricardojuanmorales.github.io/yocahu-agroecologia-mvp-1/
+**Repositorio:** https://github.com/ricardojuanmorales/yocahu-agroecologia-mvp-1
 **Tipo:** PWA educativa móvil (HTML/CSS/JS vanilla, sin backend)
-**Repositorio público:** https://github.com/ricardojuanmorales/yocahu-agroecologia-mvp-1
 **Contexto geográfico:** Puerto Rico, Vieques y Culebra
 
 ---
@@ -75,12 +76,15 @@ Definida en `data/rubric.json` para el Nivel 12.
 
 ## 4. Funcionalidades de la PWA
 
-- Navegación por secciones: Inicio, Mapa, Proyectos, Yocahú Prompts, Progreso, Capstone
+- Navegación por secciones: Inicio, Mapa, Proyectos, Top 11, Yocahú Prompts, Progreso, Capstone
 - Fichas compactas de proyectos en modal
 - Perfiles aumentados para Top 11
-- Exportación e importación de progreso JSON
-- Instalación en pantalla de inicio (móvil/escritorio)
-- Modo offline con service worker
+- **Perfil de usuario editable** (nombre, región, objetivo de aprendizaje)
+- **Exportación e importación de progreso JSON** (sección propia en Progreso)
+- **Guías de uso** accesibles desde la sección Progreso
+- Botón "Instalar app" siempre visible en hero (con fallback toast para iOS/desktop)
+- Modo offline con service worker (estrategia network-first para HTML, cache-first para assets)
+- Sección motivacional en Inicio con principios pedagógicos como chips
 
 ---
 
@@ -91,33 +95,47 @@ Definida en `data/rubric.json` para el Nivel 12.
 - **Paleta accesible:** Tema "Selva salvaje accesible" con contraste alto y tipografía legible (Atkinson Hyperlegible / Montserrat).
 - **Accesibilidad móvil:** Botones ≥44px, sin dependencia de color para mostrar progreso, navegación por teclado.
 - **Portabilidad:** El proyecto es un directorio estático autocontenido que funciona desde `localhost` o cualquier hosting estático.
+- **Navegación sin onclick inline:** Los botones del nav usan `data-view` + `addEventListener` en lugar de atributos `onclick`, eliminando dependencia de evaluación de HTML entities en event handlers.
+- **Service worker network-first:** El HTML siempre se busca en la red primero; los assets estáticos (JSON, imágenes) usan cache-first. Esto evita que versiones antiguas queden atrapadas en caché.
 
 ---
 
-## 6. Deuda técnica y pendientes conocidos
+## 6. Bugs corregidos en esta sesión
+
+| Bug | Causa | Solución |
+|---|---|---|
+| Botones del nav no respondían | `jsArg()` producía `"value"` con comillas dobles dentro de atributos HTML también delimitados con comillas dobles | Escapar con `&quot;` en `jsArg` + migrar nav a `data-view` + `addEventListener` |
+| Service worker servía HTML viejo | Estrategia cache-first interceptaba todas las recargas | Cambiar a network-first para HTML, cache-first solo para assets |
+| TypeError `chrome-extension://` en SW | El SW intentaba cachear URLs de extensiones de Chrome | Filtrar cualquier URL con protocolo distinto a `http/https` |
+| "Instalar" desaparecía | El botón solo se mostraba cuando el browser disparaba `beforeinstallprompt` | Botón siempre visible; toast instructivo si el prompt nativo no está disponible |
+
+---
+
+## 7. Deuda técnica y pendientes conocidos
 
 - [ ] Verificación de datos de contacto y URLs de los 50 proyectos (`verificationStatus: "pendiente"`)
 - [ ] Imágenes reales para fichas compactas y perfiles Top 11 (actualmente con campos `imageUrl` vacíos)
 - [ ] Separar CSS y JS en archivos externos (actualmente embebidos en `index.html`)
-- [ ] Panel docente (en hoja de ruta futura)
-- [ ] Integración GPT API (en hoja de ruta futura)
-- [ ] Base de datos remota opcional (en hoja de ruta futura)
 - [ ] Pruebas de accesibilidad formal (WCAG 2.1 AA)
+- [ ] Supabase + Google OAuth (en agenda futura — ver sección 9)
+- [ ] Panel docente (depende de Supabase, Fase 3)
 
 ---
 
-## 7. Hoja de ruta futura (prioridades sugeridas)
+## 8. Hoja de ruta futura (prioridades sugeridas)
 
-1. Separar `index.html` en módulos (HTML + CSS externo + JS externo)
-2. Añadir imágenes reales a fichas de proyectos
-3. Verificar y completar URLs y contactos de los 50 proyectos
-4. Pruebas de usabilidad con estudiantes universitarios
-5. Panel docente básico
-6. Integración opcional GPT API para Yocahú interactivo
+1. Pruebas de usabilidad con estudiantes universitarios
+2. Verificar y completar URLs y contactos de los 50 proyectos
+3. Añadir imágenes reales a fichas de proyectos
+4. Separar `index.html` en módulos (HTML + CSS externo + JS externo)
+5. Supabase + Google OAuth — Fase 1: Auth (ver sección 9)
+6. Supabase — Fase 2: sync de progreso
+7. Integración opcional GPT API para Yocahú interactivo
+8. Panel docente (Fase 3, con Render si se necesita)
 
 ---
 
-## 8. Agenda técnica futura — Autenticación y persistencia en la nube
+## 9. Agenda técnica futura — Autenticación y persistencia en la nube
 
 **Decisión registrada:** 2026-05-11
 
@@ -174,4 +192,4 @@ GOOGLE_CLIENT_ID=xxxx.apps.googleusercontent.com  ← configurar en Supabase Aut
 
 ---
 
-*Documento generado al cierre de sesión de trabajo — Yocahú Agroecología PR v0.2.2 — 2026-05-11*
+*Documento actualizado al cierre de sesión — Yocahú Agroecología PR v0.2.3 — 2026-05-12*

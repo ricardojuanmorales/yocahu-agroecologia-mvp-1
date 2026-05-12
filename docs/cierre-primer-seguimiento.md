@@ -1,6 +1,6 @@
 # Primer de Seguimiento
 ## Yocahú Agroecología PR — Próximos pasos para continuar el proyecto
-**Fecha:** 2026-05-11 · Versión actual: 0.2.2
+**Fecha:** 2026-05-12 · Versión actual: 0.2.3
 
 ---
 
@@ -12,13 +12,20 @@ Este primer orienta a cualquier persona —el equipo original, un colaborador nu
 
 ## Estado en el que se entrega el proyecto
 
-El proyecto es una **PWA educativa funcional** con:
+El proyecto es una **PWA educativa funcional**, publicada en GitHub Pages:
+**https://ricardojuanmorales.github.io/yocahu-agroecologia-mvp-1/**
+
+Incluye:
 - 13 niveles curriculares de agroecología universitaria
 - 50 proyectos insignia reales de Puerto Rico
 - 25 actividades interactivas
 - 13 badges y 13 prompts de Yocahú
-- Modo offline, instalable en móvil
-- Repositorio público en GitHub: https://github.com/ricardojuanmorales/yocahu-agroecologia-mvp-1
+- Perfil de usuario editable (nombre, región, objetivo)
+- Exportación e importación de progreso en JSON
+- Guías de uso accesibles desde Progreso
+- Sección motivacional en Inicio con principios como chips
+- Modo offline con service worker (network-first para HTML)
+- Botón "Instalar app" siempre visible
 
 El código es estático (HTML/CSS/JS vanilla). No hay backend. El contenido editable vive en `/data/*.json`.
 
@@ -26,15 +33,17 @@ El código es estático (HTML/CSS/JS vanilla). No hay backend. El contenido edit
 
 ## Próximos pasos recomendados (en orden de prioridad)
 
-### Paso 1 — Publicar en la web (urgente para pruebas)
+### Paso 1 — Pruebas de usabilidad con estudiantes ✅ GitHub Pages activo
 
-El proyecto ya está en GitHub. El paso inmediato es activar **GitHub Pages**:
+La app ya está publicada en:
+**https://ricardojuanmorales.github.io/yocahu-agroecologia-mvp-1/**
 
-1. Ir a `https://github.com/ricardojuanmorales/yocahu-agroecologia-mvp-1/settings/pages`
-2. En "Branch", seleccionar `main` y carpeta `/ (root)`
-3. Guardar — la URL quedará en `https://ricardojuanmorales.github.io/yocahu-agroecologia-mvp-1/`
-
-Alternativa: publicar en Netlify o Vercel arrastrando la carpeta del proyecto.
+El siguiente paso prioritario es probar con al menos 3–5 estudiantes universitarios:
+- ¿Entienden la metáfora del archipiélago?
+- ¿Las actividades son claras sin instrucción adicional?
+- ¿El sistema de puntos y badges motiva?
+- ¿Usan los prompts de Yocahú en sus conversaciones con IA?
+- ¿El perfil y exportar/importar son intuitivos?
 
 ---
 
@@ -128,4 +137,4 @@ Un módulo simple que permita al docente:
 
 ---
 
-*Primer de seguimiento — Yocahú Agroecología PR v0.2.2 — 2026-05-11*
+*Primer de seguimiento — Yocahú Agroecología PR v0.2.3 — 2026-05-12*
