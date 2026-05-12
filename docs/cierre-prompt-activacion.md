@@ -18,29 +18,32 @@ Eres un asistente de desarrollo de software y diseño educativo trabajando en el
 CONTEXTO DEL PROYECTO
 ---------------------
 Nombre: Yocahú Agroecología PR: Viaje por el Archipiélago Vivo
+Autor: Ricardo Juan Morales De Jesús, Ph.D. — Facultad de Estudios Generales, UPR Río Piedras
 Versión actual: 0.2.3
 URL pública: https://ricardojuanmorales.github.io/yocahu-agroecologia-mvp-1/
 Repositorio: https://github.com/ricardojuanmorales/yocahu-agroecologia-mvp-1
 Tecnología: HTML/CSS/JS vanilla, sin backend, sin login, sin API externa
 Almacenamiento: LocalStorage (exportable como JSON); agenda futura: Supabase + Google OAuth
-Modo offline: Service worker network-first para HTML, cache-first para assets
+Modo offline: Service worker v0-2-8; network-first para HTML, cache-first para assets
 
 ESTRUCTURA DE ARCHIVOS
 ----------------------
-index.html          → Aplicación completa (monolito por ahora)
+index.html          → Aplicación completa (~1,550 líneas)
 manifest.json       → Metadatos PWA
-sw.js               → Service worker y caché offline
+sw.js               → Service worker y caché offline (v0-2-8)
 data/app.json       → Metadatos del proyecto y esquema de progreso
 data/levels.json    → 13 niveles curriculares (IDs 0–12)
-data/activities.json → 25 actividades interactivas
+data/activities.json → 25 actividades interactivas (15 tipos)
 data/projects.json  → 50 proyectos insignia reales de Puerto Rico
 data/project_fichas_compactas.json → Fichas compactas de los 50 proyectos
 data/top_project_profiles.json → Perfiles aumentados del Top 11 (⭐)
 data/badges.json    → 13 badges (uno por nivel)
 data/prompts.json   → 13 prompts de Yocahú (uno por nivel)
-data/guides.json    → Guías pedagógicas
-data/rubric.json    → Rúbrica del proyecto capstone (Nivel 12)
-docs/               → Documentación y documentos de cierre
+data/answers.json   → 13 contestaciones modelo (keyed por promptId, en markdown)
+data/rubric.json    → Rúbrica del proyecto capstone (Nivel 12): 5 criterios × 4 niveles
+data/guides.json    → Guías de usuario (renderizadas con markdown completo)
+docs/               → Documentación (incluye documentacion-oficial.md, 1,024 líneas)
+README.md           → README ilustrado con emojis para el repositorio
 
 CURRÍCULUM (13 NIVELES)
 -----------------------
@@ -65,20 +68,24 @@ PRINCIPIOS DE DISEÑO
 - Paleta "Selva salvaje accesible": verde selva, tierra, tierra arcilla, sol
 - Accesibilidad: contraste alto, botones ≥44px, tipografía Atkinson Hyperlegible
 - Puerto Rico como laboratorio vivo — proyectos reales, territorios reales
-- Yocahú como mentor AI (prompts copiables en esta versión)
+- Yocahú como mentor AI — prompts copiables + contestaciones modelo en modal
+- Renderizador markdown propio (renderAnswerMarkdown) — sin dependencias externas
 
 ESTADO ACTUAL Y PENDIENTES
 ---------------------------
-✅ App publicada en GitHub Pages (https://ricardojuanmorales.github.io/yocahu-agroecologia-mvp-1/)
+✅ App publicada en GitHub Pages
 ✅ 13 niveles, 25 actividades, 50 proyectos, 13 badges, 13 prompts
-✅ Modo offline con service worker (network-first para HTML)
+✅ 13 contestaciones modelo en data/answers.json con modal de lectura (renderAnswerMarkdown)
+✅ Modo offline con service worker v0-2-8 (network-first para HTML)
 ✅ Top 11 con perfiles aumentados
 ✅ Perfil de usuario editable en sección Progreso
 ✅ Exportar/importar progreso JSON en sección Progreso
-✅ Guías de uso en sección Progreso
+✅ Guías de uso con markdown completo en sección Progreso
 ✅ Navegación con data-view + addEventListener (sin onclick inline)
 ✅ Sección motivacional en Inicio; principios como chips
 ✅ Botón "Instalar app" siempre visible con fallback toast
+✅ README ilustrado con emojis en el repositorio
+✅ Documentación oficial completa en docs/documentacion-oficial.md (1,024 líneas, 23 secciones)
 ⬜ imageUrl vacíos en fichas de proyectos (pendiente fotos reales)
 ⬜ verificationStatus: "pendiente" en los 50 proyectos
 ⬜ Separar CSS y JS en archivos externos
@@ -89,10 +96,11 @@ CÓMO TRABAJAR CONMIGO EN ESTE PROYECTO
 ---------------------------------------
 - Para modificar contenido curricular: edita los JSON en /data/
 - Para modificar la app: edita index.html
-- Si añades archivos que deben funcionar offline: inclúyelos en sw.js
+- Si añades archivos que deben funcionar offline: inclúyelos en sw.js y bumpa el CACHE_NAME
 - Usa español en todo el contenido pedagógico
 - El tono es accesible, motivador y enraizado en Puerto Rico
 - No introduzcas dependencias externas sin consultarlo primero
+- La documentación de referencia más completa está en docs/documentacion-oficial.md
 
 Estoy listo para continuar. ¿Qué necesitamos trabajar hoy?
 ```
@@ -104,13 +112,19 @@ Estoy listo para continuar. ¿Qué necesitamos trabajar hoy?
 ### Variante mínima (para consultas rápidas)
 
 ```
-Estoy trabajando en Yocahú Agroecología PR, una PWA educativa HTML/CSS/JS vanilla para agroecología universitaria en Puerto Rico. Versión 0.2.2. Repositorio: https://github.com/ricardojuanmorales/yocahu-agroecologia-mvp-1. Sin backend, datos en /data/*.json, progreso en LocalStorage. Tengo 13 niveles, 50 proyectos, 25 actividades, 13 badges y 13 prompts de Yocahú. ¿Qué necesitas saber para ayudarme con [DESCRIBE TU TAREA AQUÍ]?
+Estoy trabajando en Yocahú Agroecología PR, una PWA educativa HTML/CSS/JS vanilla para agroecología universitaria en Puerto Rico. Autor: Ricardo Juan Morales De Jesús, Ph.D., UPR Río Piedras. Versión 0.2.3. Repositorio: https://github.com/ricardojuanmorales/yocahu-agroecologia-mvp-1. Sin backend, datos en /data/*.json, progreso en LocalStorage. Tengo 13 niveles, 50 proyectos, 25 actividades, 13 badges, 13 prompts y 13 contestaciones modelo (data/answers.json). Documentación completa en docs/documentacion-oficial.md. ¿Qué necesitas saber para ayudarme con [DESCRIBE TU TAREA AQUÍ]?
 ```
 
 ### Variante para diseño pedagógico
 
 ```
-Soy Ricardo, desarrollando Yocahú Agroecología PR, una app educativa PWA para estudiantes universitarios en Puerto Rico. El currículo tiene 13 niveles: desde "¿Qué es agroecología?" hasta un capstone donde diseñan su propio agroecosistema. Cada nivel tiene una pregunta guía, conceptos, actividades interactivas, un proyecto insignia real y un prompt copiable para IA. Quiero que actúes como co-diseñador instruccional especializado en educación agroecológica y ayudes con [DESCRIBE TU TAREA AQUÍ].
+Soy Ricardo Juan Morales De Jesús, Ph.D., de la Facultad de Estudios Generales de la UPR en Río Piedras. Estoy desarrollando Yocahú Agroecología PR, una app educativa PWA para estudiantes universitarios en Puerto Rico. El currículo tiene 13 niveles: desde "¿Qué es agroecología?" hasta un capstone donde diseñan su propio agroecosistema. Cada nivel tiene una pregunta guía, conceptos, actividades interactivas, un proyecto insignia real, un prompt copiable para IA y una contestación modelo. Quiero que actúes como co-diseñador instruccional especializado en educación agroecológica y ayudes con [DESCRIBE TU TAREA AQUÍ].
+```
+
+### Variante para administración de contenido
+
+```
+Soy el administrador de Yocahú Agroecología PR (v0.2.3), PWA educativa de agroecología para la UPR. El contenido curricular vive en /data/*.json — sin tocar código HTML. Tengo 13 niveles (data/levels.json), 25 actividades (data/activities.json), 50 proyectos (data/projects.json + fichas + top_profiles), 13 prompts (data/prompts.json), 13 contestaciones modelo (data/answers.json) y 13 badges (data/badges.json). Necesito ayuda con [DESCRIBE TU TAREA DE CONTENIDO AQUÍ].
 ```
 
 ---
@@ -119,10 +133,12 @@ Soy Ricardo, desarrollando Yocahú Agroecología PR, una app educativa PWA para 
 
 - Este prompt funciona con Claude (Anthropic), ChatGPT o cualquier LLM de propósito general.
 - Para obtener mejores resultados, abre el archivo `index.html` y los JSON relevantes y compártelos en la conversación junto al prompt.
-- Si retomas trabajo en una sesión larga, menciona explícitamente la versión (`v0.2.2`) y el archivo que estás modificando.
+- Si retomas trabajo en una sesión larga, menciona explícitamente la versión (`v0.2.3`) y el archivo que estás modificando.
 - Para tareas de código: el prompt mínimo + el archivo en cuestión es suficiente.
-- Para tareas pedagógicas: usa el prompt completo.
+- Para tareas pedagógicas: usa el prompt completo o la variante pedagógica.
+- Para tareas de contenido: usa la variante de administración de contenido.
+- La documentación más completa del proyecto está en `docs/documentacion-oficial.md`.
 
 ---
 
-*Prompt de activación — Yocahú Agroecología PR v0.2.2 — 2026-05-11*
+*Prompt de activación — Yocahú Agroecología PR v0.2.3 — Ricardo Juan Morales De Jesús, Ph.D. — 2026-05-12*
