@@ -1,7 +1,5 @@
-const CACHE_NAME = 'yocahu-agroecologia-pr-v0-2-4';
-const ASSETS = [
-  './',
-  './index.html',
+const CACHE_NAME = 'yocahu-agroecologia-pr-v0-2-5';
+const STATIC_ASSETS = [
   './manifest.json',
   './data/app.json',
   './data/levels.json',
@@ -10,8 +8,6 @@ const ASSETS = [
   './data/prompts.json',
   './data/badges.json',
   './data/rubric.json',
-  './docs/app-readme.md',
-  './docs/user-guide.md',
   './data/guides.json',
   './data/top_project_profiles.json',
   './data/project_fichas_compactas.json',
@@ -23,7 +19,7 @@ const ASSETS = [
 
 self.addEventListener('install', event => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting())
+    caches.open(CACHE_NAME).then(cache => cache.addAll(STATIC_ASSETS)).then(() => self.skipWaiting())
   );
 });
 
@@ -37,6 +33,24 @@ self.addEventListener('activate', event => {
 self.addEventListener('fetch', event => {
   const request = event.request;
   if (request.method !== 'GET') return;
+
+  const url = new URL(request.url);
+  const isNavigation = request.mode === 'navigate';
+  const isHTML = url.pathname.endsWith('.html') || url.pathname.endsWith('/');
+
+  // Network-first para HTML: siempre intenta la red, cae al caché si offline
+  if (isNavigation || isHTML) {
+    event.respondWith(
+      fetch(request).then(response => {
+        const copy = response.clone();
+        caches.open(CACHE_NAME).then(cache => cache.put(request, copy));
+        return response;
+      }).catch(() => caches.match(request).then(cached => cached || caches.match('./index.html')))
+    );
+    return;
+  }
+
+  // Cache-first para assets estáticos (JSON, imágenes, iconos)
   event.respondWith(
     caches.match(request).then(cached => {
       if (cached) return cached;
@@ -44,10 +58,7 @@ self.addEventListener('fetch', event => {
         const copy = response.clone();
         caches.open(CACHE_NAME).then(cache => cache.put(request, copy));
         return response;
-      }).catch(() => {
-        if (request.mode === 'navigate') return caches.match('./index.html');
-        return new Response('Recurso no disponible offline.', { status: 503, statusText: 'Offline' });
-      });
+      }).catch(() => new Response('Recurso no disponible offline.', { status: 503, statusText: 'Offline' }));
     })
   );
 });
